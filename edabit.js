@@ -16,3 +16,16 @@ function reverseString(str) {
 }
 
 reverseString("hello");
+
+
+// Given two strings, firstName and lastName,
+// return a single string in the format "first last"
+let str1 = "John ";
+let str2 = "Doe";
+
+function concatName(firstName, lastName) {
+	let result = lastName.concat(firstName);
+  console.log(result);
+}
+
+concatName(str2, str1);
