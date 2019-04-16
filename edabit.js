@@ -29,3 +29,9 @@ function concatName(firstName, lastName) {
 }
 
 concatName(str2, str1);
+
+
+// Modulo
+function remainder(x, y) {
+	return x % y;
+}
