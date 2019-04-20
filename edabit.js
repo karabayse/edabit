@@ -40,14 +40,27 @@ function remainder(x, y) {
 // Create a function that takes in a word and determines whether or not it is plural.
 // A plural word is one that ends in "s".
 function isPlural(word) {
-  let result;
+  // let result;
   let lastChar = word.charAt(word.length-1);
-  if(lastChar = "s") {
-    result = "plural";
-  } else {
-    result = "singular";
-  }
-  console.log(result);
+  // if(lastChar = "s") {
+  //   result = "plural";
+  // } else {
+  //   result = "singular";
+  // }
+  // console.log(result);
+  console.log(lastChar);
 }
 
-isPlural("words");
+isPlural("bird");
+
+
+// Check if an Integer is Divisible By Five
+function divisibleByFive(int) {
+	if(int % 5 == 0) {
+    console.log("true");
+  } else {
+    console.log("false");
+  }
+}
+
+divisibleByFive(9);
