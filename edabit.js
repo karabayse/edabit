@@ -64,3 +64,9 @@ function divisibleByFive(int) {
 }
 
 divisibleByFive(9);
+
+
+// Create a function to concatenate two integer arrays
+function concat(arr1, arr2) {
+
+}
