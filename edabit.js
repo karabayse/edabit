@@ -68,5 +68,8 @@ divisibleByFive(9);
 
 // Create a function to concatenate two integer arrays
 function concat(arr1, arr2) {
-
+  let newArray = arr1.concat(arr2);
+  console.log(newArray);
 }
+
+concat([1, 2, 3], [ 4, 5, 6]);
