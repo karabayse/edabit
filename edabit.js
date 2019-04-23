@@ -73,3 +73,15 @@ function concat(arr1, arr2) {
 }
 
 concat([1, 2, 3], [ 4, 5, 6]);
+
+
+// Is the string empty?
+function isEmpty(str) {
+	if (str == '') {
+    console.log("Empty string!");
+  } else {
+    console.log("String!");
+  }
+}
+
+isEmpty('Not Empty!');
