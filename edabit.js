@@ -85,3 +85,16 @@ function isEmpty(str) {
 }
 
 isEmpty('Not Empty!');
+
+
+// Create a function that takes in three arguments (prob, prize, pay)
+// and returns true if prob * prize > pay; otherwise return false.
+function profitableGamble(prob, prize, pay) {
+	if (prob * prize > pay) {
+    console.log("True");;
+  } else {
+    console.log("False");;
+  }
+}
+
+profitableGamble(2, 2, 5);
