@@ -98,3 +98,13 @@ function profitableGamble(prob, prize, pay) {
 }
 
 profitableGamble(2, 2, 5);
+
+
+// You have chickens (2 legs), cows (4 legs) and pigs (4 legs) on your farm.
+// Return the total number of legs on your farm.
+function animals(chickens, cows, pigs) {
+	let farmLegs = ((chickens * 2) + (cows * 4) + (pigs * 4));
+  console.log(farmLegs);
+}
+
+animals(1, 2, 3);
