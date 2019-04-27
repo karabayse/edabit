@@ -108,3 +108,16 @@ function animals(chickens, cows, pigs) {
 }
 
 animals(1, 2, 3);
+
+
+// Create a function that takes an integer and returns true if it's divisible by 100,
+// otherwise return false.
+function divisibleByHundred(num) {
+  if(num % 100 == 0) {
+    console.log("true");
+  } else {
+    console.log("false");
+  }
+}
+
+divisibleByHundred(11);
