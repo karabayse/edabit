@@ -121,3 +121,13 @@ function divisibleByHundred(num) {
 }
 
 divisibleByHundred(11);
+
+
+// Write a function that takes the base and height of a triangle and return its area.
+// Area of a triangle is (base * height / 2)
+function triArea(base, height) {
+  let area = ((base * height) / 2);
+  console.log(area);
+}
+
+triArea(2, 4);
