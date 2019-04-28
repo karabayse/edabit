@@ -56,7 +56,7 @@ isPlural("bird");
 
 // Check if an Integer is Divisible By Five
 function divisibleByFive(int) {
-	if(int % 5 == 0) {
+	if (int % 5 == 0) {
     console.log("true");
   } else {
     console.log("false");
@@ -113,7 +113,7 @@ animals(1, 2, 3);
 // Create a function that takes an integer and returns true if it's divisible by 100,
 // otherwise return false.
 function divisibleByHundred(num) {
-  if(num % 100 == 0) {
+  if (num % 100 == 0) {
     console.log("true");
   } else {
     console.log("false");
@@ -131,3 +131,16 @@ function triArea(base, height) {
 }
 
 triArea(2, 4);
+
+
+// Create a function that returns true if a string contains any spaces.
+function hasSpaces(str) {
+	if (str.indexOf(' ') >= 0) {
+    console.log("True");
+  } else {
+    console.log("False");
+  }
+}
+
+hasSpaces("String");
+hasSpaces("String string");
