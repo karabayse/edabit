@@ -152,3 +152,12 @@ function ctoa(c) {
 
 ctoa("A");
 ctoa("F");
+
+
+// Create a function that returns the smaller number.
+// Numbers will be represented as strings, and your output should also be a string.
+// If both numbers tie, return either number.
+// Numbers will be positive.
+function smallerNum(n1, n2) {
+
+}
