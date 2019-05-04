@@ -174,3 +174,14 @@ function smallerNum(n1, n2) {
 smallerNum("2", "2");
 smallerNum("2", "1");
 smallerNum("4", "5");
+
+
+// Create a function that determines whether or not it's possible to split a pie
+// fairly given these three parameters:
+//
+// Total number of slices.
+// Number of recipients.
+// How many slices each person gets.
+function equalSlices(total, people, each) {
+
+}
