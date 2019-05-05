@@ -179,9 +179,24 @@ smallerNum("4", "5");
 // Create a function that determines whether or not it's possible to split a pie
 // fairly given these three parameters:
 //
-// Total number of slices.
-// Number of recipients.
-// How many slices each person gets.
+// -Total number of slices.
+// -Number of recipients.
+// -How many slices each person gets.
+//
+// Notes:
+// -Return (trivially) true if there are zero people.
+// -It's fine not to use the entire pie.
+// -All test parameters are integers.
 function equalSlices(total, people, each) {
-
+  if ((total / people) == 0) {
+    console.log("True");
+  } else if ((total % people) == 0){
+    console.log("Fair split!");
+  } else {
+    console.log("Unfair!");
+  }
 }
+
+equalSlices(8, 0);
+equalSlices(8, 4);
+equalSlices(9, 4);
