@@ -188,7 +188,9 @@ smallerNum("4", "5");
 // -It's fine not to use the entire pie.
 // -All test parameters are integers.
 function equalSlices(total, people, each) {
-  if ((total / people) == 0) {
+  if (Number.isInteger((total) && (people) && (each))) {
+    console.log("Is an integer");
+  } else if ((total / people) == 0) {
     console.log("True");
   } else if ((total % people) == 0){
     console.log("Fair split!");
@@ -200,3 +202,4 @@ function equalSlices(total, people, each) {
 equalSlices(8, 0);
 equalSlices(8, 4);
 equalSlices(9, 4);
+equalSlices(a, b);
