@@ -203,3 +203,9 @@ equalSlices(8, 0);
 equalSlices(8, 4);
 equalSlices(9, 4);
 equalSlices(a, b);
+
+
+// Write a function to reverse an array.
+function reverse(arr) {
+
+}
