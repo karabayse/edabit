@@ -202,10 +202,14 @@ function equalSlices(total, people, each) {
 equalSlices(8, 0);
 equalSlices(8, 4);
 equalSlices(9, 4);
-equalSlices(a, b);
+// equalSlices(a, b);
 
 
 // Write a function to reverse an array.
 function reverse(arr) {
-
+  let numArr = [1, 2, 3];
+  numArr.reverse();
+  console.log(numArr);
 }
+
+reverse([1, 2, 3]);
