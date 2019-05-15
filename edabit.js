@@ -206,10 +206,17 @@ equalSlices(9, 4);
 
 
 // Write a function to reverse an array.
-function reverse(arr) {
+function reverseArr(arr) {
   let numArr = [1, 2, 3];
   numArr.reverse();
   console.log(numArr);
 }
 
-reverse([1, 2, 3]);
+reverseArr([1, 2, 3]);
+
+
+// Write a function that takes a two-digit number and determines if it's the
+// largest of two possible digit swaps.
+function largestSwap(num) {
+	
+}
