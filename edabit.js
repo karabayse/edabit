@@ -218,5 +218,18 @@ reverseArr([1, 2, 3]);
 // Write a function that takes a two-digit number and determines if it's the
 // larger of two possible digit swaps.
 function largerSwap(num) {
+  let firstNum = String(num).charAt(0);
+  let secondNum = String(num).charAt(1);
 
+  if (firstNum > secondNum) {
+    console.log("First number is larger!");
+  } else if (secondNum > firstNum) {
+    console.log("Second number is larger");
+  } else if (firstNum === secondNum) {
+    console.log("First number is the same as second number!");
+  }
 }
+
+largerSwap(27);
+largerSwap(72);
+largerSwap(77);
