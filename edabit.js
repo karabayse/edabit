@@ -216,7 +216,7 @@ reverseArr([1, 2, 3]);
 
 
 // Write a function that takes a two-digit number and determines if it's the
-// largest of two possible digit swaps.
-function largestSwap(num) {
-	
+// larger of two possible digit swaps.
+function largerSwap(num) {
+
 }
