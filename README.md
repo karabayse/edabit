@@ -6,4 +6,8 @@
 * Plural word determination
 * Integer divisible by five
 * Concatenate two integer arrays
-* Check for an empty string 
+* Check for an empty string
+* Three arguments / Boolean
+* Legs on a farm
+* Divisible by 100
+* Return the area of a triangle 
