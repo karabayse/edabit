@@ -10,4 +10,9 @@
 * Three arguments / Boolean
 * Legs on a farm
 * Divisible by 100
-* Return the area of a triangle 
+* Return the area of a triangle
+* Return true if a string has spaces
+* Return the ASCII value of passed in character
+* Return the smaller number of two
+* Split a pie fairly
+* Reverse an array 
