@@ -15,4 +15,5 @@
 * Return the ASCII value of passed in character
 * Return the smaller number of two
 * Split a pie fairly
-* Reverse an array 
+* Reverse an array
+* Two-digit number: Determine the larger of the two 
