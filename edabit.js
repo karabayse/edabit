@@ -207,9 +207,8 @@ equalSlices(9, 4);
 
 // Write a function to reverse an array.
 function reverseArr(arr) {
-  let numArr = [1, 2, 3];
-  numArr.reverse();
-  console.log(numArr);
+  let reversedArray = arr.reverse();
+  console.log(reversedArray);
 }
 
 reverseArr([1, 2, 3]);
