@@ -232,3 +232,9 @@ function largerSwap(num) {
 largerSwap(27);
 largerSwap(72);
 largerSwap(77);
+
+
+// Check if an array includes an element
+function check(arr, el) {
+
+}
