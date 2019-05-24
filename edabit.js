@@ -236,5 +236,14 @@ largerSwap(77);
 
 // Check if an array includes an element
 function check(arr, el) {
-
+  // if el is in arr, true
+  for (let i = 0; i < arr.length; i++) {
+    if (el === [i]) {
+      console.log(true);
+    } else {
+      console.log(false);
+    }
+  }
 }
+
+check([0, 1, 2, 3, 4], 5);
