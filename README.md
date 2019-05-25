@@ -16,4 +16,6 @@
 * Return the smaller number of two
 * Split a pie fairly
 * Reverse an array
-* Two-digit number: Determine the larger of the two 
+* Two-digit number: Determine the larger of the two
+* Check if an array includes an element
+* Count the arguments 
