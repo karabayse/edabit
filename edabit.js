@@ -252,7 +252,7 @@ check([0, 1, 2], 1);
 check(['a', 'b', 'c'], 'd');
 
 
-// Count the arguments
-function numArgs() {
+// Add up the numbers from a single argument
+function addUp(num) {
 
 }
