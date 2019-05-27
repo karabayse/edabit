@@ -252,7 +252,9 @@ check([0, 1, 2], 1);
 check(['a', 'b', 'c'], 'd');
 
 
-// Add up the numbers from a single argument
-function addUp(num) {
-
+// Return a greeting using an arrow function
+const helloName = (name) => {
+  return ("Hello, " name);
 }
+
+helloName("Joe");
