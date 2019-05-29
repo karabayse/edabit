@@ -254,7 +254,9 @@ check(['a', 'b', 'c'], 'd');
 
 // Return a greeting using an arrow function
 const helloName = (name) => {
-  return ("Hello, " name);
+  let str = "Hello, ";
+  let greeting = str.concat(name);
+  console.log(greeting);
 }
 
 helloName("Joe");
