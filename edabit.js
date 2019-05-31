@@ -263,9 +263,9 @@ helloName("Joe");
 
 
 // Testing exponentiation operation
-// Write a function that returns true if k^k == n for input (n, k)
+// Write a function that returns true if k**k == n for input (n, k)
 function kToK(n, k) {
-  if (k^k == n) {
+  if (k**k == n) {
     console.log("True");
   } else {
     console.log("False");
@@ -273,3 +273,4 @@ function kToK(n, k) {
 }
 
 kToK(4, 2);
+kToK(17, 3);
