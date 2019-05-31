@@ -262,7 +262,14 @@ const helloName = (name) => {
 helloName("Joe");
 
 
-// Testing exponentiation operation 
+// Testing exponentiation operation
+// Write a function that returns true if k^k == n for input (n, k)
 function kToK(n, k) {
-
+  if (k^k == n) {
+    console.log("True");
+  } else {
+    console.log("False");
+  }
 }
+
+kToK(4, 2);
