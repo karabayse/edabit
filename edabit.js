@@ -262,7 +262,7 @@ const helloName = (name) => {
 helloName("Joe");
 
 
-// Testing exponentiation operation
+// Testing Exponentiation Operation
 // Write a function that returns true if k**k == n for input (n, k)
 function kToK(n, k) {
   if (k**k == n) {
@@ -274,3 +274,11 @@ function kToK(n, k) {
 
 kToK(4, 2);
 kToK(17, 3);
+
+
+// Case Insensitive Comparison
+// Write a function that validates whether two strings are identical
+// Make this validator case insensitive
+function match(s1, s2) {
+
+}
