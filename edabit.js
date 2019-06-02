@@ -280,5 +280,17 @@ kToK(17, 3);
 // Write a function that validates whether two strings are identical
 // Make this validator case insensitive
 function match(s1, s2) {
+  let news1 = s1.toLowerCase();
+  console.log(news1);
+  let news2 = s2.toLowerCase();
+  console.log(news2);
 
+  if (news1 === news2) {
+    console.log("Match!");
+  } else {
+    console.log("Not a match!");
+  }
 }
+
+match("Scooby Doo", "scooby doo");
+match("Scooby Doo", "Scrappy Doo");
