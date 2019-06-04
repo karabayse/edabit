@@ -294,3 +294,9 @@ function match(s1, s2) {
 
 match("Scooby Doo", "scooby doo");
 match("Scooby Doo", "Scrappy Doo");
+
+
+// Return the Total Number of Parameters
+function numberArgs(/* fill-in */) {
+
+}
