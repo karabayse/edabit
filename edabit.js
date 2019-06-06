@@ -298,5 +298,5 @@ match("Scooby Doo", "Scrappy Doo");
 
 // Return the Total Number of Parameters
 function numberArgs(/* fill-in */) {
-
+// arguments.length 
 }

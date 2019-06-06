@@ -18,4 +18,7 @@
 * Reverse an array
 * Two-digit number: Determine the larger of the two
 * Check if an array includes an element
-* Count the arguments 
+* Return a greeting using an arrow function
+* Testing exponentiation operation
+* Case insensitive comparison
+* Return the total number of parameters  
