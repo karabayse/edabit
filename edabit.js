@@ -303,3 +303,9 @@ function numberArgs() {
 }
 
 numberArgs(1, 2, 3, 4, "a", "b", "c");
+
+
+// Truthy or Falsy
+function isTruthy(input) {
+
+}
