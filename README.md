@@ -21,4 +21,5 @@
 * Return a greeting using an arrow function
 * Testing exponentiation operation
 * Case insensitive comparison
-* Return the total number of parameters  
+* Return the total number of parameters
+* Truthy or Falsy  
