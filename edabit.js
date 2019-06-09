@@ -308,5 +308,13 @@ numberArgs(1, 2, 3, 4, "a", "b", "c");
 // Truthy or Falsy
 // Falsy values: false, null, undefined, 0, NaN, ""
 function isTruthy(input) {
-
+  if(input === false, null, undefined, 0, NaN, "") {
+    console.log("False");
+  } else {
+    console.log("True");
+  }
 }
+
+isTruthy(1);
+isTruthy(-1);
+isTruthy();
