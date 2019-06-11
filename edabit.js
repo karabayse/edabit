@@ -309,16 +309,22 @@ numberArgs(1, 2, 3, 4, "a", "b", "c");
 // Falsy values: false, null, undefined, 0, NaN, ""
 function isTruthy(input) {
   let falsyArr = [false, null, undefined, 0, NaN, ""]
-
-  for (let i = 0; i < falsyArr.length; i++) {
-    if(input === false, null, undefined, 0, NaN, "") {
-      console.log("False");
-    } else {
-      console.log("True");
-    }
+  falsyArr.filter(Boolean);
+  if(input == true) {
+    console.log("True");
+  } else {
+    console.log("False");
   }
+  // for (let i = 0; i < falsyArr.length; i++) {
+  //   if(input == false, null, undefined, 0, NaN, "") {
+  //     console.log("False");
+  //   } else {
+  //     console.log("True");
+  //   }
+  // }
 }
 
 isTruthy(1);
 isTruthy(-1);
 isTruthy();
+isTruthy(0);
