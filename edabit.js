@@ -308,10 +308,14 @@ numberArgs(1, 2, 3, 4, "a", "b", "c");
 // Truthy or Falsy
 // Falsy values: false, null, undefined, 0, NaN, ""
 function isTruthy(input) {
-  if(input === false, null, undefined, 0, NaN, "") {
-    console.log("False");
-  } else {
-    console.log("True");
+  let falsyArr = [false, null, undefined, 0, NaN, ""]
+
+  for (let i = 0; i < falsyArr.length; i++) {
+    if(input === false, null, undefined, 0, NaN, "") {
+      console.log("False");
+    } else {
+      console.log("True");
+    }
   }
 }
 
