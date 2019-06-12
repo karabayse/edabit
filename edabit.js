@@ -328,3 +328,13 @@ isTruthy(1);
 isTruthy(-1);
 isTruthy();
 isTruthy(0);
+
+
+// String to Integer and Vice Versa
+function toInt(str) {
+
+}
+
+function toStr(int) {
+
+}
