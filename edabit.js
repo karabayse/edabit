@@ -332,12 +332,15 @@ isTruthy(0);
 
 // String to Integer and Vice Versa
 function toInt(str) {
-  let int = parseInt(str);
-  console.log(int);
+  let num = parseInt(str);
+  console.log(num);
 }
 
 toInt("10");
 
 function toStr(int) {
-
+  let str = int.toString();
+  console.log(str);
 }
+
+toStr(10);
