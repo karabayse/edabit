@@ -22,4 +22,5 @@
 * Testing exponentiation operation
 * Case insensitive comparison
 * Return the total number of parameters
-* Truthy or Falsy  
+* Truthy or Falsy
+* String to Integer and Integer to String  
