@@ -350,5 +350,9 @@ toStr(10);
 // Create a function that counts the number of syllables a word has
 // Each syllable is separated with a dash
 function numberSyllables(word) {
-
+  word = word.toLowerCase();
+  if(word.length <= 3) { return 1; }                             //return 1 if word.length <= 3
+    word = word.replace(/(?:[^laeiouy]es|ed|[^laeiouy]e)$/, '');   //word.sub!(/(?:[^laeiouy]es|ed|[^laeiouy]e)$/, '')
+    word = word.replace(/^y/, '');                                 //word.sub!(/^y/, '')
+    return word.match(/[aeiouy]{1,2}/g).length;
 }
