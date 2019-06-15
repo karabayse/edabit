@@ -338,9 +338,10 @@ function toInt(str) {
 
 toInt("10");
 
-function toStr(int) {
-  let str = int.toString();
+function toStr(int1) {
+  let str = int1.toString();
   console.log(str);
+  console.log(typeof str);
 }
 
 toStr(10);
