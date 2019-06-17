@@ -347,7 +347,7 @@ function toStr(int1) {
 toStr(10);
 
 
-// Create a function that counts the number of syllables a word has
+// Create a function that counts the number of syllables in a word 
 // Each syllable is separated with a dash
 function numberSyllables(word) {
   word = word.toLowerCase();
