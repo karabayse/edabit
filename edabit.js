@@ -355,6 +355,7 @@ function numberSyllables(word) {
 
 
 // Create a function that finds the maximum range of a triangles third edge
+// Any side of a triangle must be less than the other 2 sides added together 
 function nextEdge(side1, side2) {
-	
+
 }
