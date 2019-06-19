@@ -362,3 +362,10 @@ function nextEdge(side1, side2) {
 }
 
 nextEdge(4, 5);
+
+
+// Stack the boxes
+// Write a function that takes a number n and returns the number of stacked boxes
+function stackBoxes(n) {
+
+}
