@@ -24,4 +24,5 @@
 * Return the total number of parameters
 * Truthy or Falsy
 * String to Integer and Integer to String  
-* Count syllables 
+* Count syllables
+* Maximum edge of a triangle 
