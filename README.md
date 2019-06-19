@@ -25,4 +25,5 @@
 * Truthy or Falsy
 * String to Integer and Integer to String  
 * Count syllables
-* Maximum edge of a triangle 
+* Maximum edge of a triangle
+* Stack the boxes 
