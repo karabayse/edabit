@@ -367,5 +367,10 @@ nextEdge(4, 5);
 // Stack the boxes
 // Write a function that takes a number n and returns the number of stacked boxes
 function stackBoxes(n) {
+  let model1 = 1;
+  let model2 = 4;
+  let model3 = 9;
+  let model4 = 16;
 
+  
 }
