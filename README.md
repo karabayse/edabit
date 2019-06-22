@@ -26,4 +26,5 @@
 * String to Integer and Integer to String  
 * Count syllables
 * Maximum edge of a triangle
-* Stack the boxes 
+* Stack the boxes
+* Volume of a box 
