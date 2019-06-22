@@ -372,5 +372,8 @@ function stackBoxes(n) {
   let model3 = 9;
   let model4 = 16;
 
-  
+  let numBoxes = n * n;
+  console.log(numBoxes);
 }
+
+stackBoxes(5);
