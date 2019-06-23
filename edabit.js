@@ -380,8 +380,24 @@ stackBoxes(5);
 
 
 // Volume of a box
-// Create a function that gets an object arguments with height, width and length of
-// a box and returns the volume of the box
+// Create a function that gets an object arguments with height, width and length
+// of a box and returns the volume of the box
+// Values are in an object
 function volumeOfBox(sizes) {
-
+  let sizesArray = new Array;
+    for(let o in sizes) {
+    sizesArray.push(sizes[o]);
+    }
+    let res = 1;
+    for (let i = 0; i < sizesArray.length; i++) {
+      res = res * sizesArray[i];
+      console.log(res);
+  }
 }
+
+volumeOfBox({
+  "height": 3,
+  "width": 4,
+  "length": 5
+});
+console.log(volumeOfBox);
