@@ -406,6 +406,13 @@ console.log(volumeOfBox);
 // Check if Number is within a Given Range
 // Given a number and an object with min and max properties,
 // return true if the number lies within the given range (inclusive)
+
+// Math.min()
+// Returns the lowest-valued number passed into it,
+// or NaN if any parameter isn't a number and can't be converted into one
+
+// Math.max()
+// Returns the largest of zero or more numbers 
 function isInRange(num, range) {
 
 }
