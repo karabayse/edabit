@@ -412,7 +412,18 @@ console.log(volumeOfBox);
 // or NaN if any parameter isn't a number and can't be converted into one
 
 // Math.max()
-// Returns the largest of zero or more numbers 
+// Returns the largest of zero or more numbers
 function isInRange(num, range) {
-
+  for (num in range) {
+    if ((num >= Math.min(range)) && (num <= Math.max(range))) {
+      console.log("True");
+    } else {
+      console.log("False");
+    }
+  }
 }
+
+isInRange(2, {
+  min: 3,
+  max: 5
+})
