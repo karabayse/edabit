@@ -27,4 +27,5 @@
 * Count syllables
 * Maximum edge of a triangle
 * Stack the boxes
-* Volume of a box 
+* Volume of a box
+* Check if number is within a given range
