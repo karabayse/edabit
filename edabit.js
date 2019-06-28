@@ -414,14 +414,16 @@ console.log(volumeOfBox);
 // Math.max()
 // Returns the largest of zero or more numbers
 function isInRange(num, range) {
-  if ((num >= range.min.val) && (num <= range.max.val)) {
-    console.log("True");
-  } else {
-    console.log("False");
+  for (let key in range) {
+    if ((num >= Math.min(key)) && (num <= Math.max(key))) {
+      console.log("True");
+    } else {
+      console.log("False");
+    }
   }
 }
 
 isInRange(2, {
-  min: 1,
-  max: 5
+  mini: 1,
+  maxi: 5
 });
