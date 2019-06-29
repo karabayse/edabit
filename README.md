@@ -29,3 +29,4 @@
 * Stack the boxes
 * Volume of a box
 * Check if number is within a given range
+* Return the first and last elements in an array
