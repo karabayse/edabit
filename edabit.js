@@ -351,8 +351,15 @@ toStr(10);
 // Create a function that counts the number of syllables in a word
 // Each syllable is separated with a dash
 function numberSyllables(word) {
+  let wordLower = word.toLowerCase();
+  if(wordLower.length <= 3) {
+    console.log(1);
+    console.log(wordLower);
+  }
 
 }
+
+numberSyllables('AND');
 
 
 // Create a function that finds the maximum range of a triangle's third edge
