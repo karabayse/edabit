@@ -435,5 +435,10 @@ isInRange(2, {
 // Create a function that takes an array of numbers
 // and return the first and last elements as a new array
 function firstLast(arr) {
-
+  let firstEl = arr[0];
+  let lastEl = arr[arr.length - 1];
+  let newArr = [firstEl, lastEl];
+  console.log(newArr);
 }
+
+firstLast([1, 2, 3, 4]);
