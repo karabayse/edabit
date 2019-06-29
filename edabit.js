@@ -419,6 +419,8 @@ volumeOfBox({
 
 // Math.max()
 // Returns the largest of zero or more numbers
+
+// return num >= range.min && num <= range.max;
 function isInRange(num, range) {
   for (var key in range) {
     if ((range[key] !== NaN) &&
