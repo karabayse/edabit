@@ -310,7 +310,7 @@ numberArgs(1, 2, 3, 4, "a", "b", "c");
 function isTruthy(input) {
   let falsyArr = [false, null, undefined, 0, NaN, ""]
   falsyArr.filter(Boolean);
-  if(input == true) {
+  if (input == true) {
     console.log("True");
   } else {
     console.log("False");
@@ -400,7 +400,6 @@ volumeOfBox({
   "width": 4,
   "length": 5
 });
-console.log(volumeOfBox);
 
 
 // Check if Number is within a Given Range
@@ -414,8 +413,8 @@ console.log(volumeOfBox);
 // Math.max()
 // Returns the largest of zero or more numbers
 function isInRange(num, range) {
-  for (let key in range) {
-    if ((num >= Math.min(key)) && (num <= Math.max(key))) {
+  for (var key in range) {
+    if ((num >= Math.min(range[key])) && (num <= Math.max(range[key]))) {
       console.log("True");
     } else {
       console.log("False");
@@ -424,6 +423,6 @@ function isInRange(num, range) {
 }
 
 isInRange(2, {
-  mini: 1,
-  maxi: 5
+  minNum: 1,
+  maxNum: 5
 });
