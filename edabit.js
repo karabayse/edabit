@@ -274,6 +274,7 @@ function kToK(n, k) {
 
 kToK(4, 2);
 kToK(17, 3);
+kToK('a', 4);
 
 
 // Case Insensitive Comparison
@@ -429,3 +430,10 @@ isInRange(2, {
   minNum: 1,
   maxNum: 5
 });
+
+
+// Create a function that takes an array of numbers
+// and return the first and last elements as a new array
+function firstLast(arr) {
+
+}
