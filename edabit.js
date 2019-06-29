@@ -265,16 +265,15 @@ helloName("Joe");
 // Testing Exponentiation Operation
 // Write a function that returns true if k**k == n for input (n, k)
 function kToK(n, k) {
-  if (k**k == n) {
-    console.log("True");
-  } else {
-    console.log("False");
-  }
+  return Math.pow(k,k) === n;
 }
 
 kToK(4, 2);
 kToK(17, 3);
 kToK('a', 4);
+kToK(0, 0);
+kToK(1, 1);
+kToK(256, -4);
 
 
 // Case Insensitive Comparison
