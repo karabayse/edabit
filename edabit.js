@@ -414,7 +414,10 @@ volumeOfBox({
 // Returns the largest of zero or more numbers
 function isInRange(num, range) {
   for (var key in range) {
-    if ((num >= Math.min(range[key])) && (num <= Math.max(range[key]))) {
+    if ((range[key] !== NaN) &&
+        (num !== NaN) &&
+        (num >= Math.min(range[key])) &&
+        (num <= Math.max(range[key]))) {
       console.log("True");
     } else {
       console.log("False");
