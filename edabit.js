@@ -501,5 +501,13 @@ missingAngle(45, 44);
 // Create a function that returns true if an input string contains only
 // uppercase or only lowercase letters
 function sameCase(str) {
-
+  if ((str == str.toUpperCase()) || (str == str.toLowerCase())) {
+    console.log("True");
+  } else {
+    console.log("False");
+  }
 }
+
+sameCase("UPPERCASE");
+sameCase("lowercase");
+sameCase("UPPER&lower");
