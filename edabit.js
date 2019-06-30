@@ -461,7 +461,6 @@ firstLast([1, 2, 3, 4]);
 function additiveInverse(arr) {
   let newArr = [];
   for (var i = 0; i < arr.length; i++) {
-
     if (arr[i] > 0) {
       let negNum = -Math.abs(arr[i]);
       newArr.push(negNum);
@@ -469,8 +468,21 @@ function additiveInverse(arr) {
       let posNum = Math.abs(arr[i]);
       newArr.push(posNum);
     }
-    console.log(newArr);
   }
+  console.log(newArr);
 }
 
 additiveInverse([-1, 2, -3]);
+
+
+// Missing Third Angle
+// You are given 2 out of 3 of the angles in a triangle, in degrees
+// Write a function that classifies the missing angle as either
+// "acute", "right", or "obtuse" based on its degrees
+
+// An acute angle is one smaller than 90 degrees
+// A right angle is one that is exactly 90 degrees
+// An obtuse angle is one greater than 90 degrees (but smaller than 180 degrees)
+function missingAngle(angle1, angle2) {
+
+}
