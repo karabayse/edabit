@@ -31,4 +31,5 @@
 * Check if number is within a given range
 * Return the first and last elements in an array as a new array
 * Additive Inverse
-* Calculate the third angle of a triangle 
+* Calculate the third angle of a triangle
+* Check for uppercase and lowercase letters 

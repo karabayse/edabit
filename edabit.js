@@ -496,3 +496,10 @@ function missingAngle(angle1, angle2) {
 missingAngle(45, 46);
 missingAngle(45, 45);
 missingAngle(45, 44);
+
+
+// Create a function that returns true if an input string contains only
+// uppercase or only lowercase letters
+function sameCase(str) {
+
+}
