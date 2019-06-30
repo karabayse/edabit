@@ -31,4 +31,4 @@
 * Check if number is within a given range
 * Return the first and last elements in an array as a new array
 * Additive Inverse
-* Missing Third Angle 
+* Calculate the third angle of a triangle 

@@ -484,5 +484,15 @@ additiveInverse([-1, 2, -3]);
 // A right angle is one that is exactly 90 degrees
 // An obtuse angle is one greater than 90 degrees (but smaller than 180 degrees)
 function missingAngle(angle1, angle2) {
-
+  if (angle1 + angle2 > 90) {
+    console.log("angle3 is acute");
+  } else if (angle1 + angle2 == 90) {
+    console.log("angle3 is a right angle");
+  } else if (angle1 + angle2 < 90) {
+    console.log("angle3 is obtuse");
+  }
 }
+
+missingAngle(45, 46);
+missingAngle(45, 45);
+missingAngle(45, 44);
