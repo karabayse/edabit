@@ -450,3 +450,11 @@ function firstLast(arr) {
 }
 
 firstLast([1, 2, 3, 4]);
+
+
+// Additive Inverse
+// A number added with its additive inverse equals zero
+// Create a function that returns an array of additive inverses
+function additiveInverse(arr) {
+
+}
