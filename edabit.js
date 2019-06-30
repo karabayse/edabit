@@ -459,8 +459,9 @@ firstLast([1, 2, 3, 4]);
 // Math.abs()
 // -Math.abs()
 function additiveInverse(arr) {
+  let newArr = [];
   for (var i = 0; i < arr.length; i++) {
-    let newArr = [];
+
     if (arr[i] > 0) {
       let negNum = -Math.abs(arr[i]);
       newArr.push(negNum);
