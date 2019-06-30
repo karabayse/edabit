@@ -455,6 +455,21 @@ firstLast([1, 2, 3, 4]);
 // Additive Inverse
 // A number added with its additive inverse equals zero
 // Create a function that returns an array of additive inverses
-function additiveInverse(arr) {
 
+// Math.abs()
+// -Math.abs()
+function additiveInverse(arr) {
+  for (var i = 0; i < arr.length; i++) {
+    let newArr = [];
+    if (arr[i] > 0) {
+      let negNum = -Math.abs(arr[i]);
+      newArr.push(negNum);
+    } else if (arr[i] < 0) {
+      let posNum = Math.abs(arr[i]);
+      newArr.push(posNum);
+    }
+    console.log(newArr);
+  }
 }
+
+additiveInverse([-1, 2, -3]);
