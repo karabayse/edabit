@@ -306,28 +306,22 @@ numberArgs(1, 2, 3, 4, "a", "b", "c");
 
 
 // Truthy or Falsy
+// Create a function that takes an argument of any data type and
+// returns 1 if it's truthy and 0 if it's falsy
 // Falsy values: false, null, undefined, 0, NaN, ""
 function isTruthy(input) {
-  let falsyArr = [false, null, undefined, 0, NaN, ""]
-  falsyArr.filter(Boolean);
   if (input == true) {
-    console.log("True");
+    console.log(1);
   } else {
-    console.log("False");
+    console.log(0);
   }
-  // for (let i = 0; i < falsyArr.length; i++) {
-  //   if(input == false, null, undefined, 0, NaN, "") {
-  //     console.log("False");
-  //   } else {
-  //     console.log("True");
-  //   }
-  // }
 }
 
 isTruthy(1);
 isTruthy(-1);
 isTruthy();
 isTruthy(0);
+isTruthy(false);
 
 
 // String to Integer and Vice Versa
