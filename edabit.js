@@ -505,3 +505,19 @@ function sameCase(str) {
 sameCase("UPPERCASE");
 sameCase("lowercase");
 sameCase("UPPER&lower");
+
+
+// Create a function that takes in an array and returns
+// true if all its values are even, and false otherwise
+function checkAllEven(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 0) {
+      console.log("True");
+    } else {
+      console.log("False");
+    }
+  }
+}
+
+// checkAllEven([1, 2, 3, 4, 5, 6]);
+checkAllEven([2, 4, 6, 8]);

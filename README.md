@@ -32,4 +32,5 @@
 * Return the first and last elements in an array as a new array
 * Additive Inverse
 * Calculate the third angle of a triangle
-* Check for uppercase and lowercase letters 
+* Check for uppercase and lowercase letters
+* Check for even values 
