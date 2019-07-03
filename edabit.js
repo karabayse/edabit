@@ -341,20 +341,6 @@ function toStr(int1) {
 toStr(10);
 
 
-// Create a function that counts the number of syllables in a word
-// Each syllable is separated with a dash
-function numberSyllables(word) {
-  let wordLower = word.toLowerCase();
-  if(wordLower.length <= 3) {
-    console.log(1);
-    console.log(wordLower);
-  }
-
-}
-
-numberSyllables('AND');
-
-
 // Create a function that finds the maximum range of a triangle's third edge
 // Any side of a triangle must be less than the other 2 sides added together
 function nextEdge(side1, side2) {
@@ -521,3 +507,25 @@ function checkAllEven(arr) {
 
 // checkAllEven([1, 2, 3, 4, 5, 6]);
 checkAllEven([2, 4, 6, 8]);
+
+
+// In semantic versioning a piece of software can be represented
+// in a format like this example: 6.1.9
+
+// The first number is the major version
+// The second number is the minor version
+// The third number is the patch (bug fixes)
+
+// Write three separate functions, one to retrieve each element
+// in the semantic versioning specification
+function retrieveMajor(semver) {
+
+}
+
+function retrieveMinor(semver) {
+
+}
+
+function retrievePatch(semver) {
+
+}

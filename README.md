@@ -24,7 +24,6 @@
 * Return the total number of parameters
 * Truthy or Falsy
 * String to Integer and Integer to String  
-* Count syllables
 * Maximum edge of a triangle
 * Stack the boxes
 * Volume of a box
@@ -33,4 +32,5 @@
 * Additive Inverse
 * Calculate the third angle of a triangle
 * Check for uppercase and lowercase letters
-* Check for even values 
+* Check for even values
+* Semantic versioning determination
