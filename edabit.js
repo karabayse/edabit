@@ -611,3 +611,20 @@ function canCapture([yourRook, opponentsRook]) {
 
 canCapture(["A8", "E8"]);
 canCapture(["A1", "B2"]);
+
+
+// Write two functions:
+// firstArg() should return the first parameter passed in
+// lastArg() should return the last parameter passed in
+// Return undefined if the function takes no parameters
+function firstArg() {
+  console.log(arguments[0]);
+}
+
+firstArg(1, 2, 3, 4, 5, 6);
+
+function lastArg() {
+  console.log(arguments[arguments.length - 1]);
+}
+
+lastArg(2, 4, 6);

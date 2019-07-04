@@ -37,3 +37,4 @@
 * Return a string with the given number of "a"s
 * Return an array of numbers counting down from argument number
 * Rook attack
+* Return first and last parameters 
