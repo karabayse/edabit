@@ -35,3 +35,4 @@
 * Check for even values
 * Semantic versioning determination
 * Return a string with the given number of "a"s
+* Return an array of numbers counting down from argument number

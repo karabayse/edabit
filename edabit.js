@@ -569,3 +569,25 @@ function howManyTimes(num) {
 }
 
 howManyTimes(5);
+
+
+// Create a function that takes a number as an argument and
+// returns an array of numbers counting down from this number to zero
+// The argument will always be greater than or equal to zero
+function countdown(start) {
+  let countdownArr = [start];
+
+  while (start > 0) {
+    if (start > 0) {
+      start--;
+      countdownArr.push(start);
+    } else if (start == 0) {
+      console.log(countdownArr);
+    }
+  }
+  console.log(countdownArr);
+}  
+
+countdown(8);
+countdown(3);
+countdown(0);
