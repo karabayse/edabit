@@ -519,13 +519,39 @@ checkAllEven([2, 4, 6, 8]);
 // Write three separate functions, one to retrieve each element
 // in the semantic versioning specification
 function retrieveMajor(semver) {
+  let semverArr = semver.split(".");
+  console.log(semverArr);
 
+  for (let i = 0; i < semverArr.length; i++) {
+    console.log(semverArr[0]);
+  }
 }
+
+retrieveMajor("6.1.9");
 
 function retrieveMinor(semver) {
+  let semverArr = semver.split(".");
+  console.log(semverArr);
 
+  for (let i = 0; i < semverArr.length; i++) {
+    console.log(semverArr[1]);
+  }
 }
+
+retrieveMinor("6.1.9");
 
 function retrievePatch(semver) {
+  let semverArr = semver.split(".");
+  console.log(semverArr);
 
+  for (let i = 0; i < semverArr.length; i++) {
+    if (semverArr[2] == null) {
+      console.log("No Patch");
+    } else {
+    console.log(semverArr[2]);
+    }
+  }
 }
+
+retrievePatch("6.1.9");
+retrievePatch("6.1");
