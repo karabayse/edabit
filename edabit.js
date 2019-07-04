@@ -628,3 +628,31 @@ function lastArg() {
 }
 
 lastArg(2, 4, 6);
+
+
+// Create a function that takes an array of hurdle heights and a jumper's jump height,
+// and determine whether or not the hurdler can clear all the hurdles
+//
+// A hurdler can clear a hurdle if their jump height is greater than or equal to
+// the hurdle height
+function hurdleJump(hurdles, jumpHeight) {
+  let clearArr = [];
+  let stumbleArr = [];
+  for (let i = 0; i < hurdles.length; i++) {
+    if (jumpHeight >= hurdles[i]) {
+      clearArr.push(hurdles[i]);
+    } else if (jumpHeight < hurdles[i]) {
+      stumbleArr.push(hurdles[i]);
+    }
+  }
+  console.log(clearArr);
+  console.log(stumbleArr);
+  if (stumbleArr.length == 0) {
+    console.log("True");
+  } else {
+    console.log("False");
+  }
+}
+
+hurdleJump([1, 2, 3], 3);
+hurdleJump([1, 2, 3], 2);
