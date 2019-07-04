@@ -34,3 +34,4 @@
 * Check for uppercase and lowercase letters
 * Check for even values
 * Semantic versioning determination
+* Return a string with the given number of "a"s

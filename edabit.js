@@ -555,3 +555,17 @@ function retrievePatch(semver) {
 
 retrievePatch("6.1.9");
 retrievePatch("6.1");
+
+
+// Write a function that takes an integer and
+// returns a string with the given number of "a"s in Edabit
+function howManyTimes(num) {
+  let ed = "Ed";
+  let a = ("a".repeat(num));
+  console.log(a);
+  let bit = "bit";
+  let edabit = ed.concat(a).concat(bit);
+  console.log(edabit);
+}
+
+howManyTimes(5);
