@@ -38,4 +38,5 @@
 * Return an array of numbers counting down from argument number
 * Rook attack
 * Return first and last parameters
-* Clear all the hurdles 
+* Clear all the hurdles
+* Between words in a dictionary 

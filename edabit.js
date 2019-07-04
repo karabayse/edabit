@@ -656,3 +656,13 @@ function hurdleJump(hurdles, jumpHeight) {
 
 hurdleJump([1, 2, 3], 3);
 hurdleJump([1, 2, 3], 2);
+
+
+// Alphabetical Comparison 
+// Write a function that returns true if a word can be found in between the start
+// and end word in a dictionary
+function isBetween(first, last, word) {
+
+}
+
+isBetween("apple", "banana", "blueberry");
