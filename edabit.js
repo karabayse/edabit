@@ -586,8 +586,28 @@ function countdown(start) {
     }
   }
   console.log(countdownArr);
-}  
+}
 
 countdown(8);
 countdown(3);
 countdown(0);
+
+
+// Write a function that returns true if two rooks can attack each other, and false otherwise
+// Assume no blocking pieces
+// Two rooks can attack each other if they share the same row (letter) or column (number)
+function canCapture([yourRook, opponentsRook]) {
+  let yRSplit = yourRook.split("");
+  let oRSplit = opponentsRook.split("");
+
+  if (yRSplit[0] == oRSplit[0]) {
+    console.log("True");
+  } else if (yRSplit[1] == oRSplit[1]) {
+    console.log("True");
+  } else {
+    console.log("False");
+  }
+}
+
+canCapture(["A8", "E8"]);
+canCapture(["A1", "B2"]);
