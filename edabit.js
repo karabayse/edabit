@@ -656,22 +656,3 @@ function hurdleJump(hurdles, jumpHeight) {
 
 hurdleJump([1, 2, 3], 3);
 hurdleJump([1, 2, 3], 2);
-
-
-// Alphabetical Comparison
-// Write a function that returns true if a word can be found in between the start
-// and end word in a dictionary
-// All letters will be in lower case
-function isBetween(first, last, word) {
-  // Alphabetically the word "b" comes after
-  // "a" which gives a positive value
-  // 'b'.localeCompare('a');
-  if ((word.localeCompare(first)) && (last.localeCompare(word))) {
-    console.log("True");
-  } else {
-    console.log("False");
-  }
-}
-
-isBetween("a", "c", "b"); // True
-isBetween("a", "b", "c"); // False

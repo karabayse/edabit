@@ -39,4 +39,3 @@
 * Rook attack
 * Return first and last parameters
 * Clear all the hurdles
-* Between words in a dictionary 
