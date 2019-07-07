@@ -39,3 +39,4 @@
 * Rook attack
 * Return first and last parameters
 * Clear all the hurdles
+* Filter out Strings from a list

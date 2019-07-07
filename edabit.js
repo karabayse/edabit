@@ -632,7 +632,7 @@ lastArg(2, 4, 6);
 
 // Create a function that takes an array of hurdle heights and a jumper's jump height,
 // and determine whether or not the hurdler can clear all the hurdles
-//
+
 // A hurdler can clear a hurdle if their jump height is greater than or equal to
 // the hurdle height
 function hurdleJump(hurdles, jumpHeight) {
@@ -656,3 +656,12 @@ function hurdleJump(hurdles, jumpHeight) {
 
 hurdleJump([1, 2, 3], 3);
 hurdleJump([1, 2, 3], 2);
+
+
+// Create a function which filters out strings from an array
+// and returns a new array containing only integers
+function filterList(l) {
+
+}
+
+filterList([1, 2, 3, "a", "b", "c"]);
