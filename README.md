@@ -40,3 +40,4 @@
 * Return first and last parameters
 * Clear all the hurdles
 * Filter out Strings from a list
+* Find the index of a given item 

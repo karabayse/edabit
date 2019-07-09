@@ -674,3 +674,11 @@ function filterList(l) {
 }
 
 filterList([1, 2, 3, "a", "b", "c"]);
+
+
+// Create a function that finds the index of a given item if the array is sorted
+function search(arr, item) {
+
+}
+
+search([1, 2, 3, 4, 5], 3) // 3 is at index 2
