@@ -661,7 +661,16 @@ hurdleJump([1, 2, 3], 2);
 // Create a function which filters out strings from an array
 // and returns a new array containing only integers
 function filterList(l) {
+  let intArr = [];
 
+  for (let i = 0; i < l.length; i++) {
+    if (Number.isInteger(l[i])) {
+      intArr.push(l[i]);
+    } else {
+      console.log("String");
+    }
+  }
+  console.log(intArr);
 }
 
 filterList([1, 2, 3, "a", "b", "c"]);
