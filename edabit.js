@@ -678,7 +678,8 @@ filterList([1, 2, 3, "a", "b", "c"]);
 
 // Create a function that finds the index of a given item if the array is sorted
 function search(arr, item) {
-
+  let indx = arr.indexOf(item);
+  console.log(indx);
 }
 
 search([1, 2, 3, 4, 5], 3) // 3 is at index 2
