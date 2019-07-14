@@ -683,3 +683,12 @@ function search(arr, item) {
 }
 
 search([1, 2, 3, 4, 5], 3) // 3 is at index 2
+
+
+// Write a function that reverses a string recursively
+function reverse(str) {
+  if (str == null || str.length < 2) return str;
+  return reverse(str.substring(1)) + str.charAt(0);
+}
+
+reverse("string");
