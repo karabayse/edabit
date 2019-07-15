@@ -692,3 +692,12 @@ function reverse(str) {
 }
 
 reverse("string");
+
+
+// Given an array of integers, return the difference between
+// the largest and smallest integers in the array
+function difference(nums) {
+
+}
+
+difference([50, 15, 3, 7, 24]);

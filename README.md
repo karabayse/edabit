@@ -42,3 +42,4 @@
 * Filter out Strings from a list
 * Find the index of a given item
 * Reverse a string recursively
+* Difference between the largest and smallest integers in an array
