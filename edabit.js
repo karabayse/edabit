@@ -697,7 +697,12 @@ reverse("string");
 // Given an array of integers, return the difference between
 // the largest and smallest integers in the array
 function difference(nums) {
+  let smallest_number = Math.min(...nums);
+  let largest_number = Math.max(...nums);
 
+  let diff = (largest_number - smallest_number);
+
+  console.log(diff);
 }
 
 difference([50, 15, 3, 7, 24]);
