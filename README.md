@@ -43,3 +43,4 @@
 * Find the index of a given item
 * Reverse a string recursively
 * Difference between the largest and smallest integers in an array
+* Extract properties from an object 
