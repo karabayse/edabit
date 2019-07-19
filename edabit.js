@@ -734,3 +734,10 @@ cityFacts({
     population: "2,140,526",
     continent: "Europe"
 });
+
+
+// Create a function to calculate the determinant of a 2 x 2 matrix
+// The determinant of the following matrix is: ad - bc: [[a, b], [c, d]]
+function calcDeterminant(matrix) {
+
+}

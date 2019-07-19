@@ -43,4 +43,5 @@
 * Find the index of a given item
 * Reverse a string recursively
 * Difference between the largest and smallest integers in an array
-* Extract properties from an object 
+* Extract properties from an object
+* Calculate the determinant of a 2 x 2 matrix
