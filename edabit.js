@@ -739,5 +739,8 @@ cityFacts({
 // Create a function to calculate the determinant of a 2 x 2 matrix
 // The determinant of the following matrix is: ad - bc: [[a, b], [c, d]]
 function calcDeterminant(matrix) {
-
+  let det = ((a * d) - (b * c));
+  console.log(det);
 }
+
+calcDeterminant([[2, 3], [4, 5]]);
