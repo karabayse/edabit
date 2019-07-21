@@ -744,3 +744,9 @@ function calcDeterminant(matrix) {
 }
 
 calcDeterminant([[2, 3], [4, 5]]);
+
+
+// Create a function that adds a string ending to each member in an array
+function addEnding(arr, ending) {
+
+}
