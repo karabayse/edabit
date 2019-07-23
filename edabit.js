@@ -755,3 +755,11 @@ function addEnding(arr, ending) {
 }
 
 addEnding(["bend", "sharpen", "mean"], "ing");
+
+
+// Write a function that takes two numbers and returns if they should be:
+// added, subtracted, multiplied or divided to get 24
+// If none of the operations can give 24, return null
+function operation(num1, num2) {
+
+}
