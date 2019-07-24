@@ -761,5 +761,21 @@ addEnding(["bend", "sharpen", "mean"], "ing");
 // added, subtracted, multiplied or divided to get 24
 // If none of the operations can give 24, return null
 function operation(num1, num2) {
-
+  if (num1 + num2 == 24) {
+    console.log("added");
+  } else if ((num1 - num2 == 24) || (num2 - num1 == 24)) {
+    console.log("subtracted");
+  } else if (num1 * num2 == 24) {
+    console.log("multiplied");
+  } else if ((num1 / num2 == 24) || num2 / num1 == 24) {
+    console.log("divided");
+  } else {
+    console.log("null");
+  }
 }
+
+operation(12, 12);
+operation(48, 24);
+operation(2, 12);
+operation(48, 2);
+operation(1, 2);
