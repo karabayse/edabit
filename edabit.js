@@ -779,3 +779,10 @@ operation(48, 24);
 operation(2, 12);
 operation(48, 2);
 operation(1, 2);
+
+
+// Create a function that finds the index of a given item
+// If the item is not present, return -1
+function search(arr, item) {
+
+}
