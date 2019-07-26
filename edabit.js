@@ -786,3 +786,5 @@ operation(1, 2);
 function search(arr, item) {
 
 }
+
+search([1, a, "car"], 2);

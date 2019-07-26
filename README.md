@@ -46,4 +46,5 @@
 * Extract properties from an object
 * Calculate the determinant of a 2 x 2 matrix
 * Add a string to each item in an array
-* Operator determination 
+* Operator determination
+* Find the index of a given item 
