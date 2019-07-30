@@ -793,8 +793,10 @@ function addUp(num) {
     console.log(numArr);
 
     }
-    numArr.reduce((a, b) => a + b);
-    console.log(numArr);
-  }
+    const add = (a, b) =>
+      a + b;
+      const sum = numArr.reduce(add);
+      console.log(sum);
+    }
 
   addUp(5);
