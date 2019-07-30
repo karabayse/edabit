@@ -787,6 +787,7 @@ operation(1, 2);
 // because 1 + 2 + 3 + 4 = 10
 // Expect any positive number between 1 and 1000
 function addUp(num) {
+  if (1 <= num <= 1000) {
   let numArr = [];
   while (num > 0, num--) {
     numArr.push(num);
@@ -798,5 +799,7 @@ function addUp(num) {
       const sum = numArr.reduce(add);
       console.log(sum);
     }
+  }
 
   addUp(5);
+  addUp(1);
