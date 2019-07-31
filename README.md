@@ -47,4 +47,5 @@
 * Calculate the determinant of a 2 x 2 matrix
 * Add a string to each item in an array
 * Operator determination
-* Add the numbers from 1 to the number passed in 
+* Add the numbers from 1 to the number passed in
+* Compare two arrays 

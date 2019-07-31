@@ -803,3 +803,15 @@ function addUp(num) {
 
   addUp(5);
   addUp(1);
+
+
+  // Create a function that returns true if two arrays contain identical values,
+  // and false otherwise
+  // Fix this code
+  function checkEquals(arr1, arr2) {
+  	if (arr1.join("") === arr2.join("")) {
+    	return true
+   	} else {
+    	return false
+   	}
+  }
