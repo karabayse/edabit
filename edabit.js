@@ -805,13 +805,9 @@ function addUp(num) {
   addUp(1);
 
 
-  // Create a function that returns true if two arrays contain identical values,
-  // and false otherwise
-  // Fix this code
-  function checkEquals(arr1, arr2) {
-  	if (arr1.join("") === arr2.join("")) {
-    	return true
-   	} else {
-    	return false
-   	}
+  // A word has been split into a left part and a right part
+  // Re-form the word by adding both halves together,
+  // changing the first character to an uppercase letter
+  function getWord(left, right) {
+
   }

@@ -48,4 +48,4 @@
 * Add a string to each item in an array
 * Operator determination
 * Add the numbers from 1 to the number passed in
-* Compare two arrays 
+* Re-form a word  
