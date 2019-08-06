@@ -809,5 +809,9 @@ function addUp(num) {
   // Re-form the word by adding both halves together,
   // changing the first character to an uppercase letter
   function getWord(left, right) {
-
+    let leftUp = left.charAt(0).toUpperCase() + left.slice(1);
+    let word = leftUp.concat(right);
+    console.log(word);
   }
+
+  getWord("java", "Script");
