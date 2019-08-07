@@ -194,8 +194,10 @@ function equalSlices(total, people, each) {
     console.log("True");
   } else if ((total % people) == 0){
     console.log("Fair split!");
+  } else if (people == 0) {
+    console.log("True");
   } else {
-    console.log("Unfair!");
+    console.log("False");
   }
 }
 
