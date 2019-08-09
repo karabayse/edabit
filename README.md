@@ -48,4 +48,5 @@
 * Add a string to each item in an array
 * Operator determination
 * Add the numbers from 1 to the number passed in
-* Re-form a word  
+* Re-form a word
+* Remove null values from an array  

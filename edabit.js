@@ -819,3 +819,9 @@ function addUp(num) {
   }
 
   getWord("java", "Script");
+
+
+  // Create a function to remove all null values from an array
+  function removeNull(arr) {
+
+  }
