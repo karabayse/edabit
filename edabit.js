@@ -196,6 +196,8 @@ function equalSlices(total, people, each) {
     console.log("Fair split!");
   } else if (people == 0) {
     console.log("True");
+  } else if ((people * each) < total){
+    console.log("True");
   } else {
     console.log("False");
   }
