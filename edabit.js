@@ -823,5 +823,10 @@ function addUp(num) {
 
   // Create a function to remove all null values from an array
   function removeNull(arr) {
-
+    let filteredArr = arr.filter(function (el) {
+      return el != null;
+    });
+    console.log(filteredArr);
   }
+
+  removeNull([10, "JavaScript", null, "C#", null, 5]);
