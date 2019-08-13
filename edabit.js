@@ -830,3 +830,10 @@ function addUp(num) {
   }
 
   removeNull([10, "JavaScript", null, "C#", null, 5]);
+
+
+// Create a function that takes three numbers (the hourly wage of an employee)
+// and returns the difference between the highest and lowest-paid employee
+function programmers(one, two, three) {
+
+}
