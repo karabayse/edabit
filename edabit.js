@@ -835,16 +835,11 @@ function addUp(num) {
 // Create a function that takes three numbers (the hourly wage of an employee)
 // and returns the difference between the highest and lowest-paid employee
 function programmers(one, two, three) {
-  if ((one > two) && (one > three) && (two > three)) {
-    let diff = one - three;
-    console.log(diff);
-  } else if ((two > one) && (two > three) && (three > one)) {
-    let diff = two - one;
-    console.log(diff);
-  } else if ((three > one) && (three > two) && (two > one)) {
-    let diff = three - one;
-    console.log(diff);
-  }
+  let maxNum = Math.max(one, two, three);
+  let minNum = Math.min(one, two, three);
+  let diff = maxNum - minNum;
+  console.log(diff);
 }
 
 programmers(30, 40, 50);
+programmers(5, 10, 15);
