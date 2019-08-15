@@ -50,4 +50,5 @@
 * Add the numbers from 1 to the number passed in
 * Re-form a word
 * Remove null values from an array
-* Return the difference between the highest and lowest of three numbers  
+* Return the difference between the highest and lowest of three numbers
+* Next element in an arithmetic sequence  

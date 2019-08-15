@@ -843,3 +843,11 @@ function programmers(one, two, three) {
 
 programmers(30, 40, 50);
 programmers(5, 10, 15);
+
+
+// Create a function that returns the next element in an arithmetic sequence
+// In an arithmetic sequence, each element is formed by adding the same constant
+// to the previous element
+function nextElement(arr) {
+
+}
