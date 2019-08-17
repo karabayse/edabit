@@ -51,4 +51,5 @@
 * Re-form a word
 * Remove null values from an array
 * Return the difference between the highest and lowest of three numbers
-* Less than or equal to zero 
+* Less than or equal to zero
+* Next element in an arithmetic sequence 
