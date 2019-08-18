@@ -845,8 +845,8 @@ programmers(30, 40, 50);
 programmers(5, 10, 15);
 
 
-// Create a function that takes a number as its only argument and returns true if
-// it's less than or equal to zero, otherwise return false
+// Create a function that takes a number as its only argument and returns true
+// if it's less than or equal to zero, otherwise return false
 function lessThanOrEqualToZero(num) {
   if (num <= 0) {
     console.log("True");
@@ -862,6 +862,11 @@ lessThanOrEqualToZero(-2);
 // Create a function that returns the next element in an arithmetic sequence
 // In an arithmetic sequence, each element is formed by adding the same constant
 // to the previous element
+// All input arrays will contain integers only
 function nextElement(arr) {
-
+  for (var i = 0; i < arr.length; i++) {
+    arr[i]
+  }
 }
+
+nextElement([1, 3, 5, 7]);
