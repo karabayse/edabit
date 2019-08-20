@@ -867,7 +867,7 @@ function nextElement(arr) {
   for (var i = 0; i < arr.length; i++) {
     let constant = arr[i] - arr[i-1];
     console.log(constant);
-    let nextEl = arr[i] - arr[arr.length -1];
+    let nextEl = arr[i] + constant;
     console.log(nextEl);
   }
 }
