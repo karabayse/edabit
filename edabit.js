@@ -865,7 +865,10 @@ lessThanOrEqualToZero(-2);
 // All input arrays will contain integers only
 function nextElement(arr) {
   for (var i = 0; i < arr.length; i++) {
-    arr[i]
+    let constant = arr[i] - arr[i-1];
+    console.log(constant);
+    let nextEl = arr[i] - arr[arr.length -1];
+    console.log(nextEl);
   }
 }
 
