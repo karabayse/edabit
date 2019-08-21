@@ -873,3 +873,12 @@ function nextElement(arr) {
 }
 
 nextElement([1, 3, 5, 7]);
+
+
+// Write a function that checks if two numbers are either:
+// Smaller than 0
+// Greater than 0
+// Exactly 0
+function both(n1, n2) {
+
+}
