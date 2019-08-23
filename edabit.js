@@ -867,7 +867,8 @@ function nextElement(arr) {
   for (var i = 0; i < arr.length; i++) {
     let constant = arr[i] - arr[i-1];
     console.log(constant);
-    let nextEl = arr[i] + constant;
+    let lastEl = arr[arr.length - 1];
+    let nextEl = lastEl + constant;
     console.log(nextEl);
   }
 }
@@ -895,3 +896,17 @@ both(-2, -3);
 both(2, 3);
 both(0, 0);
 both(-2, 2);
+
+
+// Create a function that takes three number arguments —
+// one number as an input and two additional numbers representing the endpoints
+// of a closed range — and return the number limited to this range
+//
+// If the number falls within the range, the number should be returned
+// If the number is less than the lower limit of the range, the lower limit
+// should be returned.
+// If the number is greater than the upper limit of the range, the upper limit
+// should be returned
+function limitNumber(num, rangeLow, rangeHigh) {
+
+}
