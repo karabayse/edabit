@@ -880,5 +880,18 @@ nextElement([1, 3, 5, 7]);
 // Greater than 0
 // Exactly 0
 function both(n1, n2) {
-
+  if (n1 < 0 && n2 < 0) {
+    console.log("True");
+  } else if (n1 > 0 && n2 > 0) {
+    console.log("True");
+  } else if (n1 === 0 && n2 === 0) {
+    console.log("True");
+  } else {
+    console.log("False");
+  }
 }
+
+both(-2, -3);
+both(2, 3);
+both(0, 0);
+both(-2, 2);

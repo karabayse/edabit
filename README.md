@@ -53,4 +53,4 @@
 * Return the difference between the highest and lowest of three numbers
 * Less than or equal to zero
 * Next element in an arithmetic sequence
-* Both Zero, Negative or Positive
+* Both Zero, Negative, or Positive
