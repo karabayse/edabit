@@ -54,3 +54,4 @@
 * Less than or equal to zero
 * Next element in an arithmetic sequence
 * Both Zero, Negative, or Positive
+* Compare 3 numbers 
