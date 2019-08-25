@@ -907,6 +907,26 @@ both(-2, 2);
 // should be returned.
 // If the number is greater than the upper limit of the range, the upper limit
 // should be returned
-function limitNumber(num, rangeLow, rangeHigh) {
 
+// All test inputs will be valid numbers
+// All test inputs' range parameters will be in the correct order
+// (i.e. the lower range will be less than or equal to the upper range)
+function limitNumber(num, rangeLow, rangeHigh) {
+  if (num > rangeLow && num < rangeHigh) {
+    console.log(num);
+  } else if (num < rangeLow){
+    console.log(rangeLow);
+  } else if (num > rangeHigh) {
+    console.log(rangeHigh);
+  } else if (num === rangeLow) {
+    console.log(num);
+  } else if (num === rangeHigh) {
+    console.log(num);
+  }
 }
+
+limitNumber(4, 3, 5);
+limitNumber(4, 5, 7);
+limitNumber(4, 1, 3);
+limitNumber(4, 4, 6);
+limitNumber(4, 2, 4);
