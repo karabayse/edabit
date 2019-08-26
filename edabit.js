@@ -865,9 +865,10 @@ lessThanOrEqualToZero(-2);
 // All input arrays will contain integers only
 function nextElement(arr) {
   for (var i = 0; i < arr.length; i++) {
-    let constant = arr[i] - arr[i-1];
+    let constant = arr[i] - arr[i -1];
     console.log(constant);
     let lastEl = arr[arr.length - 1];
+    console.log(lastEl);
     let nextEl = lastEl + constant;
     console.log(nextEl);
   }
@@ -930,3 +931,10 @@ limitNumber(4, 5, 7);
 limitNumber(4, 1, 3);
 limitNumber(4, 4, 6);
 limitNumber(4, 2, 4);
+
+
+// Create a function that checks if the argument is an integer or a string
+// Return int if it's an integer and str if it's a string
+function intOrString(param) {
+
+}
