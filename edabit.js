@@ -936,10 +936,12 @@ limitNumber(4, 2, 4);
 // Create a function that checks if the argument is an integer or a string
 // Return int if it's an integer and str if it's a string
 function intOrString(param) {
-  if (typeof(param) === Number) {
+  if (Number(param)) {
     console.log("int");
-  } else if (typeof(param) === String) {
+  } else if (String(param)) {
     console.log("str");
+  } else {
+    console.log("othertype");
   }
 }
 
