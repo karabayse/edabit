@@ -55,4 +55,5 @@
 * Next element in an arithmetic sequence
 * Both Zero, Negative, or Positive
 * Compare 3 numbers
-* String or Integer 
+* String or Integer
+* Regex that matches a string 

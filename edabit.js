@@ -947,3 +947,7 @@ function intOrString(param) {
 
 intOrString(1);
 intOrString("string");
+
+
+// Write a regular expression that matches a string if it contains at least one digit
+let x = /* Fill in the regular expression */
