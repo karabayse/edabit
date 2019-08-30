@@ -56,4 +56,4 @@
 * Both Zero, Negative, or Positive
 * Compare 3 numbers
 * String or Integer
-* Regex that matches a string 
+* Array from Comma-Delimited String
