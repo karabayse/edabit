@@ -57,3 +57,4 @@
 * Compare 3 numbers
 * String or Integer
 * Array from Comma-Delimited String
+* Seconds in hours

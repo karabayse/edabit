@@ -957,3 +957,9 @@ function toArray(str) {
 
 toArray("January, February, March");
 toArray(" ");
+
+
+// Write a function that converts hours into seconds
+function howManySeconds(hours) {
+
+}
