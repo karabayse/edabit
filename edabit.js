@@ -971,6 +971,9 @@ howManySeconds(6);
 
 // Write a function that returns the length of a string
 // Make your function recursive
+// factorial
 function length(str) {
   let strLength = str.length;
 }
+
+length(str);
