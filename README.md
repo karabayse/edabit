@@ -59,3 +59,4 @@
 * Array from Comma-Delimited String
 * Seconds in hours
 * Return the length of a string recursively
+* Calculate the profit 
