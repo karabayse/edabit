@@ -976,6 +976,11 @@ howManySeconds(6);
 // sell price per unit (in dollars), and the starting inventory.
 // Return the total profit made, rounded to the nearest dollar.
 // Assume all of the inventory has been sold.
+// Profit = Total Sales - Total Cost
 function profit(info) {
-
+  let obj = {
+    unitPrice: 10,
+    sellPrice: 100,
+    inventory: 10
+  }
 }
