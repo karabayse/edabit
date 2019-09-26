@@ -979,8 +979,12 @@ howManySeconds(6);
 // Profit = Total Sales - Total Cost
 function profit(info) {
   let obj = {
-    unitPrice: 10,
-    sellPrice: 100,
-    inventory: 10
+    unitPrice: a,
+    sellPrice: b,
+    inventory: c
   }
+
+  let totalProfit = (a * b) - (a * c);
 }
+
+profit();
