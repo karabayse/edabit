@@ -987,4 +987,4 @@ function profit(info) {
   let totalProfit = (a * b) - (a * c);
 }
 
-profit();
+profit({2, 3, 4});
