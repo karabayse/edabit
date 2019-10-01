@@ -969,22 +969,7 @@ function howManySeconds(hours) {
 howManySeconds(6);
 
 
-// Calculate the profit
-// You work for a manufacturer, and have been asked to calculate the total profit
-// made on the sales of a product.
-// You are given an object containing the cost price per unit (in dollars),
-// sell price per unit (in dollars), and the starting inventory.
-// Return the total profit made, rounded to the nearest dollar.
-// Assume all of the inventory has been sold.
-// Profit = Total Sales - Total Cost
-function profit(info) {
-  let obj = {
-    unitPrice: a,
-    sellPrice: b,
-    inventory: c
-  }
+// Write a function that returns 0 if the input is 1, and returns 1 if the input is 0
+function flip(y) {
 
-  let totalProfit = (a * b) - (a * c);
 }
-
-profit({2, 3, 4});
