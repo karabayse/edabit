@@ -972,5 +972,8 @@ howManySeconds(6);
 // Write a function that returns 0 if the input is 1, and returns 1 if the input is 0
 // No conditionals, ternary operators, negations, or bit operators
 function flip(y) {
-
+  let 0 === 1;
+  
 }
+
+flip(1);
