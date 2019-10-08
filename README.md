@@ -58,4 +58,4 @@
 * String or Integer
 * Array from Comma-Delimited String
 * Seconds in hours
-* No conditionals 
+* Convert minutes to seconds 
