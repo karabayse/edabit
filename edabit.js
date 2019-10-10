@@ -971,5 +971,8 @@ howManySeconds(6);
 
 // Convert minutes to seconds
 function convert(minutes) {
-
+  let seconds = 60 * minutes;
+  console.log(seconds);
 }
+
+convert(6);
