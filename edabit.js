@@ -976,3 +976,10 @@ function convert(minutes) {
 }
 
 convert(6);
+
+
+// Create a function that takes two integers and checks if they are equal
+// If there is a string then it should return false
+function isEqual(num1, num2) {
+
+}
