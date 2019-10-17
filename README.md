@@ -59,4 +59,4 @@
 * Array from Comma-Delimited String
 * Seconds in hours
 * Convert minutes to seconds
-* Are the numbers equal?
+* Check numbers for equality 

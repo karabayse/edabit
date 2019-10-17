@@ -981,5 +981,15 @@ convert(6);
 // Create a function that takes two integers and checks if they are equal
 // If there is a string then it should return false
 function isEqual(num1, num2) {
-
+  if (typeof(num1) = String || typeof(num2) = String) {
+    console.log("False");
+  } else if (num1 === num2) {
+    console.log("True");
+  } else {
+    console.log("False");
+  }
 }
+
+isEqual('num1', 'num2');
+isEqual(1, 1);
+isEqual(1, 2);
