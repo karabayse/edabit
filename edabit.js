@@ -1006,11 +1006,11 @@ function negate(arr) {
       let newNum = -arr[i];
       newArr.push(newNum);
     } else if (arr[i] < 0) {
-      let newNum = +arr[i];
+      let newNum = -+arr[i];
       newArr.push(newNum);
     }
   }
   console.log(newArr);
 }
 
-negate([1, 2, 3]);
+negate([-1, 1, 2, 3]);
