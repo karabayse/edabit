@@ -1014,3 +1014,10 @@ function negate(arr) {
 }
 
 negate([-1, 1, 2, 3]);
+
+
+// Correct the mistake
+// The variables are named just fine, you just have to debug the code usage of variables
+function squaed(b) {
+	return $a*$a;
+}
