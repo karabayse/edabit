@@ -1027,3 +1027,9 @@ negate([-1, 1, 2, 3]);
 function checkEquality(a, b) {
   return a === b;
 }
+
+
+// Write a function that takes two integers hours minutes and converts them to seconds.
+function convert(hours, minutes) {
+
+}
