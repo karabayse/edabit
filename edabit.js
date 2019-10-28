@@ -1016,8 +1016,15 @@ function negate(arr) {
 negate([-1, 1, 2, 3]);
 
 
-// Correct the mistake
-// The variables are named just fine, you just have to debug the code usage of variables
-function squaed(b) {
-	return $a*$a;
+// A friend of yours was asked to implement a simple function that verifies the
+// equality of two different given values a and b so it returns false in every
+// case. The only given condition is that he must use nothing more than the two
+// variables names and the equal symbol = in his code (besides return, obviously).
+
+// After testing, each given case fails to return false! Find the cause of the
+// error and correct your friend's function.
+// Fix this wrong function!
+function checkEquality(a, b) {
+  return a == b;
+	// Why it doesn't work?
 }
