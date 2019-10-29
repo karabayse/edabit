@@ -1029,7 +1029,12 @@ function checkEquality(a, b) {
 }
 
 
-// Write a function that takes two integers hours minutes and converts them to seconds.
+// Write a function that takes two integers, hours and minutes, and converts them to seconds.
 function convert(hours, minutes) {
-
+  let hourSeconds = 3600 * hours;
+  console.log(hourSeconds);
+  let minSeconds = 60 * minutes;
+  console.log(minSeconds);
 }
+
+convert(4, 60);
