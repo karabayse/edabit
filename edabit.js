@@ -1035,6 +1035,8 @@ function convert(hours, minutes) {
   console.log(hourSeconds);
   let minSeconds = 60 * minutes;
   console.log(minSeconds);
+  let hourMinSeconds = hourSeconds + minSeconds;
+  console.log(hourMinSeconds);
 }
 
 convert(4, 60);

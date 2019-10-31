@@ -60,4 +60,5 @@
 * Seconds in hours
 * Convert minutes to seconds
 * Check numbers for equality
-* Negate the array of numbers 
+* Negate the array of numbers
+* Hours and minutes to seconds 
