@@ -1045,6 +1045,8 @@ convert(4, 60);
 // Find the bug
 // The packaging machine is running the getContainer function to retrieve the
 // container of a product. But something is not right
+// Run the tests first to see the results before making changes and understand
+// why bread is stuffed in bottles and candy is not in plastic
 function getContainer(product) {
 	let container
   switch (product) {
@@ -1054,7 +1056,7 @@ function getContainer(product) {
 		case "Milk":
 			container = "bottle"
 			break
-		case "Cerials":
+		case "Cereal":
 			container = "box"
 			break
 		case "Eggs":
