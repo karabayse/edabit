@@ -1052,6 +1052,7 @@ function getContainer(product) {
   switch (product) {
 		case "Bread":
 			container = "bag"
+      break
 		case "Beer":
 		case "Milk":
 			container = "bottle"
@@ -1064,6 +1065,7 @@ function getContainer(product) {
 			break
 		case "Candy":
 			container = "plastic"
+      break
 		default:
 			container = null
 	}
