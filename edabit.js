@@ -722,7 +722,7 @@ difference([50, 15, 3, 7, 24]);
 // (where X is the city name, Y is the population and
 // Z is the continent the city is situated in).
 function cityFacts(city) {
-  const facts = Object.values(city);
+  let facts = Object.values(city);
   console.log(facts);
 
   for (let i = 0; i < facts.length; i++) {

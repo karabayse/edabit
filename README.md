@@ -61,4 +61,5 @@
 * Convert minutes to seconds
 * Check numbers for equality
 * Negate the array of numbers
-* Hours and minutes to seconds 
+* Hours and minutes to seconds
+* Find the bug 
