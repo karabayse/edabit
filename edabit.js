@@ -1072,3 +1072,15 @@ function getContainer(product) {
 
 	return container
 }
+
+
+// Does the object contain a given key?
+// Write a function that returns true if a hash contains the specified key,
+// and false otherwise
+function hasKey(obj, key) {
+
+}
+
+hasKey(
+
+);
