@@ -1078,9 +1078,11 @@ function getContainer(product) {
 // Write a function that returns true if a hash contains the specified key,
 // and false otherwise
 function hasKey(obj, key) {
-
+  if (key in obj) {
+    console.log("True");
+  } else {
+    console.log("False");
+  }
 }
 
-hasKey(
-
-);
+hasKey({a: "a", b: "b", c: "c"}, "d");
