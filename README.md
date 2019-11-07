@@ -64,3 +64,4 @@
 * Hours and minutes to seconds
 * Find the bug
 * Does the object contain a given key?
+* Negate the array of numbers 
