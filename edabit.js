@@ -1088,12 +1088,9 @@ function hasKey(obj, key) {
 hasKey({a: "a", b: "b", c: "c"}, "d");
 
 
-// Negate the array of numbers
-// Given an array of numbers, negate all elements contained within.
-// Negating a positive value -+n will return -n, because all +'s are removed.
-// Negating a negative value --n will return n, because the first - turns the
-// second minus into a +.
-// If you get an empty array, return an empty array: []
-function negate(arr) {
+// Reverse and capitalize
+// Create a function that takes a string of lowercase characters and returns
+// that string reversed and capitalized
+function reverseCapitalize(str) {
 
 }
