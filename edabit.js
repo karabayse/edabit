@@ -1092,5 +1092,11 @@ hasKey({a: "a", b: "b", c: "c"}, "d");
 // Create a function that takes a string of lowercase characters and returns
 // that string reversed and capitalized
 function reverseCapitalize(str) {
-
+  var splitString = str.split("");
+  var reverseArray = splitString.reverse();
+  var joinArray = reverseArray.join("");
+  var capString = joinArray.toUpperCase();
+  return capString;
 }
+
+reverseCapitalize("string");
