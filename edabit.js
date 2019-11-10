@@ -1113,5 +1113,9 @@ reverseCapitalize("string");
 // rounding it to the nearest integer
 // (and rounding up for numbers with .5 as decimal part).
 function volPizza(radius, height) {
-
+  let pizzaVolume = radius.toExponential(2) * height * Math.PI;
+  let volumeRounded = Math.round(pizzaVolume)
+  console.log(volumeRounded);
 }
+
+volPizza(5, 9);
