@@ -1115,7 +1115,7 @@ reverseCapitalize("string");
 // Example: volPizza(1, 1) ➞ 3
 // (radius² x height x π) = 3.14159... rounded to the nearest integer
 function volPizza(radius, height) {
-  let pizzaVolume = radius.toExponential(2) * height * Math.PI;
+  let pizzaVolume = Math.pow(radius, 2) * height * Math.PI;
   let volumeRounded = Math.round(pizzaVolume);
   console.log(volumeRounded);
 }
