@@ -65,4 +65,5 @@
 * Find the bug
 * Does the object contain a given key?
 * Reverse and capitalize
-* Volume of a pizza 
+* Volume of a pizza
+* Calculate the profit 
