@@ -1127,8 +1127,16 @@ volPizza(5, 9);
 // profit made on the sales of a product
 // You are given an object containing the cost price per unit (in dollars), sell
 // price per unit (in dollars), and the starting inventory
-// Return the total profit made, rounded to the nearest dollar. Assume all of
-// the inventory has been sold
+// Return the total profit made, rounded to the nearest dollar
+// Assume all of the inventory has been sold
 function profit(info) {
-
+  let totalProfit = (info.inventory * info.sellPrice) - (info.inventory * info.costPrice);
+  let roundedProfit = Math.round(totalProfit);
+  console.log(roundedProfit);
 }
+
+profit({
+  costPrice: 5.39,
+  sellPrice: 8.79,
+  inventory: 100
+});
