@@ -66,4 +66,5 @@
 * Does the object contain a given key?
 * Reverse and capitalize
 * Volume of a pizza
-* Calculate the profit 
+* Calculate the profit
+* Array of consecutive numbers 

@@ -1140,3 +1140,12 @@ profit({
   sellPrice: 8.79,
   inventory: 100
 });
+
+
+// Array of consecutive numbers
+// Implement a function that returns an array containing all the consecutive
+// numbers in ascendant order from the given value low up to the given value high
+// (bounds included)
+function getSequence(low, high) {
+
+}
