@@ -1147,5 +1147,11 @@ profit({
 // numbers in ascendant order from the given value low up to the given value high
 // (bounds included)
 function getSequence(low, high) {
-
+  let list = [];
+  for (let i = low; i <= high; i++) {
+    list.push(i);
+  }
+  return list;
 }
+
+getSequence(1, 5);
