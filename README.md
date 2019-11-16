@@ -69,4 +69,4 @@
 * Calculate the profit
 * Array of consecutive numbers
 * Date format conversion
-* Fix the error: Vowel edition
+* Remove all vowels from a string
