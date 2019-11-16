@@ -1178,5 +1178,5 @@ formatDate(06/03/2019);
 // string
 //They write:
 function removeVowels(str) {
-  return str.replace(/[aeiou]/, "")
+  return str.replace(/[aeiou]/gi, '');
 }
