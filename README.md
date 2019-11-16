@@ -68,4 +68,5 @@
 * Volume of a pizza
 * Calculate the profit
 * Array of consecutive numbers
-* Date format conversion 
+* Date format conversion
+* Fix the error: Vowel edition
