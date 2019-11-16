@@ -1157,9 +1157,17 @@ function getSequence(low, high) {
 getSequence(1, 5);
 
 
-// Date Format Conversion 
+// Date Format Conversion
 // Create a function that converts a date formatted as MM/DD/YYYY to a format
-// required as YYYYDDMM. The parameter userDate and the return value are strings
+// required as YYYYDDMM
+// The parameter userDate and the return value are strings
 function formatDate(userDate) {
+    let year = userDate.substring(6,10);
+    let day = userDate.substring(3,5);
+    let month = userDate.substring(0,2);
 
+    let newFormat = year + day + month;
+    console.log(newFormat);
 }
+
+formatDate(06/03/2019);
