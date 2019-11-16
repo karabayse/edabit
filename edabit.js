@@ -1155,3 +1155,11 @@ function getSequence(low, high) {
 }
 
 getSequence(1, 5);
+
+
+// Date Format Conversion 
+// Create a function that converts a date formatted as MM/DD/YYYY to a format
+// required as YYYYDDMM. The parameter userDate and the return value are strings
+function formatDate(userDate) {
+
+}

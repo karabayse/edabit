@@ -67,4 +67,5 @@
 * Reverse and capitalize
 * Volume of a pizza
 * Calculate the profit
-* Array of consecutive numbers 
+* Array of consecutive numbers
+* Date format conversion 
