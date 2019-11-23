@@ -1184,5 +1184,12 @@ removeVowels("onomatopoeia");
 // Given a sorted array of numbers, remove any numbers that are divisible by 13
 // Return the amended array
 function unlucky13(nums) {
-
+  for (var i = 0; i < nums.length; i++) {
+    if (nums[i] % 13 == 0) {
+      nums.splice(i,1);
+    }
+    console.log(nums);
+  }
 }
+
+unlucky13([1, 2, 26]);
