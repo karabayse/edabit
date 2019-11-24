@@ -1181,15 +1181,14 @@ function removeVowels(str) {
 removeVowels("onomatopoeia");
 
 
-// Given a sorted array of numbers, remove any numbers that are divisible by 13
-// Return the amended array
-function unlucky13(nums) {
-  for (var i = 0; i < nums.length; i++) {
-    if (nums[i] % 13 == 0) {
-      nums.splice(i,1);
-    }
-    console.log(nums);
-  }
-}
+// A leap year has one day added to February for being synchronized with the
+// seasonal year
+// A leap year appears with a regular frequency, which is determined by the rule below:
 
-unlucky13([1, 2, 26]);
+// The year is exactly divisible by 400, or exactly divisible by 4 and not
+// exactly divisible by 100
+// Given a year you must implement a function that returns true if it's a leap
+// year, or false if it's not
+function isLeap(year) {
+
+}

@@ -70,4 +70,4 @@
 * Array of consecutive numbers
 * Date format conversion
 * Remove all vowels from a string
-* Remove any numbers divisible by 13 
+* Determine leap years 
