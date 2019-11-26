@@ -70,4 +70,5 @@
 * Array of consecutive numbers
 * Date format conversion
 * Remove all vowels from a string
-* Determine leap years 
+* Determine leap years
+* Remove the first and last characters from a string 

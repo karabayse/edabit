@@ -1198,3 +1198,9 @@ function isLeap(year) {
     console.log("Not a Leap Year");
   }
 }
+
+
+// Create a function that removes the first and last characters from a string
+function removeFirstLast(str) {
+
+}
