@@ -1199,8 +1199,19 @@ function isLeap(year) {
   }
 }
 
+isLeap(2019);
+isLeap(2020);
+
 
 // Create a function that removes the first and last characters from a string
+// If the string is 2 or fewer characters long, return the string itself
 function removeFirstLast(str) {
-
+  if (str.length <= 2) {
+    console.log(str);;
+  } else {
+    console.log(str.slice(1,-1));
+  }
 }
+
+str("string");
+str("st");
