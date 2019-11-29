@@ -71,4 +71,5 @@
 * Date format conversion
 * Remove all vowels from a string
 * Determine leap years
-* Remove the first and last characters from a string 
+* Remove the first and last characters from a string
+* Reverse Coding Challenge 

@@ -1215,3 +1215,13 @@ function removeFirstLast(str) {
 
 str("string");
 str("st");
+
+
+// This is a reverse coding challenge. Normally you're given explicit directions
+// with how to create a function. Here, you must generate your own function to
+// satisfy the relationship between the inputs and outputs.
+// Your task is to create a function that, when fed the inputs below, produce
+// the sample outputs shown.
+function mysteryFunc(arr, num) {
+
+}
