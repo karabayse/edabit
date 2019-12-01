@@ -72,4 +72,5 @@
 * Remove all vowels from a string
 * Determine leap years
 * Remove the first and last characters from a string
-* Reverse Coding Challenge 
+* Reverse Coding Challenge
+* Calculate the determinant of a 2x2 matrix 
