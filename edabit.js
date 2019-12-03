@@ -1249,5 +1249,6 @@ function mysteryFunc(arr, num) {
 //The determinant of the following matrix is: ad - bc:
 //[[a, b], [c, d]]
 function calcDeterminant(matrix) {
-
+  // loop through 2D array
+  // a*d - b*c
 }
