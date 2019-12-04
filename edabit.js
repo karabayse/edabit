@@ -1249,12 +1249,5 @@ function mysteryFunc(arr, num) {
 //The determinant of the following matrix is: ad - bc:
 //[[a, b], [c, d]]
 function calcDeterminant(matrix) {
-  // loop through 2D array
-  for(var i = 0; i < matrix.length; i++) {
-    var mat = matrix[i];
-    for(var j = 0; j < mat.length; j++) {
-        display("mat[" + i + "][" + j + "] = " + mat[j]);
-    }
-}
-  // a*d - b*c
+  return (matrix[0][0]*matrix[1][1])-(matrix[0][1]*matrix[1][0]);  
 }
