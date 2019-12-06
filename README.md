@@ -73,4 +73,5 @@
 * Determine leap years
 * Remove the first and last characters from a string
 * Reverse Coding Challenge
-* Calculate the determinant of a 2x2 matrix 
+* Calculate the determinant of a 2x2 matrix
+* Is the string in order?

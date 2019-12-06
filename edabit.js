@@ -1249,5 +1249,12 @@ function mysteryFunc(arr, num) {
 //The determinant of the following matrix is: ad - bc:
 //[[a, b], [c, d]]
 function calcDeterminant(matrix) {
-  return (matrix[0][0]*matrix[1][1])-(matrix[0][1]*matrix[1][0]);  
+  return (matrix[0][0]*matrix[1][1])-(matrix[0][1]*matrix[1][0]);
+}
+
+
+// Create a function that takes a string and returns true or false,
+// depending on whether the characters are in order or not.
+function isInOrder(str) {
+
 }
