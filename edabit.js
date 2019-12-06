@@ -1254,7 +1254,8 @@ function calcDeterminant(matrix) {
 
 
 // Create a function that takes a string and returns true or false,
-// depending on whether the characters are in order or not.
+// depending on whether the characters are in order or not
+// Check for alphabetic and numeric order
 function isInOrder(str) {
 
 }
