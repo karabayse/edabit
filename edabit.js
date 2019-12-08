@@ -1257,5 +1257,9 @@ function calcDeterminant(matrix) {
 // depending on whether the characters are in order or not
 // Check for alphabetic and numeric order
 function isInOrder(str) {
+  if (str.length === 1 && str.match(/[a-z]/i)) {
 
+  } else if (typeof str == Number) {
+    
+  }
 }
