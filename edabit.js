@@ -1260,6 +1260,6 @@ function isInOrder(str) {
   if (str.length === 1 && str.match(/[a-z]/i)) {
 
   } else if (typeof str == Number) {
-    
+    // if position in string is -1 or +1
   }
 }
