@@ -1261,5 +1261,11 @@ function isInOrder(str) {
 
   } else if (typeof str == Number) {
     // if position in string is -1 or +1
-  }
+    for (let i = 1; i < str.length; i++) {
+        if (str[i] < str[i - 1]) {
+          return false;
+        } else
+          return true;
+      }
+    }
 }
