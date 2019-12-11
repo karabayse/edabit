@@ -1257,9 +1257,24 @@ function calcDeterminant(matrix) {
 // depending on whether the characters are in order or not
 // Check for alphabetic and numeric order
 function isInOrder(str) {
-  if (str.length === 1 && str.match(/[a-z]/i)) {
+  // if (str.length === 1 && str.match(/[a-z]/i)) {
+  //
+  // }
+  var arr = str.split('');
+  var tmp;
+  for(var i = 0; i < arr.length; i++){
+    for(var j = i + 1; j < arr.length; j++){
+      /* if ASCII code greater then swap the elements position*/
+      if(arr[i] > arr[j]){
+        tmp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = tmp;
+      }
+    }
+  }
+  return arr.join('');
 
-  } else if (typeof str == Number) {
+  else if (typeof str == Number) {
     // if position in string is -1 or +1
     for (let i = 1; i < str.length; i++) {
         if (str[i] < str[i - 1]) {
