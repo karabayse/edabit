@@ -1260,8 +1260,10 @@ function isInOrder(str) {
   for (var i = 0; i < str.length; i++) {
     if (i < i-1) {
       return false;
-    } else {
+    } else if (i > i-1) {
       return true;
+    } else if (charAt(str) == /^[a-zA-Z]*$/) {
+      
     }
   }
 }
