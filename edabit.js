@@ -1263,7 +1263,13 @@ function isInOrder(str) {
     } else if (i > i-1) {
       return true;
     } else if (charAt(str) == /^[a-zA-Z]*$/) {
-      
+      var s=str.toLowerCase().split("");
+    for(var i=1; i<s.length; i++) {
+        if (s[i - 1] > s[i]) {
+            return false;
+        }
+    }
+    return true;
     }
   }
 }
