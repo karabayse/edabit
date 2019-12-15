@@ -1265,7 +1265,7 @@ function isInOrder(str) {
     } else if (charAt(str) == /^[a-zA-Z]*$/) {
       var s=str.toLowerCase().split("");
     for(var i=1; i<s.length; i++) {
-        if (s[i - 1] > s[i]) {
+        if (s[i] < s[i - 1]) {
             return false;
         }
     }
