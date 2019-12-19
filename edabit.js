@@ -1258,9 +1258,9 @@ function calcDeterminant(matrix) {
 // Check for alphabetic and numeric order
 function isInOrder(str) {
   for (var i = 0; i < str.length; i++) {
-    if (i < i-1) {
+    if (str[i] < str[i - 1]) {
       return false;
-    } else if (i > i-1) {
+    } else if (str[i] > str[i - 1]) {
       return true;
     } else if (charAt(str) == /^[a-zA-Z]*$/) {
       var s=str.toLowerCase().split("");
