@@ -1262,7 +1262,7 @@ function isInOrder(str) {
       return false;
     } else if (str[i] > str[i - 1]) {
       return true;
-    } else if (charAt(str) == /^[a-zA-Z]*$/) {
+    } else if (str.charAt() == /^[a-zA-Z]*$/) {
       var s=str.toLowerCase().split("");
     for(var i=1; i<s.length; i++) {
         if (s[i] < s[i - 1]) {
