@@ -865,12 +865,16 @@ lessThanOrEqualToZero(-2);
 // All input arrays will contain integers only
 function nextElement(arr) {
   for (var i = 0; i < arr.length; i++) {
+    // calculate difference between iterator and iterator -1 or +1
     let constant = arr[i] - arr[i -1];
     console.log(constant);
+
     let lastEl = arr[arr.length - 1];
     console.log(lastEl);
+    
     let nextEl = lastEl + constant;
     console.log(nextEl);
+    // add difference to iterator
   }
 }
 
