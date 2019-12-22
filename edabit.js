@@ -874,12 +874,12 @@ function nextElement(arr) {
     // calculate next element
     let nextEl = lastEl + constant;
 
-    // return next element 
+    // return next element
     return nextEl;
   }
 }
 
-nextElement([1, 3, 5, 7]);
+nextElement([-1, 1, 3, 5, 7]);
 
 
 // Write a function that checks if two numbers are either:
@@ -1277,4 +1277,14 @@ function isInOrder(str) {
     return true;
     }
   }
+}
+
+
+// Suppose I want to define a function that removes the last element of an array
+// each time I call it, but does not mutate the original array. Fix the code so
+// that the results are no longer mutating the array.
+
+function minusOne(arr) {
+  arr.pop()
+  return arr
 }

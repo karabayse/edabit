@@ -75,3 +75,4 @@
 * Reverse Coding Challenge
 * Calculate the determinant of a 2x2 matrix
 * Is the string in order?
+* Fix the Error: Mutating Arrays
