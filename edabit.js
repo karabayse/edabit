@@ -956,9 +956,14 @@ intOrString("string");
 
 // Write a function that turns a comma-delimited list into an array of strings
 function toArray(str) {
-  let arr = str.split(',');
-  let newArr = arr.join([""]);
-  console.log(newArr);
+  let newStr = str.replace(/,/g, '');
+	let newArr = newStr.split(' ');
+
+	if (str === '') {
+		return []
+	} else {
+		 return newArr;
+	} 
 }
 
 toArray("January, February, March");
