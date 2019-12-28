@@ -77,3 +77,4 @@
 * Is the string in order?
 * Fix the Error: Mutating Arrays
 * Multiply values in an array by the amount of values in the array
+* A strange pair of strings 
