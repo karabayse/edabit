@@ -76,3 +76,4 @@
 * Calculate the determinant of a 2x2 matrix
 * Is the string in order?
 * Fix the Error: Mutating Arrays
+* Multiply values in an array by the amount of values in the array
