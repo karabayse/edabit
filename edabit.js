@@ -963,7 +963,7 @@ function toArray(str) {
 		return []
 	} else {
 		 return newArr;
-	} 
+	}
 }
 
 toArray("January, February, March");
@@ -1297,4 +1297,11 @@ function minusOne(arr) {
    newArr.push(i);
   }
   return newArr;
+}
+
+
+// Create a function to multiply all values in an array by the amount of values
+// in that array
+function MultiplyByLength(arr) {
+
 }
