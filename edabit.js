@@ -1303,5 +1303,11 @@ function minusOne(arr) {
 // Create a function to multiply all values in an array by the amount of values
 // in that array
 function MultiplyByLength(arr) {
-
+  let multiplier = arr.length;
+	let newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    let result = arr[i] * multiplier;
+		newArr.push(result);
+  }
+	return newArr;
 }
