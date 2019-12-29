@@ -1326,3 +1326,10 @@ function isStrangePair(str1, str2) {
     return false;
   }
 }
+
+
+// Create a function that filters out an array of state names into two
+// categories based on the second parameter.
+function filterStateNames(arr, type) {
+
+}
