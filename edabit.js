@@ -1319,5 +1319,10 @@ function MultiplyByLength(arr) {
 // Create a function that returns true if a pair of strings constitutes a
 // strange pair, and false otherwise.
 function isStrangePair(str1, str2) {
-
+  if ((str1.charAt(0) === str2.slice(-1)) &&
+      (str1.slice(-1) === str2.charAt(0))) {
+    return true;
+  } else {
+    return false;
+  }
 }
