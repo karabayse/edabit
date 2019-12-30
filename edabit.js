@@ -1330,6 +1330,13 @@ function isStrangePair(str1, str2) {
 
 // Create a function that filters out an array of state names into two
 // categories based on the second parameter.
+// Abbreviations: abb
+// Full names: full
 function filterStateNames(arr, type) {
-
+  for (var i = 0; i < arr.length; i++) {
+    // loop through array
+    // if type contains two letters, then abb
+    // if type is more than two letters, then full 
+    arr[i]
+  }
 }
