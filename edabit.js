@@ -1333,10 +1333,23 @@ function isStrangePair(str1, str2) {
 // Abbreviations: abb
 // Full names: full
 function filterStateNames(arr, type) {
+  let abbArr = [];
+  let fullArr = [];
+  let nullArr = [];
   for (var i = 0; i < arr.length; i++) {
-    // loop through array
-    // if type contains two letters, then abb
-    // if type is more than two letters, then full 
-    arr[i]
+    if (arr[i].length === 2) {
+      abbArr.push(arr[i]);
+    } else if (arr[i].length > 2) {
+      fullArr.push(arr[i]);
+    } else {
+      nullArr.push(arr[i]);
+    }
+  }
+  if (type === abb) {
+    return abbArr;
+  } else if (type === full) {
+    return fullArr;
+  } else {
+    return nullArr;
   }
 }
