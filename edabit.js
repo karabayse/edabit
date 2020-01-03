@@ -1345,9 +1345,9 @@ function filterStateNames(arr, type) {
       nullArr.push(arr[i]);
     }
   }
-  if (type === abb) {
+  if (type === "abb") {
     return abbArr;
-  } else if (type === full) {
+  } else if (type === "full") {
     return fullArr;
   } else {
     return nullArr;
