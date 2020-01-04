@@ -1357,6 +1357,15 @@ function filterStateNames(arr, type) {
 
 // Write a function that returns true if there exists at least one number that
 // is larger than or equal to n.
+// Return false for an empty array. 
 function existsHigher(arr, n) {
-
+  for (var i = 0; i < arr.length; i++) {
+    if (n >= arr[i]) {
+      return true;
+    } else if (arr == null){
+      return false;
+    } else {
+      return false;
+    }
+  }
 }
