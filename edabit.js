@@ -1369,3 +1369,5 @@ function existsHigher(arr, n) {
     }
   }
 }
+
+existsHigher([1, 3, 4, 5], 6);
