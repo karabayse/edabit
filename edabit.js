@@ -1371,3 +1371,10 @@ function existsHigher(arr, n) {
 }
 
 existsHigher([1, 3, 4, 5], 6);
+
+
+// Given a sorted array of numbers, remove any numbers that are divisible by 13.
+// Return the amended array.
+function unlucky13(nums) {
+
+}
