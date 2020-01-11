@@ -1376,11 +1376,11 @@ existsHigher([1, 3, 4, 5], 6);
 // Given a sorted array of numbers, remove any numbers that are divisible by 13.
 // Return the amended array.
 function unlucky13(nums) {
-  let newArr = [];
-  for (var i = 0; i < nums.length; i++) {
+  var i = nums.length;
+	while (i--) {
     if (nums[i] % 13 == 0) {
-      let newArr = nums.splice(nums[i]);
+        nums.splice(i, 1);
     }
-    return newArr;
-  }
+	}
+	return nums;
 }
