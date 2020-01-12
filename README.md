@@ -80,4 +80,5 @@
 * A strange pair of strings
 * Filter state names into categories
 * Exists a number higher
-* Remove numbers divisible by 13 from array 
+* Remove numbers divisible by 13 from array
+* Eliminate odd numbers from array 

@@ -1384,3 +1384,9 @@ function unlucky13(nums) {
 	}
 	return nums;
 }
+
+
+// Create a function that takes an array of numbers and returns only the even values
+function noOdds(arr) {
+
+}
