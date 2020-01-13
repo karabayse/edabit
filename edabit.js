@@ -1388,5 +1388,13 @@ function unlucky13(nums) {
 
 // Create a function that takes an array of numbers and returns only the even values
 function noOdds(arr) {
+  var i = arr.length;
+  while (i--) {
+    if (arr[i] % 2 == 0) {
 
+    } else {
+      arr.splice(i, 1);
+    }
+  }
+  return arr;
 }
