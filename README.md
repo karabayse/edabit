@@ -81,4 +81,5 @@
 * Filter state names into categories
 * Exists a number higher
 * Remove numbers divisible by 13 from array
-* Eliminate odd numbers from array 
+* Eliminate odd numbers from array
+* Odd up, even down 
