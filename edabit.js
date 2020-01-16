@@ -1403,5 +1403,12 @@ function noOdds(arr) {
 // Create a function that goes through the array, incrementing (+1) for each odd
 // number and decrementing (-1) for each even number.
 function transform(arr) {
-
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 == 0) {
+      i++;
+    } else if (arr[i] % 2 != 0) {
+      i--;
+    }
+  }
+  return arr;
 }
