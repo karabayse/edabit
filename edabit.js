@@ -1423,3 +1423,10 @@ function checkEquals(arr1, arr2) {
   	return false
  	}
 }
+
+
+// Write a function that takes three string arguments (first, last, word) and
+// returns true if (when alphabetically sorted) word is found between first and last.
+function isBetween(first, last, word) {
+
+}
