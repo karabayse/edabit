@@ -1427,13 +1427,16 @@ function checkEquals(arr1, arr2) {
 
 // Write a function that takes three string arguments (first, last, word) and
 // returns true if (when alphabetically sorted) word is found between first and last.
-// All letters will be in lowercase. 
+// All letters will be in lowercase.
 function isBetween(first, last, word) {
-  let firstFirst = first.charAt(0);
-  let lastFirst = last.charAt(0);
-  let wordFirst = word.charAt(0);
-
-  if (lastFirst < wordFirst < firstFirst) {
+/*
+A Number, indicating whether the reference string comes before, after or is
+the same as the compareString in sort order. Returns one of three values:
+-1 if the reference string is sorted before the compareString
+0 if the two strings are equal
+1 if the reference string is sorted after the compareString
+*/
+  if (comp1 == 1 && comp2 == -1) {
     return true;
   } else {
     return false;
