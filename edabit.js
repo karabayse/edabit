@@ -1436,6 +1436,9 @@ the same as the compareString in sort order. Returns one of three values:
 0 if the two strings are equal
 1 if the reference string is sorted after the compareString
 */
+  let comp1 = word.localeCompare(first);
+  let comp2 = word.localeCompare(last);
+
   if (comp1 == 1 && comp2 == -1) {
     return true;
   } else {
