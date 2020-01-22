@@ -85,4 +85,4 @@
 * Odd up, even down
 * Comparing arrays
 * Between words
-* Return names from an array 
+* Return names from an array of objects 

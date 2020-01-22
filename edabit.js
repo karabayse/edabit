@@ -1457,6 +1457,14 @@ function getStudentNames(students) {
     }
     return arr;
   */
+  /*
+  let arr = [];
+  for (const property in students) {
+  	let name = (`${students[property]}`);
+		arr.push(name);
+	}
+	return arr;
+  */
   let arr = [];
   for (i = 0; i < students.length; i++) {
       if (students[i].key === students) {
