@@ -1445,3 +1445,16 @@ the same as the compareString in sort order. Returns one of three values:
     return false;
   }
 }
+
+
+// Create a function that takes an array of students and returns an array of student names.
+function getStudentNames(students) {
+  let arr = [];
+  for (i = 0; i < students.length; i++) {
+      if (students[i].key === students) {
+      let name = students[i].value;
+      arr.push(name);
+    }
+  }
+    return arr;  
+}

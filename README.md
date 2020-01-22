@@ -84,4 +84,5 @@
 * Eliminate odd numbers from array
 * Odd up, even down
 * Comparing arrays
-* Between words 
+* Between words
+* Return names from an array 
