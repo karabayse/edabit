@@ -1452,7 +1452,7 @@ function getStudentNames(students) {
   /*
   let arr = [];
   	for (i = 0; i < students.length; i++) {
-      let name = Object.keys(i);
+      let name = Object.keys(i);  OR  Object.values(i)
       arr.push(name);
     }
     return arr;
