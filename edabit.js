@@ -1480,3 +1480,10 @@ function getStudentNames(students) {
   }
     return arr;
 }
+
+
+// Create a function that takes an array of strings and returns the words that
+// are exactly four letters.
+function isFourLetters(arr) {
+
+}

@@ -85,4 +85,5 @@
 * Odd up, even down
 * Comparing arrays
 * Between words
-* Return names from an array of objects 
+* Return names from an array of objects
+* Return the four-letter strings 
