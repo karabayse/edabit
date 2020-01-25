@@ -1485,5 +1485,14 @@ function getStudentNames(students) {
 // Create a function that takes an array of strings and returns the words that
 // are exactly four letters.
 function isFourLetters(arr) {
-
+  let fourArr = [];
+  let notArr = [];
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i].length == 4) {
+      fourArr.push(arr[i]);
+    } else {
+      notArr.push(arr[i]);
+    }
+  }
+  return fourArr;
 }
