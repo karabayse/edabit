@@ -86,4 +86,5 @@
 * Comparing arrays
 * Between words
 * Return names from an array of objects
-* Return the four-letter strings 
+* Return the four-letter strings
+* Swap first and last names 
