@@ -1500,6 +1500,7 @@ function isFourLetters(arr) {
 
 // Create a function that accepts a string (of a persons first and last name)
 // and returns a string with the first and last name swapped.
+// There will be exactly one space between the first and last name.
 function nameShuffle(str) {
 
 }
