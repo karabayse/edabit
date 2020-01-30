@@ -1449,40 +1449,11 @@ the same as the compareString in sort order. Returns one of three values:
 
 // Create a function that takes an array of students and returns an array of student names.
 function getStudentNames(students) {
-  /*
-  let arr = [];
-  	for (i = 0; i < students.length; i++) {
-      arr.push(Object.values(i));
-    }
-    return arr;
-
-
-  let arr = [];
-  for (const property in students) {
-		arr.push(`${students[property]}`);
-	}
-	return arr;
-
   let arr = [];
   for (let i = 0; i < students.length; i++) {
-		if (Object.values(i)) {
-			arr.push(Object.values(i));
-		}
-	}
-	return arr;
-  */
-  let arr = [];
-  let arr2 = [];
-  for (var i = 0; i < students.length; i++) {
-      if (students[i].key === students) {
-      let name = students[i].value;
-      arr.push(name);
-    } else if (students[i] !== students) {
-      let name = students[i].value;
-      arr2.push(name);
-    }
+      arr.push(Object.values(i));
   }
-    return arr;
+  return arr;
 }
 
 
