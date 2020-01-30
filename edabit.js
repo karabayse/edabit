@@ -1472,10 +1472,14 @@ function getStudentNames(students) {
 	return arr;
   */
   let arr = [];
+  let arr2 = [];
   for (var i = 0; i < students.length; i++) {
       if (students[i].key === students) {
       let name = students[i].value;
       arr.push(name);
+    } else if (students[i] !== students) {
+      let name = students[i].value;
+      arr2.push(name);
     }
   }
     return arr;
