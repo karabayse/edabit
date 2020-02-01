@@ -87,4 +87,5 @@
 * Between words
 * Return names from an array of objects
 * Return the four-letter strings
-* Swap first and last names 
+* Swap first and last names
+* Retrieve the subreddit  

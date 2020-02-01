@@ -1482,3 +1482,9 @@ function nameShuffle(str) {
   str = arr.join(" ");
   return str;
 }
+
+
+// Create a function to extract the name of the subreddit from its URL.
+function subReddit(link) {
+
+}
