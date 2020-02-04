@@ -1488,3 +1488,9 @@ function nameShuffle(str) {
 function subReddit(link) {
   let subreddit = (this.href.substring(this.href.lastIndexOf('/') + 1));
 }
+
+
+// Create a function that replaces all the vowels in a string with a specified character.
+function replaceVowels(str, ch) {
+
+}
