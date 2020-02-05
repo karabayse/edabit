@@ -1492,5 +1492,6 @@ function subReddit(link) {
 
 // Create a function that replaces all the vowels in a string with a specified character.
 function replaceVowels(str, ch) {
-
+  let result = str.replace(/[aeiou]/gi,ch);
+	return result;
 }
