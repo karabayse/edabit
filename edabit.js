@@ -1502,10 +1502,15 @@ function replaceVowels(str, ch) {
 // of people to be placed inside. Given the total number of wheels, car bodies
 // and figures available, how many complete toy cars can you make?
 function cars(wheels, bodies, figures) {
+  // wheels % 4 = 0
+  // bodies = 1
+  // figures % 2 = 0
   if (wheels < 4 || bodies < 1 || figures < 2) {
     let cars = 0;
   } else if (wheels >= 4 && bodies >= 1 && figures >= 2) {
     let cars = (wheels % 4 = 0)
   }
+  // calculate 1 car
+  // 4, 1, 2
 
 }
