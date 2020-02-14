@@ -91,4 +91,5 @@
 * Retrieve the subreddit  
 * Vowel replacer
 * Toy car workshop
-* Regex, match a string if it contains at least one digit 
+* Regex, match a string if it contains at least one digit
+* Return the smaller string number 

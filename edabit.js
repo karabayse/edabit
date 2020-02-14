@@ -1516,3 +1516,13 @@ function cars(wheels, bodies, figures) {
 
 // Write a regular expression that matches a string if it contains at least one digit.
 let x = /[0-9]/;
+
+
+// Create a function that returns the smaller number
+// Numbers will be represented as strings, and your output should also be a string
+// If both numbers tie, return either number
+// Numbers will be positive
+// Attempt to solve this without converting to integers
+function smallerNum(n1, n2) {
+
+}
