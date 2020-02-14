@@ -1515,4 +1515,4 @@ function cars(wheels, bodies, figures) {
 
 
 // Write a regular expression that matches a string if it contains at least one digit.
-let x = 
+let x = /[0-9]/;
