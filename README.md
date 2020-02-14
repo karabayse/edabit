@@ -90,4 +90,5 @@
 * Swap first and last names
 * Retrieve the subreddit  
 * Vowel replacer
-* Toy car workshop 
+* Toy car workshop
+* Regex, match a string if it contains at least one digit 

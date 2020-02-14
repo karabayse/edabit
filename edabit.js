@@ -1509,6 +1509,10 @@ function cars(wheels, bodies, figures) {
   } else if () {
 
   } else () {
-    
+
   }
 }
+
+
+// Write a regular expression that matches a string if it contains at least one digit.
+let x = 
