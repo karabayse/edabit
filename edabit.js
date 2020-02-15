@@ -1524,5 +1524,14 @@ let x = /[0-9]/;
 // Numbers will be positive
 // Attempt to solve this without converting to integers
 function smallerNum(n1, n2) {
+  let num1 = Number(n1);
+  let num2 = Number(n2);
 
+  if (num1 < num2) {
+    return n1
+  } else if (num2 < num1) {
+    return n2
+  } else if (num1 == num2) {
+    return n1 || n2;
+  }
 }
