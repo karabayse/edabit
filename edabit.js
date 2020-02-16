@@ -1535,3 +1535,9 @@ function smallerNum(n1, n2) {
     return n1 || n2;
   }
 }
+
+
+// Write a function that maps files to their extension names
+function getExtension(arr) {
+
+}
