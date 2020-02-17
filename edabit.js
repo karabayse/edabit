@@ -1539,5 +1539,10 @@ function smallerNum(n1, n2) {
 
 // Write a function that maps files to their extension names
 function getExtension(arr) {
-
+  let extArr = [];
+  for (var i = 0; i < arr.length; i++) {
+    let ext = arr[i].split('.').pop();
+    extArr.push(ext);
+  }
+  return extArr;
 }
