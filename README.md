@@ -93,4 +93,5 @@
 * Toy car workshop
 * Regex, match a string if it contains at least one digit
 * Return the smaller string number
-* Get the file extension 
+* Get the file extension
+* Object restructuring 
