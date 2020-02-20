@@ -1559,4 +1559,4 @@ var { one, two } = obj
 
 console.log(one) // outputs undefined
 */
-const str = `({ one, two } = { two : 2 }).toString()`
+const str = `({ one, two } = { one : 1, two : 2 }).toString()`
