@@ -1560,3 +1560,10 @@ var { one, two } = obj
 console.log(one) // outputs undefined
 */
 const str = `({ one, two } = { one : 1, two : 2 }).toString()`
+
+let str = {
+	one: 1,
+	two: 2
+};
+
+let { one, two } = str;
