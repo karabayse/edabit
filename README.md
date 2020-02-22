@@ -94,4 +94,5 @@
 * Regex, match a string if it contains at least one digit
 * Return the smaller string number
 * Get the file extension
-* Object destructuring 
+* Object destructuring
+* Check for a palindrome 
