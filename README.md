@@ -95,4 +95,5 @@
 * Return the smaller string number
 * Get the file extension
 * Object destructuring
-* Check for a palindrome 
+* Check for a palindrome
+* Filter array 
