@@ -1571,5 +1571,8 @@ let { one, two } = str;
 
 // Given a word, create a function that checks whether it is a palindrome
 function checkPalindrome(str) {
-
+  var re = /[\W_]/g;
+  var lowRegStr = str.toLowerCase().replace(re, '');
+  var reverseStr = lowRegStr.split('').reverse().join('');
+  return reverseStr === lowRegStr;
 }
