@@ -1587,6 +1587,12 @@ function dictionary(initial, words) {
   let twoChar;
   let newArr = [];
   for (var i = 0; i < words.length; i++) {
+
+    // loop through string ?
+    // for (var i = 0; i < str.length; i++) {
+    // alert(str.charAt(i));
+}
+
     let twoChar = words[i].substring(0,3);
     if (twoChar == initial) {
       newArr.push(words[i])
