@@ -1584,18 +1584,13 @@ function checkPalindrome(str) {
 // Keep the filtered array in the same relative order as the original array of words.
 // Example: dictionary("bu", ["button", "breakfast", "border"]) ➞ ["button"]
 function dictionary(initial, words) {
-  let twoChar;
+  let initLength = initial.length;
   let newArr = [];
+
   for (var i = 0; i < words.length; i++) {
-
-    // loop through string ?
-    // for (var i = 0; i < str.length; i++) {
-    // alert(str.charAt(i));
-}
-
-    let twoChar = words[i].substring(0,3);
-    if (twoChar == initial) {
-      newArr.push(words[i])
+    let initMatch = words[i].substring(0,initLength);
+    if (initMatch == initial) {
+      newArr.push(words[i]);
     }
   }
   return newArr;
