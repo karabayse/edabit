@@ -1595,3 +1595,10 @@ function dictionary(initial, words) {
   }
   return newArr;
 }
+
+
+// Write a function that returns true if all integers in an array are factors
+// of a number, and false otherwise.
+function checkFactors(factors, num) {
+
+}

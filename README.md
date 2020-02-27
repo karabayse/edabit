@@ -96,4 +96,5 @@
 * Get the file extension
 * Object destructuring
 * Check for a palindrome
-* Filter array 
+* Filter array
+* Check factors 
