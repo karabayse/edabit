@@ -1600,5 +1600,11 @@ function dictionary(initial, words) {
 // Write a function that returns true if all integers in an array are factors
 // of a number, and false otherwise.
 function checkFactors(factors, num) {
-
+  for (let i = 0; i < factors.length; i++){
+    let element = factors[i];
+    if (num % element !== 0){
+      return false;
+    }
+  }
+  return true;
 }
