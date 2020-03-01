@@ -1374,15 +1374,15 @@ function existsHigher(arr, n) {
     return true;
   }
 
-  let maxNum = Math.max(arr);
+
 	let minNum = Math.min(arr);
 
-	if (n > maxNum) {
-		return false;
+	if (minNum >= n) {
+		return true;
 	} else if (arr == null) {
 		return false;
 	} else {
-		return true;
+		return false;
 	}
 
 
