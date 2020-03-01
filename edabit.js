@@ -1359,15 +1359,33 @@ function filterStateNames(arr, type) {
 // is larger than or equal to n.
 // Return false for an empty array.
 function existsHigher(arr, n) {
-  for (var i = 0; i <= arr.length; i++) {
-    if (n <= arr[i]) {
-      return true;
-    } else if (arr == null){
-      return false;
-    } else {
-      return false;
+  let falseArr = [];
+  let trueArr = [];
+  for (var i = 0; i < arr.length; i++) {
+    if (n > arr[i]) {
+      falseArr.push(arr[i]);
+    } else if (n <= arr[i]) {
+      trueArr.push(arr[i]);
     }
+  } // end for loop
+  if (falseArr) {
+    return false;
+  } else if (trueArr) {
+    return true;
   }
+
+  let maxNum = Math.max(arr);
+	let minNum = Math.min(arr);
+
+	if (n > maxNum) {
+		return false;
+	} else if (arr == null) {
+		return false;
+	} else {
+		return true;
+	}
+
+
 }
 
 existsHigher([1, 3, 4, 5], 6);
