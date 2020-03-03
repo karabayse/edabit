@@ -97,4 +97,5 @@
 * Object destructuring
 * Check for a palindrome
 * Filter array
-* Check factors 
+* Check factors
+* Alphabetize a string 
