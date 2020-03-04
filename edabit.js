@@ -1611,8 +1611,9 @@ function checkFactors(factors, num) {
 // Create a function that takes a string and returns a string with its letters
 // in alphabetical order.
 function AlphabetSoup(str) {
-  let arr = str.split("");
-  let alphaArr = arr.sort();
-  let alphaStr = alphaArr.toString();
+  let arr = str.split("");  // convert string to array
+  let alphaArr = arr.sort();  // alphabetize array
+  let noComArr = alphaArr.join("");  // remove commas from array
+  let alphaStr = noComArr.toString();  // convert array to string 
   return alphaStr;
 }
