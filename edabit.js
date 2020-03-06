@@ -1614,6 +1614,13 @@ function AlphabetSoup(str) {
   let arr = str.split("");  // convert string to array
   let alphaArr = arr.sort();  // alphabetize array
   let noComArr = alphaArr.join("");  // remove commas from array
-  let alphaStr = noComArr.toString();  // convert array to string 
+  let alphaStr = noComArr.toString();  // convert array to string
   return alphaStr;
+}
+
+
+// Create a function that filters out an array to include numbers who only have
+// a certain number of digits.
+function filterDigitLength(arr, num) {
+
 }

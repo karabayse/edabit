@@ -98,4 +98,5 @@
 * Check for a palindrome
 * Filter array
 * Check factors
-* Alphabetize a string 
+* Alphabetize a string
+* Filter by digit length 
