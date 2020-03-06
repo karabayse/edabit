@@ -1622,5 +1622,14 @@ function AlphabetSoup(str) {
 // Create a function that filters out an array to include numbers who only have
 // a certain number of digits.
 function filterDigitLength(arr, num) {
-
+  let numArr = [];
+  let noArr = [];
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i].toString().length == num) {
+      numArr.push(arr[i]);
+    } else if (arr[i].toString().length != num) {
+      noArr.push(arr[i]);
+    }
+  }
+  return numArr;
 }
