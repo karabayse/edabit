@@ -1447,8 +1447,8 @@ the same as the compareString in sort order. Returns one of three values:
 
 // Create a function that takes an array of students and returns an array of student names.
 function getStudentNames(students) {
-  let result = students.map(a => a.foo);
-	 return result;
+  let nameArr = students.map(a => a.name);
+  return nameArr;
 }
 
 
