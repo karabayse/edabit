@@ -1484,7 +1484,8 @@ function nameShuffle(str) {
 
 // Create a function to extract the name of the subreddit from its URL.
 function subReddit(link) {
-  let subreddit = (this.href.substring(this.href.lastIndexOf('/') + 1));
+  let subredditName = url.split('/')[1];
+  return subredditName;
 }
 
 
