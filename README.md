@@ -88,7 +88,7 @@
 * Return names from an array of objects
 * Return the four-letter strings
 * Swap first and last names
-* Retrieve the subreddit name 
+* Retrieve the subreddit name
 * Vowel replacer
 * Toy car workshop
 * Regex, match a string if it contains at least one digit
@@ -100,3 +100,4 @@
 * Check factors
 * Alphabetize a string
 * Filter by digit length
+* Maximum total of array 

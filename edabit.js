@@ -1359,13 +1359,22 @@ function filterStateNames(arr, type) {
 // is larger than or equal to n.
 // Return false for an empty array.
 function existsHigher(arr, n) {
+  let trueArr = [];
+  let falseArr = [];
   let maxNum = Math.max(arr);
 
-  if (arr.some(n => n <= maxNum)) {
-		return true;
-	} else {
-		return false;
-	}
+  for (var i = 0; i < arr.length; i++) {
+    if (n <= arr[i]) {
+      trueArr.push(arr[i]);
+    } else if (n > arr[i]) {
+      falseArr.push(arr[i]);
+    }
+    if (trueArr) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
 
 existsHigher([1, 3, 4, 5], 6);
@@ -1633,4 +1642,11 @@ function filterDigitLength(arr, num) {
     }
   }
   return numArr;
+}
+
+
+// Given an array of 10 numbers, return the maximum possible total made by
+// summing just 5 of the 10 numbers.
+function maxTotal(nums) {
+
 }
