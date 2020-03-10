@@ -1648,8 +1648,14 @@ function filterDigitLength(arr, num) {
 // Given an array of 10 numbers, return the maximum possible total made by
 // summing just 5 of the 10 numbers.
 function maxTotal(nums) {
-  let sortArr = nums.sort();
-  let sliceArr = sortArr.slice(5, 10);
+  // function to sort numerically
+  // sort method sorts values as strings -> 100 is sorted before 25
+  function sortNumber(a, b) {
+    return a - b;
+  }
+
+  let sortArr = nums.sort(sortNumber);  // sort array elements in ascending order
+  let sliceArr = sortArr.slice(5, 10);  // return selected elements from array
 
   let arrTotal = 0;
 
