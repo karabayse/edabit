@@ -100,4 +100,5 @@
 * Check factors
 * Alphabetize a string
 * Filter by digit length
-* Maximum total of array 
+* Maximum total of array
+* Lexicographical rearrangements of a string 

@@ -1664,3 +1664,12 @@ function maxTotal(nums) {
   }
   return arrTotal;
 }
+
+
+// Write a function that returns the lexicographically first and lexicographically
+// last rearrangements of a string.
+// Output the results in the following manner:
+// firstAndLast(string) ➞ [first, last]
+function firstAndLast(s) {
+
+}
