@@ -1648,5 +1648,13 @@ function filterDigitLength(arr, num) {
 // Given an array of 10 numbers, return the maximum possible total made by
 // summing just 5 of the 10 numbers.
 function maxTotal(nums) {
+  let sortArr = nums.sort();
+  let sliceArr = sortArr.slice(5, 10);
 
+  let arrTotal = 0;
+
+  for(let i = 0; i < sliceArr.length; i++) {
+    arrTotal += sliceArr[i];
+  }
+  return arrTotal;
 }
