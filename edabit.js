@@ -1677,4 +1677,7 @@ function firstAndLast(s) {
   let sortArr = arr.sort(); // sort array in ascending order
   let firstLetter = sortArr[0];
   let lastLetter = sortArr[-1];
+  let first = s.slice(0,1).push(firstLetter);
+  let last = s.slice(0,1).reverse().push(firstLetter);
+  return flArr.push(first, last);
 }
