@@ -1676,8 +1676,8 @@ function firstAndLast(s) {
   let arr = s.split(); // split string into array of letters
   let sortArr = arr.sort(); // sort array in ascending order
   let firstLetter = sortArr[0]; // get first letter of string
-  let lastLetter = sortArr[-1]; // get last letter of string
-  let removeFirst = s.substring(1,-1); // remove first letter of string
+  let lastLetter = sortArr.slice(-1); // get last letter of string
+  let removeFirst = s.substring(1); // remove first letter of string
   let first = removeFirst + lastLetter;
 
   let reverseStr = removeFirst.split("").reverse().join("");;
