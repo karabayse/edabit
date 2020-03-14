@@ -1676,14 +1676,14 @@ function firstAndLast(s) {
   let arr = s.split(); // split string into array of letters
   let sortArr = arr.sort(); // sort array in ascending order
 
-  let firstLetter = sortArr[0]; // get first letter of array
-  let lastLetter = sortArr[-1]; // get last letter of array
+  let firstLetter = sortArr[0].toString(); // get first letter of array
+  let lastLetter = sortArr[-1].toString(); // get last letter of array
 
   let newStr = sortArr.toString();
   let removeFirst = newStr.substring(1); // remove first letter of string
-  let first = removeFirst + firstLetter;
+  let first = removeFirst.concat(firstLetter);
 
   let reverseStr = removeFirst.split("").reverse().join("");;
-  let last = lastLetter + reverseStr;
+  let last = lastLetter.concat(reverseStr);
   return flArr.push(first, last);
 }
