@@ -17,17 +17,17 @@ function firstAndLast(s) {
   console.log(lastLetter); // returns s
 
   let newStr = sortArr.toString();
-  console.log(newStr);
+  console.log(newStr); // c,o,o,p,s
   let removeFirst = newStr.substring(1); // remove first letter of string
-  console.log(removeFirst);
+  console.log(removeFirst); // ,o,o,p,s
   let first = removeFirst.concat(firstLetter);
-  console.log(first);
+  console.log(first); // ,o,o,p,sc
 
   let reverseStr = removeFirst.split(' ').reverse().join(' ');
-  console.log(reverseStr);
+  console.log(reverseStr); // ,o,o,p,s
   let last = lastLetter.concat(reverseStr);
-  console.log(last);
-  console.log(flArr.push(first, last));
+  console.log(last); // s,o,o,p,s
+  console.log(flArr.push(first, last)); // 2
 }
 
 firstAndLast("scoop");
