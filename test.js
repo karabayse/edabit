@@ -6,14 +6,15 @@
 function firstAndLast(s) {
   let flArr = [];
   let arr = s.split(''); // split string into array of letters
-  console.log(arr); // "scoop"
+  console.log(arr); // ["s", "c", "o", "o", "p"]
   let sortArr = arr.sort(); // sort array in ascending order
-  console.log(sortArr);
+  console.log(sortArr); // ["c", "o", "o", "p", "s"]
 
   let firstLetter = sortArr[0].toString(); // get first letter of array
-  console.log(firstLetter);
-  let lastLetter = sortArr[-1].toString(); // get last letter of array
-  console.log(lastLetter);
+  console.log(firstLetter); // returns c rather than s
+  console.log(typeof firstLetter); // returns string
+  let lastLetter = sortArr.slice(-1)[0].toString(); // get last letter of array
+  console.log(lastLetter); // returns s
 
   let newStr = sortArr.toString();
   console.log(newStr);
@@ -22,7 +23,7 @@ function firstAndLast(s) {
   let first = removeFirst.concat(firstLetter);
   console.log(first);
 
-  let reverseStr = removeFirst.split("").reverse().join("");
+  let reverseStr = removeFirst.split(' ').reverse().join(' ');
   console.log(reverseStr);
   let last = lastLetter.concat(reverseStr);
   console.log(last);
