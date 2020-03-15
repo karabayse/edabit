@@ -101,4 +101,5 @@
 * Alphabetize a string
 * Filter by digit length
 * Maximum total of array
-* Lexicographical rearrangements of a string 
+* Lexicographical rearrangements of a string
+* The full length of a Google 
