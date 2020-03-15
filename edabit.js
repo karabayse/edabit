@@ -1670,20 +1670,21 @@ function maxTotal(nums) {
 // last rearrangements of a string.
 // Output the results in the following manner:
 // firstAndLast(string) ➞ [first, last]
-// firstAndLast("scoop") ➞ ["coops", "spooc"] (c is first letter, s is last)
+// firstAndLast("scoop") ➞ ["coops", "spooc"]
 function firstAndLast(s) {
   let flArr = [];
-  let arr = s.split(); // split string into array of letters
+  let arr = s.split(''); // split string into array of letters
+  console.log(arr); // ["s", "c", "o", "o", "p"]
   let sortArr = arr.sort(); // sort array in ascending order
+  console.log(sortArr); // ["c", "o", "o", "p", "s"]
 
-  let firstLetter = sortArr[0].toString(); // get first letter of array
-  let lastLetter = sortArr[-1].toString(); // get last letter of array
+  let first = sortArr.toString().replace(/,/g, ''); // convert array to string
+  console.log(first); // coops
+  let last = sortArr.reverse().toString().replace(/,/g, ''); // reverse array
+  console.log(last); // spooc
 
-  let newStr = sortArr.toString();
-  let removeFirst = newStr.substring(1); // remove first letter of string
-  let first = removeFirst.concat(firstLetter);
-
-  let reverseStr = removeFirst.split("").reverse().join("");;
-  let last = lastLetter.concat(reverseStr);
-  return flArr.push(first, last);
+  flArr.push(first, last);
+  console.log(flArr);
 }
+
+firstAndLast("scoop");
