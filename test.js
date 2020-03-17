@@ -4,19 +4,23 @@
 // but with the correct number of "o"s.
 // If n is equal to or less than 1, return invalid.
 function googlify(n) {
-  let googStr = "Google";
-  let googArr = googStr.split('');
-  console.log(googArr); // ["G", "o", "o", "g", "l", "e"]
+  if (n <= 1) {
+    return "invalid";
+  } else {
+    let googStr = "Google";
+    let googArr = googStr.split('');
+    console.log(googArr); // ["G", "o", "o", "g", "l", "e"]
 
-  let oS = "o".repeat(n - 2);
-  console.log(oS); // oooooo
+    let oS = "o".repeat(n - 2);
+    console.log(oS); // oooooo
 
-  let googO = googArr.splice(3, 0, oS);
-  let newArr = googArr;
-  console.log(newArr); // ["G", "o", "o", "oooooo", "g", "l", "e"]
+    let googO = googArr.splice(3, 0, oS);
+    let newArr = googArr;
+    console.log(newArr); // ["G", "o", "o", "oooooo", "g", "l", "e"]
 
-  let google = newArr.toString().replace(/,/g, '');
-  console.log(google); //
+    let google = newArr.toString().replace(/,/g, '');
+    console.log(google); // Goooooooogle
+  }
 }
 
 googlify(8);
