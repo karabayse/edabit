@@ -12,9 +12,10 @@ function googlify(n) {
   console.log(oS); // oooooo
 
   let googO = googArr.splice(3, 0, oS);
-  console.log(googO); // []
+  let newArr = googArr;
+  console.log(newArr); // ["G", "o", "o", "oooooo", "g", "l", "e"]
 
-  let google = googO.toString().replace(/,/g, '');
+  let google = newArr.toString().replace(/,/g, '');
   console.log(google); //
 }
 
