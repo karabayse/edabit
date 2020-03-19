@@ -103,4 +103,5 @@
 * Maximum total of array
 * Lexicographical rearrangements of a string
 * The full length of a Google
-* Check for identical characters 
+* Check for identical characters
+* Check string ending 

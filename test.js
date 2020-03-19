@@ -1,11 +1,5 @@
-// Write a function that returns true if all characters in a string are identical
-// and false otherwise.
-function isIdentical(s) {
-  if (s.split('').every(char => char === s[0])) {
-    return true;
-  } else {
-    return false;
-  }
-}
+// Create a function that takes two strings and returns true if the first string
+// ends with the second string; otherwise return false.
+function checkEnding(str1, str2) {
 
-isIdentical("identical");
+}
