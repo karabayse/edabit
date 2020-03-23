@@ -1740,3 +1740,9 @@ function checkEnding(str1, str2) {
     return false;
   }
 }
+
+
+// Create a function that finds all even numbers from 1 to the given number.
+function findEvenNums(num) {
+
+}

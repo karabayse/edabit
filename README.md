@@ -104,4 +104,5 @@
 * Lexicographical rearrangements of a string
 * The full length of a Google
 * Check for identical characters
-* Check string ending 
+* Check string ending
+* Even numbers from 1 
