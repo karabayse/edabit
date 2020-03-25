@@ -1,20 +1,24 @@
-// Create a function that finds all even numbers from 1 to the given number.
+
+
 /*
+showdown(
+  "   Bang!        ",
+  "        Bang!   "
+) ➞ "p1"
 
+ // p1 draws his gun sooner than p2
 
-findEvenNums(4) ➞ [2, 4]
+showdown(
+  "               Bang! ",
+  "             Bang!   "
+) ➞ "p2"
 
-findEvenNums(2) ➞ [2]
+showdown(
+  "     Bang!   ",
+  "     Bang!   "
+) ➞ "tie"
 */
-function findEvenNums(num) {
-  let evenArr = [];
 
-  for (let i = 1; i <= num; i++) {
-    if (i % 2 == 0) {
-        evenArr.push(i);
-    }
-  }
-  console.log(evenArr);;
+function showdown(p1, p2) {
+
 }
-
-findEvenNums(8);

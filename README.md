@@ -105,4 +105,5 @@
 * The full length of a Google
 * Check for identical characters
 * Check string ending
-* Even numbers from 1 
+* Even numbers from 1
+* Determine the winning string 
