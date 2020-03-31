@@ -1802,5 +1802,15 @@ showdown(" Bang", "Bang");
 // Create a function that takes an integer and returns whether it's a repdigit or not.
 // The number 0 should return true (even though it's not a positive number).
 function isRepdigit(num) {
+  let numStrArr = num.toString().split("");
 
+  for (var i = 0; i < numStrArr.length; i++) {
+    if (num < 0) {
+      return false;
+    } else if (num == 0) {
+      return true;
+    } else if (i == numStrArr[i]) {
+      return true;
+    }
+  }
 }
