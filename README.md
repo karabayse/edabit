@@ -106,4 +106,5 @@
 * Check for identical characters
 * Check string ending
 * Even numbers from 1
-* Determine the winning string 
+* Determine the winning string
+* Is the number a repdigit 
