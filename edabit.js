@@ -1809,7 +1809,7 @@ function isRepdigit(num) {
       return false;
     } else if (num == 0) {
       return true;
-    } else if (i == numStrArr[i]) {
+    } else if (i == i) {
       return true;
     }
   }
