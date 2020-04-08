@@ -5,5 +5,10 @@
 // times will always be a number.
 // repeat("edabit", 3) ➞ ["edabit", "edabit", "edabit"]
 function repeat(item, times) {
-
+  let repArr = [];
+  let repItem = item.repeat(times);
+  repArr.push(repItem);
+  console.log(repArr);
 }
+
+repeat("edabit", 3);
