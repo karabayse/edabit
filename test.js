@@ -7,7 +7,9 @@
 function repeat(item, times) {
   let repArr = [];
   let repItem = item.repeat(times);
-  repArr.push(repItem);
+  let repItemCommas = repItem.join("");
+  console.log(repItemCommas);
+  repArr.push(repItemCommas);
   console.log(repArr);
 }
 
