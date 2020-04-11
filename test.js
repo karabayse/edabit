@@ -6,11 +6,11 @@
 // repeat("edabit", 3) ➞ ["edabit", "edabit", "edabit"]
 function repeat(item, times) {
   let repArr = [];
+
   let repItem = item.repeat(times);
-  let repItemCommas = repItem.join("");
-  console.log(repItemCommas);
-  repArr.push(repItemCommas);
-  console.log(repArr);
+
+  repArr.push(repItem);
+  console.log(repArr);  // ["edabitedabitedabit"]
 }
 
 repeat("edabit", 3);
