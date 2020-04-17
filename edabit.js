@@ -1823,5 +1823,17 @@ function isRepdigit(num) {
 // times will always be a number.
 // repeat("edabit", 3) ➞ ["edabit", "edabit", "edabit"]
 function repeat(item, times) {
+  let repArr = [];
 
+  if (times == 0) {
+    console.log(repArr);
+  } else {
+    repArr.push(item);
+    while (repArr.length < times) {
+      repArr.push(item);
+    }
+  }
+  console.log(repArr);
 }
+
+repeat("edabit", 3);
