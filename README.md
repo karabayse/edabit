@@ -108,4 +108,5 @@
 * Even numbers from 1
 * Determine the winning string
 * Is the number a repdigit
-* Repeat the same item multiple times 
+* Repeat the same item multiple times
+* Video streaming plans 
