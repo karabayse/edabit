@@ -6,10 +6,14 @@
 // repeat("edabit", 3) ➞ ["edabit", "edabit", "edabit"]
 function repeat(item, times) {
   let repArr = [];
-  repArr.push(item);
 
-  while (repArr.length < times) {
+  if (times == 0) {
+    console.log(repArr);
+  } else {
     repArr.push(item);
+    while (repArr.length < times) {
+      repArr.push(item);
+    }
   }
   console.log(repArr);
 }
