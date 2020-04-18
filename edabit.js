@@ -1851,3 +1851,13 @@ BasicPlan	StandardPlan	PremiumPlan
 1	2	4	numOfDevices
 $8.99	$12.99	$15.99	price
 */
+// Write the classes for StandardPlan and PremiumPlan here!
+class BasicPlan {
+	static canStream = true;
+	static canDownload = true;
+	static numOfDevices = 1;
+	static hasSD = true;
+	static hasHD = false;
+	static hasUHD = false;
+	static price = '$8.99';
+}
