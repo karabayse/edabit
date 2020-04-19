@@ -1371,7 +1371,7 @@ function existsHigher(arr, n) {
     }
     if (trueArr) {
       return true;
-    } else {
+    } else if (falseArr) {
       return false;
     }
   }
