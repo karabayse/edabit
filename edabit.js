@@ -1361,6 +1361,7 @@ function filterStateNames(arr, type) {
 function existsHigher(arr, n) {
   let trueArr = [];
   let falseArr = [];
+  let emptyArr = [];
   let maxNum = Math.max(arr);
 
   for (var i = 0; i < arr.length; i++) {
@@ -1371,7 +1372,7 @@ function existsHigher(arr, n) {
     }
     if (trueArr) {
       return true;
-    } else if (falseArr) {
+    } else if (emptyArr) {
       return false;
     }
   }
