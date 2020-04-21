@@ -109,4 +109,5 @@
 * Determine the winning string
 * Is the number a repdigit
 * Repeat the same item multiple times
-* Video streaming plans 
+* Video streaming plans
+* Is Sam with Frodo?
