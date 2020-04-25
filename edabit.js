@@ -1872,5 +1872,22 @@ There is only one Sam and one Frodo in the array.
 middleEarth(["Frodo", "Sam", "Gandalf"]) ➞ true
 */
 function middleEarth(arr) {
+  let sam = arr.indexOf("Sam");
+  let frodo = arr.indexOf("Frodo");
 
+  if (sam + 1 == frodo) {
+    console.log(true);
+  } else if (sam -1 == frodo) {
+    console.log(true);
+  } else if (frodo + 1 == sam) {
+    console.log(true);
+  } else if (frodo - 1 == sam) {
+    console.log(true);
+  } else {
+    console.log(false);
+  }
 }
+
+middleEarth(["Frodo", "Gandalf", "Sam"]);
+middleEarth(["Frodo", "Sam", "Gandalf"]);
+middleEarth(["Sam", "Frodo", "Gandalf"]);
