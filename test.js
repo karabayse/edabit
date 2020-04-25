@@ -7,9 +7,13 @@ middleEarth(["Frodo", "Sam", "Gandalf"]) ➞ true
 */
 function middleEarth(arr) {
   for (var i = 0; i < arr.length; i++) {
-    if (i == "Frodo" && i-1 == "Sam") {
+    if ((i == "Frodo") && (i - 1 == "Sam")) {
       console.log(true);
-    } else if (i == "Frodo" && i+1 == "Sam") {
+    } else if ((i == "Frodo") && (i + 1 == "Sam")) {
+      console.log(true);
+    } else if ((i == "Sam") && (i - 1 == "Frodo")){
+      console.log(true);
+    } else if ((i == "Sam") && (i + 1 == "Frodo")) {
       console.log(true);
     } else {
       console.log(false);
@@ -18,3 +22,5 @@ function middleEarth(arr) {
 }
 
 middleEarth(["Frodo", "Gandalf", "Sam"]);
+middleEarth("Frodo", "Sam", "Gandalf");
+middleEarth("Sam", "Frodo", "Gandalf");
