@@ -1,27 +1,26 @@
-/*
-Sam and Frodo need to be close. If they are side by side in the array, your
-function should return true. If there is a name between them, return false.
-No matter who comes first, the result must be true if Frodo and Sam are side by side.
-There is only one Sam and one Frodo in the array.
-middleEarth(["Frodo", "Sam", "Gandalf"]) ➞ true
-*/
-function middleEarth(arr) {
-  let sam = arr.indexOf("Sam");
-  let frodo = arr.indexOf("Frodo");
+// Write a function that returns true if there exists at least one number that
+// is larger than or equal to n.
+// Return false for an empty array.
+function existsHigher(arr, n) {
+  let trueArr = [];
+  let falseArr = [];
+  let maxNum = Math.max(arr);
 
-  if (sam + 1 == frodo) {
-    console.log(true);
-  } else if (sam -1 == frodo) {
-    console.log(true);
-  } else if (frodo + 1 == sam) {
-    console.log(true);
-  } else if (frodo - 1 == sam) {
-    console.log(true);
-  } else {
-    console.log(false);
+  for (var i = 0; i < arr.length; i++) {
+    if (n <= arr[i]) {
+      trueArr.push(arr[i]);
+      console.log(trueArr);
+    } else if (n > arr[i]) {
+      falseArr.push(arr[i]);
+      console.log(falseArr);
+    }
+    if (trueArr) {
+      console.log(true);
+    } else if (!Array.isArray(arr) || !arr.length) {
+      console.log(false);
+    }
   }
 }
 
-middleEarth(["Frodo", "Gandalf", "Sam"]);
-middleEarth(["Frodo", "Sam", "Gandalf"]);
-middleEarth(["Sam", "Frodo", "Gandalf"]);
+// existsHigher([1, 3, 4, 5], 6);
+existsHigher([], 7);
