@@ -111,4 +111,5 @@
 * Repeat the same item multiple times
 * Video streaming plans
 * Is Sam with Frodo?
-* Say hello to guests 
+* Say hello to guests
+* Half, Quarter, and Eighth 

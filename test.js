@@ -1,16 +1,5 @@
-/*
-Take a list of names.
-Add "Hello" to every name.
-Make one big string with all greetings.
-The solution should be one string with a comma in between every "Hello (Name)".
-greetPeople(["Angela", "Joe"]) ➞ "Hello Angela, Hello Joe"
-*/
-function greetPeople(names) {
-  names.forEach((name, index) => names[index] = `Hello ${name}`);
-  console.log(names);
+// Create a function that takes a number and return an array of three numbers:
+// half of the number, quarter of the number and an eighth of the number.
+const halfQuarterEighth = (n) => {
 
-  let str = names.join(', ');
-  console.log(str);
 }
-
-greetPeople(["Ironman", "Superman", "Antman", "Aquaman"]);
