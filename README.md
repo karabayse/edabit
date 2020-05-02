@@ -112,4 +112,5 @@
 * Video streaming plans
 * Is Sam with Frodo?
 * Say hello to guests
-* Half, Quarter, and Eighth 
+* Half, Quarter, and Eighth
+* Regex special characters 
