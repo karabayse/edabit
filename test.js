@@ -4,5 +4,9 @@ characters "a" and "c" (in that order) with any number of characters (including
 zero) between them.
 */
 function asterisk(string) {
-
+  let ac = new RegExp("a", "c");
+  let res = ac.test(string);
+  console.log(res);
 }
+
+asterisk("Yes");
