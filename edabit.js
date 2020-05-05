@@ -1931,3 +1931,9 @@ zero) between them.
 function asterisk(string) {
   // (/^[ac]+$/)
 }
+
+
+// Create a function that returns the product of all odd integers in an array.
+function oddProduct(arr) {
+
+}

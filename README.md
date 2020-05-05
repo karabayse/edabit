@@ -113,4 +113,5 @@
 * Is Sam with Frodo?
 * Say hello to guests
 * Half, Quarter, and Eighth
-* Regex special characters 
+* Regex special characters
+* Product of all odd integers 
