@@ -1954,5 +1954,6 @@ oddProduct([1,2,3]);
 // convertCartesian([9, 8, 3], [1, 1, 1])
 // ➞ [[9, 1], [8, 1], [3, 1]]
 function convertCartesian(x, y) {
-
+  // loop through two arrays and create new arrays
+  // new arrays:  [position 0, position 0], [position 1, position 1], etc.
 }
