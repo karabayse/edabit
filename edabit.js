@@ -1941,9 +1941,18 @@ function oddProduct(arr) {
     if (i % 2 !== 0) {
       oddArr.push(i);
     }
-    let product = oddArr.reduce( (a,b) => a * b, 0 ); 
+    let product = oddArr.reduce( (a,b) => a * b, 0 );
     console.log(product);
   }
 }
 
 oddProduct([1,2,3]);
+
+
+// Create a function that converts two arrays of x- and y- coordinates into an
+// array of (x,y) coordinates.
+// convertCartesian([9, 8, 3], [1, 1, 1])
+// ➞ [[9, 1], [8, 1], [3, 1]]
+function convertCartesian(x, y) {
+
+}
