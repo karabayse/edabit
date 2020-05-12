@@ -115,4 +115,5 @@
 * Half, Quarter, and Eighth
 * Regex special characters
 * Product of all odd integers
-* X and Y coordinates 
+* X and Y coordinates
+* Typing Game 
