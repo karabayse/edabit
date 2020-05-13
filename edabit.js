@@ -1963,5 +1963,18 @@ function convertCartesian(x, y) {
 // and the array of correctly-typed words and outputs an array containing 1s
 // (correctly-typed words) and -1s (incorrectly-typed words).
 function correctStream(user, correct) {
+  let outputArr = [];
 
+  for (var i = 0; i < user.length; i++) {
+    for (var j = 0; j < correct.length; i++) {
+      if (i == j) {
+        outputArr.push(1);
+      } else if (i != j) {
+        outputArr.push(-1);
+      }
+    }
+  }
+  console.log(outputArr);
 }
+
+correctStream(["cat", "blue", "skt", "umbrells", "paddy"], ["cat", "blue", "sky", "umbrella", "paddy"]);

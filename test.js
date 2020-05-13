@@ -1,16 +1,16 @@
-// Create a function that converts two arrays of x- and y- coordinates into an
-// array of (x,y) coordinates.
-// convertCartesian([9, 8, 3], [1, 1, 1])
-// ➞ [[9, 1], [8, 1], [3, 1]]
-function convertCartesian(x, y) {
-  // loop through two arrays and create new arrays
-  for (var i = 0; i < x.length; i++) {
-    let x0 = [];
-    x0.push(i);
-    // forEach loop ?
+function correctStream(user, correct) {
+  let outputArr = [];
+
+  for (var i = 0; i < user.length; i++) {
+    for (var j = 0; j < correct.length; i++) {
+      if (i == j) {
+        outputArr.push(1);
+      } else if (i != j) {
+        outputArr.push(-1);
+      }
+    }
   }
-});
-  // new arrays:  [position 0, position 0], [position 1, position 1], etc.
+  console.log(outputArr);
 }
 
-function convertCartesian([9, 8, 3], [1, 1, 1])
+correctStream(["cat", "blue", "skt", "umbrells", "paddy"], ["cat", "blue", "sky", "umbrella", "paddy"]);
