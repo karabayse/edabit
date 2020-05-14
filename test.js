@@ -1,13 +1,23 @@
 function correctStream(user, correct) {
   let outputArr = [];
+  if(!user  || !correct) return
 
-  user.forEach((item1) => correct.forEach((item2) =>
-    {if (item1 == item2) {
-      outputArr.push(1)
-    } else if (item1 != item2) {
-      outputArr.push(-1);
-    }
-  }));
+      let result;
+
+    user.forEach((e1,i) => correct.forEach(e2 => {
+
+           if(e1.length > 1 && e2.length){
+              result = compare(e1,e2);
+           }else if(e1 !== e2 ){
+              result = false
+           }else{
+              result = true
+           }
+      })
+    )
+
+    return result
+
   console.log(outputArr);
 }
 
