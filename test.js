@@ -1,24 +1,15 @@
 function correctStream(user, correct) {
-  let outputArr = [];
-  if(!user  || !correct) return
 
-      let result;
+  // Get the value type
+  	var type = Object.prototype.toString.call(value);
 
-    user.forEach((e1,i) => correct.forEach(e2 => {
+  	// If the two objects are not the same type, return false
+  	if (type !== Object.prototype.toString.call(other)) return false;
 
-           if(e1.length > 1 && e2.length){
-              result = compare(e1,e2);
-           }else if(e1 !== e2 ){
-              result = false
-           }else{
-              result = true
-           }
-      })
-    )
+  	// More tests will go here...
 
-    return result
-
-  console.log(outputArr);
+  	// If nothing failed, return true
+  	return true;
 }
 
 correctStream(["cat", "blue", "skt", "umbrells", "paddy"], ["cat", "blue", "sky", "umbrella", "paddy"]);
