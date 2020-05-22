@@ -9,6 +9,11 @@ function correctStream(user, correct) {
 	// If items are not an object or array, return false
 	if (['[object Array]', '[object Object]'].indexOf(type) < 0) return false;
 
+	// Compare the length of the length of the two items
+	var valueLen = type === '[object Array]' ? value.length : Object.keys(value).length;
+	var otherLen = type === '[object Array]' ? other.length : Object.keys(other).length;
+	if (valueLen !== otherLen) return false;
+
 	// More tests will go here...
 
 	// If nothing failed, return true
