@@ -14,15 +14,21 @@ function correctStream(user, correct) {
 	var otherLen = type === '[object Array]' ? other.length : Object.keys(other).length;
 	if (valueLen !== otherLen) return false;
 
+	// Compare two items
+	var compare = function (item1, item2) {
+		// Code will go here...
+	};
+
 	// Compare properties
+	var match;
 	if (type === '[object Array]') {
 		for (var i = 0; i < valueLen; i++) {
-			// Compare the item
+			compare(value[i], other[i]);
 		}
 	} else {
 		for (var key in value) {
 			if (value.hasOwnProperty(key)) {
-				// Compare the item
+				compare(value[key], other[key]);
 			}
 		}
 	}
