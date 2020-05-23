@@ -14,7 +14,18 @@ function correctStream(user, correct) {
 	var otherLen = type === '[object Array]' ? other.length : Object.keys(other).length;
 	if (valueLen !== otherLen) return false;
 
-	// More tests will go here...
+	// Compare properties
+	if (type === '[object Array]') {
+		for (var i = 0; i < valueLen; i++) {
+			// Compare the item
+		}
+	} else {
+		for (var key in value) {
+			if (value.hasOwnProperty(key)) {
+				// Compare the item
+			}
+		}
+	}
 
 	// If nothing failed, return true
 	return true;
