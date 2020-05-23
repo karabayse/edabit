@@ -1978,3 +1978,9 @@ function correctStream(user, correct) {
 }
 
 correctStream(["cat", "blue", "skt", "umbrells", "paddy"], ["cat", "blue", "sky", "umbrella", "paddy"]);
+
+
+// Create a function that finds the maximum range of a triangle's third edge, where the side lengths are all integers.
+function nextEdge(side1, side2) {
+
+}

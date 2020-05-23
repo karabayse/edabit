@@ -116,4 +116,5 @@
 * Regex special characters
 * Product of all odd integers
 * X and Y coordinates
-* Typing Game 
+* Typing Game
+* Maximum Edge of a Triangle 
