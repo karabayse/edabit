@@ -117,4 +117,5 @@
 * Product of all odd integers
 * X and Y coordinates
 * Typing Game
-* Maximum Edge of a Triangle 
+* Maximum Edge of a Triangle
+* Minimum Removals to Make Sum Even

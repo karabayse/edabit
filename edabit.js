@@ -1988,3 +1988,10 @@ function nextEdge(side1, side2) {
   let max = sum - 1;
   return max;
 }
+
+
+// Create a function that returns the minimum number of removals to make the sum
+// of all elements in an array even.
+function minimumRemovals(arr) {
+
+}
