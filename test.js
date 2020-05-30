@@ -10,7 +10,15 @@ function minimumRemovals(arr) {
   // determine odd or even
   if (sum % 2 == 0) {
     console.log(0);
+  // if not even
   } else if (sum % 2 !== 0) {
-    // code to remove numbers 
+    // code to remove numbers
+    // loop through array
+    for (let i = 0; i < arr.length; i++) {
+      // remove an odd number to make it even
+      if (i % 2 !== 0) {
+        arr.splice(i);
+      }
+    }
   }
 }
