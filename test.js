@@ -5,8 +5,9 @@
 function minimumRemovals(arr) {
   // add all numbers
   let sum = arr.reduce(function(a, b){
-    console.log(a + b);
+    return a + b;
   }, 0);
+  console.log(sum);
   // determine odd or even
   if (sum % 2 == 0) {
     console.log(0);
@@ -22,3 +23,5 @@ function minimumRemovals(arr) {
     }
   }
 }
+
+minimumRemovals([5, 7, 9, 11]);
