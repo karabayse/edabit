@@ -20,8 +20,10 @@ function minimumRemovals(arr) {
       if (i % 2 !== 0) {
         arr.splice(i);
       }
+      console.log(1);
     }
   }
 }
 
 minimumRemovals([5, 7, 9, 11]);
+minimumRemovals([6, 7, 9, 11]);
