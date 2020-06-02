@@ -119,3 +119,4 @@
 * Typing Game
 * Maximum Edge of a Triangle
 * Minimum Removals to Make Sum Even
+* RegEx: Character Classes IX ⁠- \w
