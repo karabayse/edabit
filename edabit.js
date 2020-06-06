@@ -2031,8 +2031,8 @@ Here is a list of the character classes in JavaScript:
 There is a hidden word in this string:
 
 const str = "**^&$Regular#$%Expressions$%$$%^**"
-Write the regular expression that reveals the hidden word. You have to remove
-all of the special characters to reveal the word. Use the character class \w in
-your expression.
+Write the regular expression that reveals the hidden word.
+You have to remove all of the special characters to reveal the word.
+Use the character class \w in your expression.
 */
 const REGEXP = /* Write you expression here */g
