@@ -2034,4 +2034,8 @@ Write the regular expression that reveals the hidden word.
 You have to remove all of the special characters to reveal the word.
 Use the character class \w in your expression.
 */
-const REGEXP = /* Write your expression here */g
+const str = "**^&$Regular#$%Expressions$%$$%^**"
+
+const REGEXP = str.replace(/[^\w\s]/gi, '')g
+
+console.log(REGEXP);
