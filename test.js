@@ -1,18 +1,11 @@
 /*
-You can think of character classes as characters with special meaning.
-They are recognized as special when you place the \ before the character.
+Create a function that takes a number as an argument and returns "Fizz", "Buzz" or "FizzBuzz".
 
-Here is a list of the character classes in JavaScript:
-., \cX, \d, \D, \f, \n, \r, \s, \S, \t, \v, \w, \W, \0, \xhh, \uhhhh, \uhhhhh, [\b]
-
-There is a hidden word in this string:
-const str = "**^&$Regular#$%Expressions$%$$%^**"
-Write the regular expression that reveals the hidden word.
-You have to remove all of the special characters to reveal the word.
-Use the character class \w in your expression.
+If the number is a multiple of 3 the output should be "Fizz".
+If the number given is a multiple of 5, the output should be "Buzz".
+If the number given is a multiple of both 3 and 5, the output should be "FizzBuzz".
+If the number is not a multiple of either 3 or 5, the number should be output on its own as shown in the examples below.
 */
-const str = "**^&$Regular#$%Expressions$%$$%^**"
+function FizzBuzz(num) {
 
-const REGEXP = str.replace(/[^\w\s]/gi, '');
-
-console.log(REGEXP);
+}
