@@ -122,3 +122,4 @@
 * RegEx: Character Classes IX ⁠- \w
 * FizzBuzz
 * Ignore first and last array elements
+* Stupid Addition 
