@@ -9,10 +9,12 @@ stupidAddition("1", "2") ➞ 3
 stupidAddition("1", 2) ➞ null
 */
 function stupidAddition(a, b) {
-  if (typeof a === String && typeof b === String) {
-    let add = a + b;
+  if (typeof a == "string" && typeof b == "string") {
+    let aInt = parseInt(a);
+    let bInt = parseInt(b);
+    let add = aInt + bInt;
     console.log(add);
-  } else if (typeof a === Number && typeof b === Number) {
+  } else if (typeof a == "number" && typeof b == "number") {
     let concatenate = "" + a + b;
     console.log(concatenate);
   }
