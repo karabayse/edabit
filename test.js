@@ -17,8 +17,11 @@ function stupidAddition(a, b) {
   } else if (typeof a == "number" && typeof b == "number") {
     let concatenate = "" + a + b;
     console.log(concatenate);
+  } else if (typeof a !== typeof b) {
+    console.log("null");
   }
 }
 
 stupidAddition(1, 2);
 stupidAddition("1", "2");
+stupidAddition(1, "2");
