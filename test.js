@@ -5,7 +5,6 @@ function mirror(arr) {
   let copyArr = [];
   for (var i = 0; i < arr.length; i++) {
     copyArr.push(arr[i]);
-    console.log(copyArr);
   }
 
   let revArr = arr.reverse();
