@@ -1,27 +1,17 @@
-/*
-Create a function that takes two parameters and, if both parameters are strings,
-add them as if they were integers or if the two parameters are integers, concatenate them.
-Examples:
-stupidAddition(1, 2) ➞ "12"
+// Given an array, transform that array into a mirror.
+// Do not repeat the last item of the given array.
+// mirror([0, 2, 4, 6]) ➞ [0, 2, 4, 6, 4, 2, 0]
+function mirror(arr) {
+  let revArr = arr.reverse();
+  console.log(revArr); // [6, 4, 2, 0]
 
-stupidAddition("1", "2") ➞ 3
+  revArr.shift();
+  console.log(revArr); // [4, 2, 0]
 
-stupidAddition("1", 2) ➞ null
-*/
-function stupidAddition(a, b) {
-  if (typeof a == "string" && typeof b == "string") {
-    let aInt = parseInt(a);
-    let bInt = parseInt(b);
-    let add = aInt + bInt;
-    console.log(add);
-  } else if (typeof a == "number" && typeof b == "number") {
-    let concatenate = "" + a + b;
-    console.log(concatenate);
-  } else if (typeof a !== typeof b) {
-    console.log("null");
-  }
+  console.log(arr); // [4, 2, 0]  ->  reverse changes the original array 
+  arr.push(revArr);
+
+  console.log(arr);
 }
 
-stupidAddition(1, 2);
-stupidAddition("1", "2");
-stupidAddition(1, "2");
+mirror([0, 2, 4, 6]);

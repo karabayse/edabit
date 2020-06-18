@@ -2104,3 +2104,11 @@ function stupidAddition(a, b) {
 stupidAddition(1, 2);
 stupidAddition("1", "2");
 stupidAddition(1, "2");
+
+
+// Given an array, transform that array into a mirror.
+// Do not repeat the last item of the given array.
+// mirror([0, 2, 4, 6]) ➞ [0, 2, 4, 6, 4, 2, 0]
+function mirror(arr) {
+
+}
