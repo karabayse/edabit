@@ -1,23 +1,23 @@
-// Given an array, transform that array into a mirror.
-// Do not repeat the last item of the given array.
-// mirror([0, 2, 4, 6]) ➞ [0, 2, 4, 6, 4, 2, 0]
-function mirror(arr) {
-  let copyArr = [];
-  for (var i = 0; i < arr.length; i++) {
-    copyArr.push(arr[i]);
-  }
+/*
+Given a class for a BasicPlan, write the classes for StandardPlan and PremiumPlan which have class properties of the following:
 
-  let revArr = arr.reverse();
-  console.log(revArr); // [6, 4, 2, 0]
-
-  revArr.shift();
-  console.log(revArr); // [4, 2, 0]
-
-  for (var i = 0; i < revArr.length; i++) {
-    copyArr.push(arr[i]);
-  }
-
-  console.log(copyArr);
+BasicPlan	StandardPlan	PremiumPlan
+✓	✓	✓	canStream
+✓	✓	✓	canDownload
+✓	✓	✓	hasSD
+✓	✓	hasHD
+✓	hasUHD
+1	2	4	numOfDevices
+$8.99	$12.99	$15.99	price
+*/
+class BasicPlan {
+	static canStream = true;
+	static canDownload = true;
+	static numOfDevices = 1;
+	static hasSD = true;
+	static hasHD = false;
+	static hasUHD = false;
+	static price = '$8.99';
 }
 
-mirror([0, 2, 4, 6]);
+// Write the classes for StandardPlan and PremiumPlan here!

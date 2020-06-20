@@ -109,7 +109,6 @@
 * Determine the winning string
 * Is the number a repdigit
 * Repeat the same item multiple times
-* Video streaming plans
 * Is Sam with Frodo?
 * Say hello to guests
 * Half, Quarter, and Eighth
@@ -123,4 +122,5 @@
 * FizzBuzz
 * Ignore first and last array elements
 * Stupid Addition
-* Mirror Array 
+* Mirror Array
+* Video streaming plans
