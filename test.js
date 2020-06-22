@@ -1,5 +1,6 @@
 /*
-Given a class for a BasicPlan, write the classes for StandardPlan and PremiumPlan which have class properties of the following:
+Given a class for a BasicPlan, write the classes for StandardPlan and PremiumPlan
+which have class properties of the following:
 
 BasicPlan	StandardPlan	PremiumPlan
 ✓	✓	✓	canStream
