@@ -10,8 +10,20 @@ BasicPlan	StandardPlan	PremiumPlan
 ✓	hasUHD
 1	2	4	numOfDevices
 $8.99	$12.99	$15.99	price
+
+Try to extend the classes
 */
-class BasicPlan {
+class Plan {
+  static canStream = Boolean;
+	static canDownload = Boolean;
+	static numOfDevices = Number;
+	static hasSD = Boolean;
+	static hasHD = Boolean;
+	static hasUHD = Boolean;
+	static price = String;
+}
+
+class BasicPlan extends Plan {
 	static canStream = true;
 	static canDownload = true;
 	static numOfDevices = 1;
@@ -22,7 +34,7 @@ class BasicPlan {
 }
 
 // Write the classes for StandardPlan and PremiumPlan here!
-class StandardPlan {
+class StandardPlan extends Plan {
 	static canStream = true;
 	static canDownload = true;
 	static numOfDevices = 2;
@@ -32,7 +44,7 @@ class StandardPlan {
 	static price = '$12.99';
 }
 
-class PremiumPlan {
+class PremiumPlan extends Plan {
 	static canStream = true;
 	static canDownload = true;
 	static numOfDevices = 4;
