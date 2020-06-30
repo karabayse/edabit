@@ -9,6 +9,10 @@ function divisible(arr) {
   for (var i = 0; i < arr.length; i++) {
     sumArr.push(arr[i] + i);
   }
+
+  console.log(productArr);
+  console.log(sumArr);
+  
   if (productArr % sumArr == 0) {
     console.log(true);
   } else {
@@ -16,7 +20,7 @@ function divisible(arr) {
   }
 }
 
-divisible([4, 2, 6]) ➞ true
+divisible([4, 2, 6]) // ➞ true
 // 4 * 2 * 6 / 4 + 2 + 6
 
-divisible([3, 5, 1]) ➞ false
+divisible([3, 5, 1]) //➞ false
