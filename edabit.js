@@ -2180,19 +2180,11 @@ class PremiumPlan extends BasicPlan {
 // Write a function that returns true if the product of an array is divisible by
 // the sum of that same array. Otherwise, return false.
 function divisible(arr) {
-  let productArr = [];
-  for (var i = 0; i < arr.length; i++) {
-    productArr.push(arr[i] * i);
-  }
-  let sumArr = [];
-  for (var i = 0; i < arr.length; i++) {
-    sumArr.push(arr[i] + i);
-  }
+  let duplicateArr = arr.slice();
+  let productArr = arr.reduce( (a,b) => a * b);
+  let sumArr = duplicateArr.reduce( (a,b) => a + b);
 
-  console.log(productArr);
-  console.log(sumArr);
-
-  if (productArr % sumArr == 0) {
+  if (productArr % sumArr === 0) {
     console.log(true);
   } else {
     console.log(false);
@@ -2200,6 +2192,25 @@ function divisible(arr) {
 }
 
 divisible([4, 2, 6]) // ➞ true
-// 4 * 2 * 6 / 4 + 2 + 6
 
 divisible([3, 5, 1]) //➞ false
+
+
+/*
+Smash factor is a term in golf that relates to the amount of energy transferred
+from the club head to the golf ball.
+The formula for calculating smash factor is ball speed divided by club speed.
+
+Create a function that takes ball speed bs and club speed cs as arguments and
+returns the smash factor to the nearest hundredth.
+
+Examples
+smashFactor(139.4, 93.8) ➞ 1.49
+
+smashFactor(181.2, 124.5) ➞ 1.46
+
+smashFactor(154.7, 104.3) ➞ 1.48
+*/
+function smashFactor(bs, cs) {
+
+}
