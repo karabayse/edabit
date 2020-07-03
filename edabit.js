@@ -2212,8 +2212,8 @@ smashFactor(181.2, 124.5) ➞ 1.46
 smashFactor(154.7, 104.3) ➞ 1.48
 */
 function smashFactor(bs, cs) {
-  let formula = Math.round(bs / cs) / 100;
-  console.log(formula);
+  let sFHundred = Math.round((bs / cs) * 100) / 100;
+  console.log(sFHundred);
 }
 
 smashFactor(139.4, 93.8);
