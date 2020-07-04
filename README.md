@@ -125,4 +125,5 @@
 * Mirror Array
 * Video streaming plans
 * Product Divisible by Sum
-* Smash Factor 
+* Smash Factor
+* Format Text 
