@@ -16,11 +16,14 @@ by the special characters used to apply the given style.
 
 Examples
 To correctly apply a format, the word has to both start and end with one or two
-specific special characters. There are no spaces between the characters and the
-word. You can find the characters to use for this challenge and how to return
-the result in the Comments tab! Just click on the Formatting Help link that you
+specific special characters.
+There are no spaces between the characters and the word.
+You can find the characters to use for this challenge and how to return
+the result in the Comments tab!
+Just click on the Formatting Help link that you
 can find in the Comments tab of this challenge:
 */
 function mdFormat(word, style) {
 
+  // return the word surrounded by the special characters used to apply the style
 }
