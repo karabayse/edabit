@@ -29,13 +29,13 @@ can find in the Comments tab of this challenge:
 */
 function mdFormat(word, style) {
   if (style == "b") {
-    console.log(<b>word</b>);
+    console.log("**word**");
   } else if (style == "i") {
-    console.log(<i>word</i>);
+    console.log("__word__");
   } else if (style == "c") {
-    console.log(`word`);
-  } else if (style == "s") {
-    console.log(word.strike());
+    console.log("`word`");
+  } else if (style= "s") {
+    console.log("~~word~~");
   }
 }
 
