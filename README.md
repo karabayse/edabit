@@ -126,4 +126,5 @@
 * Video streaming plans
 * Product Divisible by Sum
 * Smash Factor
-* Format Text 
+* Format Text
+* Count the Capital Letters 
