@@ -2251,3 +2251,9 @@ function capitalLetters(str) {
   let numUpper = str.length - str.replace(/[A-Z]/g, '').length;
   console.log(numUpper);
 }
+
+
+// Write a function that takes an array of elements and returns only the integers.
+function returnOnlyInteger(arr) {
+
+}
