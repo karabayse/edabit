@@ -9,6 +9,7 @@ letter of its name:
 "i" is for italics
 "c" is for inline code
 "s" is for strikethrough
+
 You are given two parameters: a string word being the word to format, and
 another string style being the lowercased initial of the style to apply.
 
@@ -29,13 +30,13 @@ can find in the Comments tab of this challenge:
 */
 function mdFormat(word, style) {
   if (style == "b") {
-    console.log("**word**");
+    console.log("**" + word + "**");
   } else if (style == "i") {
-    console.log("__word__");
+    console.log("_" + word + "_");
   } else if (style == "c") {
-    console.log("`word`");
+    console.log("`" + word + "`");
   } else if (style= "s") {
-    console.log("~~word~~");
+    console.log("~~" + word + "~~");
   }
 }
 
