@@ -2240,8 +2240,13 @@ function mdFormat(word, style) {
     console.log("~~" + word + "~~");
   }
 }
-
 // Alternatively use interpolation rather than concatenation:
-//return `**${str}**`; 
+//return `**${str}**`;
 
 mdFormat("word", "s");
+
+
+// Given a string of letters, how many capital letters are there?
+function capitalLetters(str) {
+
+}
