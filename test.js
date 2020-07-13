@@ -3,7 +3,9 @@ function returnOnlyInteger(arr) {
   let intArr = [];
   for (var i = 0; i < arr.length; i++) {
     if (typeof(arr[i]) == "number") {
-      intArr.push(arr[i]);
+      if (arr[i] % 1 == 0) {
+        intArr.push(arr[i]);
+      }  
     }
   }
   console.log(intArr);
