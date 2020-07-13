@@ -128,4 +128,5 @@
 * Smash Factor
 * Format Text
 * Count the Capital Letters
-* Return only the Integers 
+* Return only the Integers
+* Repeating Letters N Times 
