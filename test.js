@@ -6,13 +6,12 @@ function repeat(str, n) {
   let newArr = [];
   for (let i = 0; i < strArr.length; i++) {
       let repChar = strArr[i].repeat(n);
-
-      console.log(repChar);  // 4 with circle -> The number of times that output
-      // has been repeated, also known as log stacking
-
+      console.log(repChar);
       newArr.push(repChar);
   }
-  console.log(newArr);  // ["", "", "", ""]
+  let repStr = newArr.toString();
+  let newStr = repStr.join();
+  console.log(newStr);
 }
 
-repeat("mice");
+repeat("mice", 3);
