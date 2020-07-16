@@ -9,8 +9,7 @@ function repeat(str, n) {
       console.log(repChar);
       newArr.push(repChar);
   }
-  let repStr = newArr.toString();
-  let newStr = repStr.join();
+  let newStr = newArr.join("");
   console.log(newStr);
 }
 
