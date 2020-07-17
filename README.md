@@ -129,4 +129,5 @@
 * Format Text
 * Count the Capital Letters
 * Return only the Integers
-* Repeating Letters N Times 
+* Repeating Letters N Times
+* Characters in Shapes 
