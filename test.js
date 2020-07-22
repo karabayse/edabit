@@ -22,9 +22,12 @@ countCharacters([]) ➞ 0
 countCharacters([ "", ""]) ➞ 0
 */
 function countCharacters(arr) {
-  // arr is an array of strings 
+  // number of strings in array
+  let numArr = arr.length;
+  // arr is an array of strings
   for (var i = 0; i < arr.length; i++) {
-    arr[i]
+    // number of characters in string 
+    let numStr = arr[i].length;
   }
   // if [], return 0
   if ([]) {
