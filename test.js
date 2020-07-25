@@ -37,3 +37,9 @@ function countCharacters(arr) {
     return recChar;
   }
 }
+
+countCharacters([
+  "###",
+  "###",
+  "###"
+])
