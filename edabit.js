@@ -2310,5 +2310,24 @@ countCharacters([]) ➞ 0
 countCharacters([ "", ""]) ➞ 0
 */
 function countCharacters(arr) {
-
+  // number of strings in array
+  let arrNum = arr.length;
+  // arr is an array of strings
+  for (var i = 0; i < arr.length; i++) {
+    // number of characters in string
+    let numStr = arr[i].length;
+    let recChar = arrNum * numStr;
+  }
+  // if [], return 0
+  if ([]) {
+    return 0;
+  } else {
+    return recChar;
+  }
 }
+
+countCharacters([
+  "###",
+  "###",
+  "###"
+]);
