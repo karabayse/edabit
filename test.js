@@ -1,7 +1,5 @@
-// Write a function that returns the string "something" joined with a space and
-// the given parameter a.
-function giveMeSomething(a) {
-  // insert "something" in front of a
-  let something = "something".concat(' ', a);
-  return something;
+// Write a function that searches an array of names (unsorted) for the name "Bob"
+// and returns the location in the array. If Bob is not in the array, return -1.
+function findBob(names) {
+
 }
