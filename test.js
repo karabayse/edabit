@@ -1,6 +1,5 @@
-// Write a function that searches an array of names (unsorted) for the name "Bob"
-// and returns the location in the array. If Bob is not in the array, return -1.
-function findBob(names) {
-  let location = names.indexOf("Bob");
-  return location;
+// Create a function which validates whether a bridge is safe to walk on
+// (i.e. has no gaps in it to fall through).
+function isSafeBridge(str) {
+
 }
