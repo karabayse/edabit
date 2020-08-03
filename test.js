@@ -3,7 +3,7 @@
 function isSafeBridge(str) {
   if (str.indexOf('') == 0) {
     return true;
-  } else {
+  } else if (str.indexOf('') > 0) {
     return false;
   }
 }
