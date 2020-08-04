@@ -10,6 +10,13 @@ function isSafeBridge(str) {
   }
 }
 
+/*
+Alternatively:
+if (/\s/.test(str)) {
+    // It has any kind of whitespace
+}
+*/
+
 isSafeBridge("####") ➞ true
 
 isSafeBridge("## ####") ➞ false
