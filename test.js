@@ -5,6 +5,8 @@ function isSafeBridge(str) {
     return true;
   } else if (str.indexOf('') > 0) {
     return false;
+  } else {
+    return false;
   }
 }
 
