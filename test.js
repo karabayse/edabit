@@ -26,9 +26,10 @@ if (/\s/.test(str)) {
     // It has any kind of whitespace
 }
 */
+/*
+isSafeBridge("####") ➞ true
 
-isSafeBridge("####")// ➞ true
+isSafeBridge("## ####") ➞ false
 
-isSafeBridge("## ####")// ➞ false
-
-isSafeBridge("#")// ➞ true
+isSafeBridge("#") ➞ true
+*/
