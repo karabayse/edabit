@@ -1956,7 +1956,11 @@ oddProduct([1,2,3]);
 function convertCartesian(x, y) {
   // loop through two arrays and create new arrays
   // new arrays:  [position 0, position 0], [position 1, position 1], etc.
+  let numOfArr = x.length;
+  console.log(numOfArr);
 }
+
+convertCartesian([9, 8, 3], [1, 1, 1])
 
 
 // Create a function that takes in two arrays: the array of user-typed words,
