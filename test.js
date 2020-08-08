@@ -5,6 +5,7 @@ function convertCartesian(x, y) {
   // loop through two arrays and create new arrays
   // new arrays:  [position 0, position 0], [position 1, position 1], etc.
   x.forEach((num1, index) => {
+    // 2nd number in array = the index in the y array 
     const num2 = y[index];
     console.log(num1, num2);
   });
