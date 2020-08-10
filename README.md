@@ -133,4 +133,5 @@
 * Characters in Shapes
 * Return something to me
 * Where's Bob?
-* Broken Bridge 
+* Broken Bridge
+* Retrieve the Last N Elements

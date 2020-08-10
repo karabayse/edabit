@@ -1,14 +1,15 @@
-// Create a function that converts two arrays of x- and y- coordinates into an
-// array of (x,y) coordinates.
-// convertCartesian([9, 8, 3], [1, 1, 1]) ➞ [[9, 1], [8, 1], [3, 1]]
-function convertCartesian(x, y) {
-  // loop through two arrays and create new arrays
-  // new arrays:  [position 0, position 0], [position 1, position 1], etc.
-  x.forEach((num1, index) => {
-    // 2nd number in array = the index in the y array 
-    const num2 = y[index];
-    console.log(num1, num2);
-  });
-}
+/*
+Write a function that retrieves the last n elements from an array.
+Return "invalid" if n exceeds the length of the array.
+Return an empty array if n == 0.
+last([1, 2, 3, 4, 5], 1) ➞ [5]
 
-convertCartesian([9, 8, 3], [1, 1, 1]);
+last([4, 3, 9, 9, 7, 6], 3) ➞ [9, 7, 6]
+
+last([1, 2, 3, 4, 5], 7) ➞ "invalid"
+
+last([1, 2, 3, 4, 5], 0) ➞ []
+*/
+function last(a, n) {
+
+}
