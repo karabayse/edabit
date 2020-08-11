@@ -11,5 +11,7 @@ last([1, 2, 3, 4, 5], 7) ➞ "invalid"
 last([1, 2, 3, 4, 5], 0) ➞ []
 */
 function last(a, n) {
-
+  for (var i = 0; i < a.length; i++) {
+    a[i]
+  }
 }
