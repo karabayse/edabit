@@ -12,6 +12,12 @@ last([1, 2, 3, 4, 5], 0) ➞ []
 */
 function last(a, n) {
   for (var i = 0; i < a.length; i++) {
-    a[i]
+    if (n > a.length) {
+      return "invalid";
+    } else if (n == 0) {
+      return [];
+    } else {
+      return a.slice(-n);
+    }
   }
 }
