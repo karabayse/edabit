@@ -16,7 +16,9 @@ function last(a, n) {
       return "invalid";
     } else if (n == 0) {
       return [];
-    } else {
+    } else if (typeof n == 'undefined') {
+			return "invalid";
+		} else {
       return a.slice(-n);
     }
   }
