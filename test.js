@@ -13,13 +13,21 @@ last([1, 2, 3, 4, 5], 0) ➞ []
 function last(a, n) {
   for (var i = 0; i < a.length; i++) {
     if (n > a.length) {
-      return "invalid";
+      console.log("invalid");;
     } else if (n == 0) {
-      return [];
+      console.log([]);;
     } else if (typeof n == 'undefined') {
-			return "invalid";
+			console.log("invalid");;
 		} else {
-      return a.slice(-n);
+      console.log(a.slice(-n));
     }
   }
 }
+
+last([1, 2, 3, 4, 5], 1) // 5
+
+last([4, 3, 9, 9, 7, 6], 3) // 9 7 6
+
+last([1, 2, 3, 4, 5], 7) // invalid
+
+last([1, 2, 3, 4, 5], 0) // []
