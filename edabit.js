@@ -2385,5 +2385,11 @@ last([1, 2, 3, 4, 5], 7) ➞ "invalid"
 last([1, 2, 3, 4, 5], 0) ➞ []
 */
 function last(a, n) {
-
+  if (a.length < n) {
+    return 'invalid';
+  } else if (a.length >= n) {
+    return a.slice(a.length - n);
+  } else if (n === 0) {
+    return [];
+  }
 }

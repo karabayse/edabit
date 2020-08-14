@@ -11,16 +11,12 @@ last([1, 2, 3, 4, 5], 7) ➞ "invalid"
 last([1, 2, 3, 4, 5], 0) ➞ []
 */
 function last(a, n) {
-  for (var i = 0; i < a.length; i++) {
-    if (n > a.length) {
-      console.log("invalid");
-    } else if (n == 0) {
-      console.log([]);
-    } else if (a.value == []) {
-			console.log("invalid");
-		} else {
-      console.log(a.slice(-n));
-    }
+  if (a.length < n) {
+    return 'invalid';
+  } else if (a.length >= n) {
+    return a.slice(a.length - n);
+  } else if (n === 0) {
+    return [];
   }
 }
 
