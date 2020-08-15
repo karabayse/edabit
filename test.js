@@ -1,33 +1,8 @@
-/*
-Write a function that retrieves the last n elements from an array.
-Return "invalid" if n exceeds the length of the array.
-Return an empty array if n == 0.
-last([1, 2, 3, 4, 5], 1) ➞ [5]
+// Write a function that partitions the array into two subarrays:
+// one with all even integers, and the other with all odd integers.
+// Return your result in the following format:
 
-last([4, 3, 9, 9, 7, 6], 3) ➞ [9, 7, 6]
+// [[evens], [odds]]
+function evenOddPartition(arr) {
 
-last([1, 2, 3, 4, 5], 7) ➞ "invalid"
-
-last([1, 2, 3, 4, 5], 0) ➞ []
-*/
-function last(a, n) {
-  if (a.length < n) {
-    return 'invalid';
-  } else if (a.length >= n) {
-    return a.slice(a.length - n);
-  } else if (n === 0) {
-    return [];
-  }
 }
-
-/*
-last([1, 2, 3, 4, 5], 1) // 5
-
-last([4, 3, 9, 9, 7, 6], 3) // 9 7 6
-
-last([1, 2, 3, 4, 5], 7) // invalid
-
-last([1, 2, 3, 4, 5], 0) // []
-*/
-
-last([], 2);
