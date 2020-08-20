@@ -13,8 +13,8 @@ function evenOddPartition(arr) {
     } else {
       oddArr.push(arr[i]);
     }
-    partitionArr.push(evenArr, oddArr);
   }
+  partitionArr.push(evenArr, oddArr);
   console.log(partitionArr);
 }
 
