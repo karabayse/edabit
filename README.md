@@ -136,3 +136,4 @@
 * Broken Bridge
 * Retrieve the Last N Elements
 * Even Odd Partition
+* Promises - The Reject Callback 
