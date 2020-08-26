@@ -4,10 +4,11 @@
 // There won't be any awkward decimal numbers, only 0.5 to deal with.
 // getDiscounts([100], "45%") ➞ [45]
 function getDiscounts(nums, d) {
-  let discount = .10 * d;
-  let discountNum;
+  let discount = d / 100;
+  let discountArr = [];
   for (var i = 0; i < nums.length; i++) {
     let discountNum = nums[i] * discount;
+    discountArr.push(discountNum);
   }
-  return discountNum;
+  return discountArr;
 }
