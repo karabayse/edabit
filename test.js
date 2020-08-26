@@ -6,7 +6,7 @@
 function getDiscounts(nums, d) {
   let dStr = d.slice(0, -1);
   let dNum = parseInt(dStr);
-  let discountNum = dNum / 100;
+  let discount = dNum / 100;
   let discountArr = [];
   for (var i = 0; i < nums.length; i++) {
     let discountNum = nums[i] * discount;
