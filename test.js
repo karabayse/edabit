@@ -7,8 +7,8 @@ function oddProduct(arr) {
       oddArr.push(i);
     }
   }
-  oddArr.reduce( (a, b) => a * b );
-  console.log(oddArr);
+  let product = oddArr.reduce( (a, b) => a * b, 1);
+  console.log(product);
 }
 
 oddProduct([1, 2, 3, 4, 5]); // 15
