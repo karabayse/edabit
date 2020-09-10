@@ -1,24 +1,11 @@
-// Create a function that returns the product of all odd integers in an array.
-function oddProduct(arr) {
-  let oddArr = [];
+/*
+Create a function that takes a number and "m" (for male) or "f" (for female),
+and returns the name of an ancestor (m/f) or descendant (m/f).
 
-  for (let i = 0; i <= arr.length; i++) {
-    if (i % 2 !== 0) {
-      oddArr.push(i);
-      console.log(oddArr.reduce((a, b) => a * b));
-    }
-  }
+If the number is negative, return the related ancestor.
+If positive, return the related descendant.
+You are generation 0. In the case of 0 (male or female), return "me!".
+*/
+function generation(x, y) {
+
 }
-
-//oddProduct([1, 2, 3, 4, 5]); // 15
-
-//oddProduct([3, 4, 1, 1, 5]) // 15
-
-//oddProduct([5, 5, 8, 2, 4, 32]) // 25
-
-oddProduct([1, 2, 1, 2, 1, 2, 1, 2]) // 1
-
-
-// console.log([1, 2, 3].reduce((a, b)=> a*b, 1));  // 6
-//
-// console.log([1, 2, 3].reduce((a, b)=> a*b));  // 6

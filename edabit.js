@@ -2459,9 +2459,22 @@ function oddProduct(arr) {
   for (let i = 0; i <= arr.length; i++) {
     if (i % 2 !== 0) {
       oddArr.push(i);
-      console.log(oddArr.reduce( (a, b) => a * b));
+      console.log(oddArr.reduce((a, b) => a * b));
     }
   }
 }
 
 oddProduct([1, 2, 3, 4, 5]); // 15
+
+
+/*
+Create a function that takes a number and "m" (for male) or "f" (for female),
+and returns the name of an ancestor (m/f) or descendant (m/f).
+
+If the number is negative, return the related ancestor.
+If positive, return the related descendant.
+You are generation 0. In the case of 0 (male or female), return "me!".
+*/
+function generation(x, y) {
+
+}
