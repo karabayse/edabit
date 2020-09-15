@@ -1,11 +1,12 @@
-/*
-Create a function that takes a number and "m" (for male) or "f" (for female),
-and returns the name of an ancestor (m/f) or descendant (m/f).
-
-If the number is negative, return the related ancestor.
-If positive, return the related descendant.
-You are generation 0. In the case of 0 (male or female), return "me!".
-*/
-function generation(x, y) {
-
+// Create a function that converts two arrays of x- and y- coordinates into an
+// array of (x,y) coordinates.
+// convertCartesian([9, 8, 3], [1, 1, 1]) ➞ [[9, 1], [8, 1], [3, 1]]
+function convertCartesian(x, y) {
+  // loop through two arrays and create new arrays
+  // new arrays:  [position 0, position 0], [position 1, position 1], etc.
+  for (var i = 0; i < x.length; i++) {
+    pos1Arr.push(x[i]);
+  }
 }
+
+convertCartesian([9, 8, 3], [1, 1, 1]);
