@@ -6,10 +6,10 @@ function convertCartesian(x, y) {
 
   // to loop through coordinate values
   for (var i = 0; i < coords.length; i++) {
-    var x = coords[i].x;
-    var y = coords[i].y;
+    var xCoords = x[i].xCoords;
+    var yCoords = y[i].yCoords;
   }
-  
+
 }
 
 convertCartesian([9, 8, 3], [1, 1, 1]);
