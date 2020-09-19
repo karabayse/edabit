@@ -3,15 +3,13 @@
 // convertCartesian([9, 8, 3], [1, 1, 1]) ➞ [[9, 1], [8, 1], [3, 1]]
 function convertCartesian(x, y) {
   // loop through two arrays and create new arrays
-  // new arrays:  [position 0, position 0], [position 1, position 1], etc.
-  let xLength = x.length;
-  let yLength = y.length;
 
-  let xArr0 = [];
-
-  for (var i = 0; i < x.length; i++) {
-    xArr0.push(x[i]);
+  // to loop through coordinate values
+  for (var i = 0; i < coords.length; i++) {
+    var x = coords[i].x;
+    var y = coords[i].y;
   }
+  
 }
 
 convertCartesian([9, 8, 3], [1, 1, 1]);
