@@ -4,11 +4,7 @@
 function convertCartesian(x, y) {
   // loop through two arrays and create new arrays
 
-  // to loop through coordinate values
-  for (var i = 0; i < coords.length; i++) {
-    var xCoords = x[i].xCoords;
-    var yCoords = y[i].yCoords;
-  }
+  // fill()
 
 }
 
