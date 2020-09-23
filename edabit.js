@@ -2478,3 +2478,9 @@ You are generation 0. In the case of 0 (male or female), return "me!".
 function generation(x, y) {
 
 }
+
+
+// Create a function that takes two numbers and a mathematical operator and returns the result.
+function calculate(num1, num2, op) {
+
+}
