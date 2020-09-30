@@ -15,6 +15,6 @@ calculate(14, 3, "%") ➞ 2
 The only operations used are those in the examples above.
 */
 function calculate(num1, num2, op) {
-  let result = eval(num1 operator num2);
+  let result = eval((num1) op (num2));
   return result;
 }
