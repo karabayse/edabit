@@ -18,3 +18,5 @@ function calculate(num1, num2, op) {
   let result = eval((num1) op (num2));
   return result;
 }
+
+calculate(2, 1, "-");
