@@ -140,4 +140,5 @@
 * Applying Discounts
 * Product of all odd integers
 * Which generation are you?
-* Calculate using string operation 
+* Calculate using string operation
+* Total number of unique characters 
