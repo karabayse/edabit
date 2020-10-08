@@ -1,11 +1,8 @@
-// Given two strings, create a function that returns the total number of unique
-// characters from the combined string.
-function countUnique(s1, s2) {
-  let comboString = s1.concat(s2);
+// Create a function that computes the hamming distance between two strings.
+// Hamming distance is the number of characters that differ between two strings.
+// Both strings will have the same length.
+function hammingDistance(str1, str2) {
 
-  let uniqueStr = String.prototype.concat(...new Set(comboString));
-
-  console.log(uniqueStr.length);
 }
 
-countUnique("apple", "play");
+hammingDistance("abcde", "bcdef") // ➞ 5
