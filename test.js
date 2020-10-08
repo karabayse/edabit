@@ -2,9 +2,10 @@
 // characters from the combined string.
 function countUnique(s1, s2) {
   let comboString = s1.concat(s2);
-  let strArr = comboString.split(' ');
-  console.log(strArr);
 
+  let uniqueStr = String.prototype.concat(...new Set(comboString));
+
+  console.log(uniqueStr.length);
 }
 
 countUnique("apple", "play");
