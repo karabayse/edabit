@@ -2508,7 +2508,7 @@ function hammingDistance(str1, str2) {
   if (str1.length !== str2.length) {
     return new Error('Error: Inequal lengths');
   }
-  
+
   str1.split('').forEach((char, idx) => {
     if (char !== str2[idx]) distance++;
   });
@@ -2516,3 +2516,16 @@ function hammingDistance(str1, str2) {
 }
 
 hammingDistance("abcde", "bcdef") // ➞ 5
+
+
+// Bug fix
+function gradePercentage(userScore, passScore) {
+	let s = 'You ';
+	userScore = parseInt(userScore.substring(0, userScore.length - 1));
+	passScore = parseInt(passScore.substring(0, passScore.length - 1));
+	if (youScore < passScore)
+		s = s + 'FAILED';
+	if (userScore >= passScore)
+		s = s + 'PASSED';
+	return 'You' + ' ' + s + ' ' + 'the Exam';
+}

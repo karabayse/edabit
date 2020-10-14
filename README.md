@@ -142,4 +142,5 @@
 * Which generation are you?
 * Calculate using string operation
 * Total number of unique characters
-* Hamming Distance 
+* Hamming Distance
+* Bug Fix 
