@@ -2503,8 +2503,12 @@ countUnique("apple", "play");
 // Hamming distance is the number of characters that differ between two strings.
 // Both strings will have the same length.
 function hammingDistance(str1, str2) {
-  if (str1.length !== str2.length) return new Error('Error: Inequal lengths');
   let distance = 0;
+
+  if (str1.length !== str2.length) {
+    return new Error('Error: Inequal lengths');
+  }
+  
   str1.split('').forEach((char, idx) => {
     if (char !== str2[idx]) distance++;
   });
