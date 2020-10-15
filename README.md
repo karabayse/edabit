@@ -143,4 +143,5 @@
 * Calculate using string operation
 * Total number of unique characters
 * Hamming Distance
-* Bug Fix 
+* Bug Fix
+* Cube the square root 
