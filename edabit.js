@@ -2535,11 +2535,11 @@ function gradePercentage(userScore, passScore) {
 // root of that number cubed.
 // All numbers will evenly square root.
 function cubeSquareRoot(num) {
-  let cube = Math.pow(num*num*num);
-  console.log(cube);
-  let sqrt = Math.sqrt(cube);
-  console.log(sqrt);
-  return sqrt;
+  let sqrt = Math.sqrt(num);
+
+  let cube = Math.pow(sqrt, 3);
+
+  return cube;
 }
 
 cubeSquareRoot(81) // ➞ 729

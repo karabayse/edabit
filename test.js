@@ -2,11 +2,13 @@
 // root of that number cubed.
 // All numbers will evenly square root.
 function cubeSquareRoot(num) {
-  let cube = Math.pow(num*num*num);
-  console.log(cube);
-  let sqrt = Math.sqrt(cube);
+  let sqrt = Math.sqrt(num);
   console.log(sqrt);
-  return sqrt;
+
+  let cube = Math.pow(sqrt, 3);
+  console.log(cube);
+
+  return cube;
 }
 
 cubeSquareRoot(81) // ➞ 729
