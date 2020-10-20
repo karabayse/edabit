@@ -1,14 +1,6 @@
-// Create a function that takes a number as an argument and returns the square
-// root of that number cubed.
-// All numbers will evenly square root.
-function cubeSquareRoot(num) {
-  let sqrt = Math.sqrt(num);
-  console.log(sqrt);
+// Create a function to calculate how many characters in total are needed to
+// make up the shape. You will be given an array of strings which make up a shape
+// in the compiler (i.e. a square, a rectangle or a line).
+function countCharacters(arr) {
 
-  let cube = Math.pow(sqrt, 3);
-  console.log(cube);
-
-  return cube;
 }
-
-cubeSquareRoot(81) // ➞ 729

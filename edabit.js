@@ -2536,10 +2536,16 @@ function gradePercentage(userScore, passScore) {
 // All numbers will evenly square root.
 function cubeSquareRoot(num) {
   let sqrt = Math.sqrt(num);
-
   let cube = Math.pow(sqrt, 3);
-
   return cube;
 }
 
 cubeSquareRoot(81) // ➞ 729
+
+
+// Create a function to calculate how many characters in total are needed to
+// make up the shape. You will be given an array of strings which make up a shape
+// in the compiler (i.e. a square, a rectangle or a line).
+function countCharacters(arr) {
+
+}

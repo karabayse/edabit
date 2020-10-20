@@ -144,4 +144,5 @@
 * Total number of unique characters
 * Hamming Distance
 * Bug Fix
-* Cube the square root 
+* Cube the square root
+* Characters in shapes 
