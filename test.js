@@ -3,7 +3,19 @@
 // in the compiler (i.e. a square, a rectangle or a line).
 function countCharacters(arr) {
   let arrLength = arr.length;
+  console.log(arrLength);
+
   let strLength = arr[0].length;
+  console.log(strLength);
+
   let characters = arrLength * strLength;
-  return characters;
+  console.log(characters);
+
+  // return characters;
 }
+
+countCharacters([
+  "###",
+  "###",
+  "###"
+]) // ➞ 9
