@@ -145,4 +145,5 @@
 * Hamming Distance
 * Bug Fix
 * Cube the square root
-* Characters in shapes 
+* Characters in shapes
+* Calculate the mean 
