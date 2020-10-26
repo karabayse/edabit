@@ -10,11 +10,8 @@ function mean(nums) {
    let numsMean = numsSum / numsLength;
    console.log(numsMean);
 
-   let numsRounded = numsMean.toFixed(1).toString();
+   let numsRounded = Math.round(numsMean * 10) / 10;
    console.log(numsRounded);
-
-   let numsNum = parseInt(numsRounded);
-   console.log(numsNum);
 }
 
 mean([1, 3, 8, 9, 9, 10]) // ➞ 6.7
