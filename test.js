@@ -4,7 +4,7 @@
 function sumEvenNumsInRange(start, stop) {
   for (let i = start; i <= stop; i++) {
     if (start[i] % 2 == 0) {
-      start += start[i];
+      start[i] += start[i];
       console.log(start);
     }
   }
