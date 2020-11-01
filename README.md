@@ -147,4 +147,5 @@
 * Cube the square root
 * Characters in shapes
 * Calculate the mean
-* Give me the even numbers 
+* Give me the even numbers
+* Nth Smallest Element
