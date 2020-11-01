@@ -9,6 +9,11 @@ function sumEvenNumsInRange(start, stop) {
       sum += i;
       console.log(i);
     }
+  } else {
+    for (let i = start + 1; i <= stop; i += 2) {
+      sum += i;
+      console.log(i);
+    }
   }
   console.log(sum);
 }
