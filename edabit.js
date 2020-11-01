@@ -2583,3 +2583,24 @@ function mean(nums) {
 }
 
 mean([1, 3, 8, 9, 9, 10]) // ➞ 6.7
+
+
+// Create a function that takes two parameters (start, stop), and returns the
+// sum of all even numbers in the range.
+// Remember that the start and stop values are inclusive.
+function sumEvenNumsInRange(start, stop) {
+  let i;
+  let sum = 0;
+  if (start % 2 == 0) {
+    for (let i = start; i <= stop; i += 2) {
+      sum += i;
+    }
+  } else {
+    for (let i = start + 1; i <= stop; i += 2) {
+      sum += i;
+    }
+  }
+  return sum;
+}
+
+sumEvenNumsInRange(51, 150) // ➞ 5050
