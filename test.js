@@ -11,11 +11,9 @@ function nthSmallest(arr, n) {
   arr.sort(function(a, b) {
     return a - b;
   });
+  console.log(arr);
 
-  for (var i = 0; i < arr.length; i++) {
-    console.log(arr[n]);
-  }
-  console.log(arr[n]);
+  console.log(arr[n - 1]);
 }
 
 nthSmallest([10, 20, 3, 84, 77], 2);
