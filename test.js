@@ -8,5 +8,14 @@ Given an out of bounds parameter (e.g. an array is of size k), and you are asked
 to find the m > k smallest element, return null.
 */
 function nthSmallest(arr, n) {
+  arr.sort(function(a, b) {
+    return a - b;
+  });
 
+  for (var i = 0; i < arr.length; i++) {
+    console.log(arr[n]);
+  }
+  console.log(arr[n]);
 }
+
+nthSmallest([10, 20, 3, 84, 77], 2);
