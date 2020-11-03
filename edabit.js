@@ -1968,19 +1968,19 @@ convertCartesian([9, 8, 3], [1, 1, 1])
 function correctStream(user, correct) {
   let outputArr = [];
 
-  for (var i = 0; i < user.length; i++) {
-    for (var j = 0; j < correct.length; i++) {
-      if (i == j) {
-        outputArr.push(1);
-      } else if (i != j) {
-        outputArr.push(-1);
-      }
+  user.forEach((e1) => correct.forEach((e2) =>
+    { if (e1 === e2) {
+      outputArr.push(1);
+    } else if (e1 !== e2) {
+      outputArr.push(-1);
     }
-  }
+  }));
   console.log(outputArr);
 }
 
-correctStream(["cat", "blue", "skt", "umbrells", "paddy"], ["cat", "blue", "sky", "umbrella", "paddy"]);
+correctStream(
+  ["cat", "blue", "skt", "umbrells", "paddy"],
+  ["cat", "blue", "sky", "umbrella", "paddy"]);
 
 
 // Create a function that finds the maximum range of a triangle's third edge,

@@ -1,20 +1,19 @@
-// Given an unsorted array, create a function that returns the nth smallest
-// element (the smallest element is the first smallest, the second smallest
-// element is the second smallest, etc).
-/*
-n will always be >= 1.
-Each number in the array will be distinct (there will be a clear ordering).
-Given an out of bounds parameter (e.g. an array is of size k), and you are asked
-to find the m > k smallest element, return null.
-*/
-function nthSmallest(arr, n) {
-  if (n > arr.length) {
-    return null;
-  }
-	arr.sort(function(a, b) {
-    return a - b;
-  });
-  return arr[n - 1];
+// Create a function that takes in two arrays: the array of user-typed words,
+// and the array of correctly-typed words and outputs an array containing 1s
+// (correctly-typed words) and -1s (incorrectly-typed words).
+function correctStream(user, correct) {
+  let outputArr = [];
+
+  user.forEach((e1) => correct.forEach((e2) =>
+    { if (e1 === e2) {
+      outputArr.push(1);
+    } else if (e1 !== e2) {
+      outputArr.push(-1);
+    }
+  }));
+  console.log(outputArr);
 }
 
-nthSmallest([10, 20, 3, 84, 77], 2);
+correctStream(
+  ["cat", "blue", "skt", "umbrells", "paddy"],
+  ["cat", "blue", "sky", "umbrella", "paddy"]);
