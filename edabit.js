@@ -1968,13 +1968,14 @@ convertCartesian([9, 8, 3], [1, 1, 1])
 function correctStream(user, correct) {
   let outputArr = [];
 
-  user.forEach((e1) => correct.forEach((e2) =>
-    { if (e1 === e2) {
+  user.forEach((word1, index) => {
+    const word2 = correct[index];
+    if (word1 === word2) {
       outputArr.push(1);
-    } else if (e1 !== e2) {
+    } else if (word1 !== word2) {
       outputArr.push(-1);
     }
-  }));
+  });
   console.log(outputArr);
 }
 
