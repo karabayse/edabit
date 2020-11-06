@@ -1,12 +1,14 @@
-// Write a function that returns true if an object is empty, and false otherwise.
-function isEmpty(obj) {
-  for(var key in obj) {
-       if(obj.hasOwnProperty(key))
-           return false;
-   }
-  return true;
+// Create a function that takes a sentence and turns every "i" into "wi" and "e"
+// into "we", and add "owo" at the end.
+function owofied(sentence) {
+
 }
 
-isEmpty({}) // ➞ true
+owofied("I'm gonna ride 'til I can't no more")
+// ➞ "I'm gonna rwidwe 'twil I can't no morwe owo"
 
-isEmpty({ a: 1 }) // ➞ false
+owofied("Do you ever feel like a plastic bag")
+// ➞ "Do you wevwer fwewel lwikwe a plastwic bag owo"
+
+owofied("Cause baby you're a firework")
+// ➞ "Causwe baby you'rwe a fwirwework owo"
