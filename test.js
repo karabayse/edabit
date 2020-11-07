@@ -1,11 +1,14 @@
 // Create a function that takes a sentence and turns every "i" into "wi" and "e"
 // into "we", and add "owo" at the end.
 function owofied(sentence) {
-  sentence.replace("i", "wi");
-  sentence.replace("e", "we");
-  sentence.concat(" owo");
-  console.log(sentence);
+  let sentence2 = sentence.replace("i", "wi").replace("e", "we").concat(" owo");
+  //let sentence2 = sentence.replace("e", "we");
+  //let sentence2 = sentence.concat(" owo");
+  console.log(sentence2);
 }
+
+Expected: "I'm gonna rwidwe 'twil I can't no morwe owo",
+Instead : "I'm gonna rwidwe 'til I can't no more owo"
 
 owofied("I'm gonna ride 'til I can't no more")
 // ➞ "I'm gonna rwidwe 'twil I can't no morwe owo"
