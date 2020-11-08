@@ -2658,3 +2658,12 @@ owofied("Do you ever feel like a plastic bag")
 
 owofied("Cause baby you're a firework")
 // ➞ "Causwe baby you'rwe a fwirwework owo"
+
+
+// Filter out empty arrays
+function removeEmptyArrays(arr) {
+  return arr.filter(x => x !== []);
+}
+
+removeEmptyArrays(["a", "b", []]) ➞ ["a", "b"];
+removeEmptyArrays([1, 2, [], 4]) ➞ [1, 2, 4];
