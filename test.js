@@ -1,7 +1,8 @@
-// Filter out empty arrays
-function removeEmptyArrays(arr) {
-  return arr.filter(x => x.length !== 0)
+// Write a function that takes a year and returns its corresponding century.
+function centuryFromYear(year) {
+
 }
 
-removeEmptyArrays(["a", "b", []]) // ➞ ["a", "b"];
-removeEmptyArrays([1, 2, [], 4]) // ➞ [1, 2, 4];
+centuryFromYear(2005) ➞ 21
+
+centuryFromYear(1950) ➞ 20

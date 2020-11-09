@@ -151,4 +151,5 @@
 * Nth Smallest Element
 * Is the object empty?
 * Owofied a sentence
-* Filter out empty arrays 
+* Filter out empty arrays
+* Convert year to century
