@@ -1,6 +1,10 @@
 // Write a function that takes a year and returns its corresponding century.
 function centuryFromYear(year) {
-  let digit = year.toString()[1];
+  let numStr = year.toString();
+  let firstTwo = numStr.substring(0,2);
+  let num = parseInt(firstTwo);
+  let century = num + 1;
+  console.log(century);
 
   /*
   let l = Math.pow(10, Math.floor(Math.log(year)/Math.log(10))-1);
@@ -9,6 +13,6 @@ function centuryFromYear(year) {
   */
 }
 
-centuryFromYear(2005) ➞ 21
+centuryFromYear(2005) // ➞ 21
 
-centuryFromYear(1950) ➞ 20
+centuryFromYear(1950) // ➞ 20
