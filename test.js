@@ -1,13 +1,15 @@
 // Write a function that takes a year and returns its corresponding century.
 function centuryFromYear(year) {
-  let numStr = year.toString();
   let century;
 
   if (year.length < 4) {
+    let numStr = year.toString();
     let first = numStr.substring(0,1);
-    let century = first + 1;
+    let num = parseInt(first);
+    let century = num + 1;
     console.log(century);
   } else if (year.length == 4) {
+    let numStr = year.toString();
     let firstTwo = numStr.substring(0,2);
     let num = parseInt(firstTwo);
     let century = num + 1;
