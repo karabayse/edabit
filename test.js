@@ -3,6 +3,9 @@ function centuryFromYear(year) {
   let century;
   let numStr = year.toString();
 
+  // if numStr.length == 2 && 2nd digit is 0, return num
+  // if numStr.length == 3 && last two digits are 0, return num 
+
   if (numStr.length < 4) {
     let first = numStr.substring(0,1);
     let num = parseInt(first);
@@ -14,11 +17,10 @@ function centuryFromYear(year) {
     let century = num + 1;
     console.log(century);
   }
-  console.log(century);
 }
 
 centuryFromYear(2005); // ➞ 21
 
-centuryFromYear(1950); // ➞ 20
+centuryFromYear(950); // ➞ 10
 
 centuryFromYear(1900); // ➞ 19
