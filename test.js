@@ -3,10 +3,11 @@ function centuryFromYear(year) {
   let century;
   let numStr = year.toString();
 
-  // if numStr.length == 2 && 2nd digit is 0, return num
-  // if numStr.length == 3 && last two digits are 0, return num 
-
-  if (numStr.length < 4) {
+  if (numStr.length == 2 && numStr[1] == 0) {
+    return num;
+  } else if (numStr.length == 3 && numStr[-1] == 0 && numStr[-2] == 0) {
+    return num;
+  } else if (numStr.length < 4) {
     let first = numStr.substring(0,1);
     let num = parseInt(first);
     let century = num + 1;
