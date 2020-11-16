@@ -4,9 +4,15 @@ function centuryFromYear(year) {
   let numStr = year.toString();
 
   if (numStr.length == 2 && numStr[1] == 0) {
-    return num;
+    let first = numStr.substring(0,1);
+    let num = parseInt(first);
+    let century = num + 1;
+    console.log(century);
   } else if (numStr.length == 3 && numStr[-1] == 0 && numStr[-2] == 0) {
-    return num;
+    let first = numStr.substring(0,1);
+    let num = parseInt(first);
+    let century = num + 1;
+    console.log(century);
   } else if (numStr.length < 4) {
     let first = numStr.substring(0,1);
     let num = parseInt(first);
