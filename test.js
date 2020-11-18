@@ -3,7 +3,9 @@ function centuryFromYear(year) {
   let century;
   let numStr = year.toString();
 
-  if (numStr.length == 2 && numStr[1] == 0) {
+  if (numStr.length == 1) {
+    let century = 1;
+  } else if (numStr.length == 2 && numStr[1] == 0) {
     let first = numStr.substring(0,1);
     let num = parseInt(first);
     let century = num + 1;
