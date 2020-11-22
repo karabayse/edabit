@@ -11,6 +11,11 @@ function centuryFromYear(year) {
     let num = parseInt(first);
     let century = num + 1;
     console.log(century);
+  } else if (numStr.length == 2) {
+    let first = numStr.substring(0,1);
+    let num = parseInt(first);
+    let century = num + 1;
+    console.log(century);
   } else if (numStr.length == 3 && numStr[-1] == 0 && numStr[-2] == 0) {
     let first = numStr.substring(0,1);
     let num = parseInt(first);
@@ -34,5 +39,7 @@ centuryFromYear(2005); // ➞ 21
 centuryFromYear(950); // ➞ 10
 
 centuryFromYear(1900); // ➞ 19
+
+centuryFromYear(24);
 
 centuryFromYear(2);
