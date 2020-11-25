@@ -21,6 +21,11 @@ function centuryFromYear(year) {
     let num = parseInt(first);
     let century = num + 1;
     console.log(century);
+  } else if (numStr.length) {
+    let first = numStr.substring(0,1);
+    let num = parseInt(first);
+    let century = num + 1;
+    console.log(century);
   } else if (numStr.length == 4 && numStr[-1] == 0 && numStr[-2] == 0) {
     let first = numStr.substring(0,1);
     let num = parseInt(first);
