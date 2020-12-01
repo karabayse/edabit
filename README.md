@@ -153,3 +153,4 @@
 * Owofied a sentence
 * Filter out empty arrays
 * Convert year to century
+* How Much is True? 
