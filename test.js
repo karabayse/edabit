@@ -2,7 +2,15 @@
 // Return 0 if given an empty array.
 // All array items are of the type bool (true or false).
 function countTrue(arr) {
-
+  let counter = 0;
+  for (var i = 0; i < arr.length; i++) {
+    if (typeof arr[i] == true) {
+      counter++;
+    } else if (arr.length = 0) {
+      console.log(0);
+    }
+  }
+  console.log(counter);
 }
 
 countTrue([true, false, false, true, false]) // ➞ 2
