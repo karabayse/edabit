@@ -6,7 +6,9 @@
 // Dates are zero zero based (see resources).
 // All test cases contain valid dates.
 function timeForMilkAndCookies(date) {
-
+  if (date[1] == 11 && date[2] == 24) {
+    return true;
+  }
 }
 
 timeForMilkAndCookies(new Date(2013, 11, 24)) // ➞ true
