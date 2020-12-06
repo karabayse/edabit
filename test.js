@@ -6,8 +6,10 @@
 // Dates are zero zero based (see resources).
 // All test cases contain valid dates.
 function timeForMilkAndCookies(date) {
-  if (date.getDay() === 24 && date.getMonth() === 11) {
+  if (date.getDate() === 24 && date.getMonth() === 11) {
     return true;
+  } else {
+    return false;
   }
 }
 
