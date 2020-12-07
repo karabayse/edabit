@@ -154,4 +154,5 @@
 * Filter out empty arrays
 * Convert year to century
 * How Much is True?
-* Time for Milk and Cookies 
+* Time for Milk and Cookies
+* Bitwise Operations 

@@ -1,20 +1,31 @@
-// Create a function that accepts a Date object
-// and returns true if it's Christmas Eve (December 24th) and
-// false otherwise.
-// Keep in mind JavaScript's Date month is 0 based,
-// meaning December is the 11th month while January is 0.
-// Dates are zero zero based (see resources).
-// All test cases contain valid dates.
-function timeForMilkAndCookies(date) {
-  if (date.getDate() === 24 && date.getMonth() === 11) {
-    return true;
-  } else {
-    return false;
-  }
+/*
+A decimal number can be represented as a sequence of bits. To illustrate:
+
+6 = 00000110
+23 = 00010111
+From the bitwise representation of numbers, we can calculate the bitwise AND, bitwise OR and bitwise XOR. Using the example above:
+
+bitwiseAND(6, 23) ➞ 00000110
+
+bitwiseOR(6, 23) ➞ 00010111
+
+bitwiseXOR(6, 23) ➞ 00010001
+Write three functions to calculate the bitwise AND, bitwise OR and bitwise XOR of two numbers.
+*/
+function bitwiseAND(n1, n2) {
+
 }
 
-timeForMilkAndCookies(new Date(2013, 11, 24)) // ➞ true
+function bitwiseOR(n1, n2) {
 
-timeForMilkAndCookies(new Date(2013, 0, 23)) // ➞ false
+}
 
-timeForMilkAndCookies(new Date(3000, 11, 24)) // ➞ true
+function bitwiseXOR(n1, n2) {
+
+}
+
+bitwiseAND(7, 12) // ➞ 4
+
+bitwiseOR(7, 12) // ➞ 15
+
+bitwiseXOR(7, 12) // ➞ 11
