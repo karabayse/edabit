@@ -155,4 +155,5 @@
 * Convert year to century
 * How Much is True?
 * Time for Milk and Cookies
-* Bitwise Operations 
+* Bitwise Operations
+* Ones, Threes, and Nines 
