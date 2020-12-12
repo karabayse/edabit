@@ -8,12 +8,19 @@ class OnesThreesNines {
     this.ones = ones;
     this.threes = threes;
     this.nines = nines;
+    // Accessors  ➞  Getters and Setters
+    get one() {
+      return this.ones;
+    }
+    set one(n) {
+      this.ones = n;
+    }
   }
 }
 
 let n1 = new OnesThreesNines(5)
-n1.nines ➞ 0
+n1.nines // ➞ 0
 
-n1.ones ➞ 5
+n1.ones // ➞ 5
 
-n1.threes ➞ 1
+n1.threes // ➞ 1
