@@ -10,10 +10,18 @@ class OnesThreesNines {
     this.nines = nines;
     // Accessors  ➞  Getters and Setters
     get one() {
+      if (condition) {
+
+      }
       return this.ones;
     }
     set one(n) {
       this.ones = n;
+    }
+    get three() {
+      if (condition) {
+
+      }
     }
   }
 }
