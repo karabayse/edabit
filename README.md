@@ -156,4 +156,4 @@
 * How Much is True?
 * Time for Milk and Cookies
 * Bitwise Operations
-* Ones, Threes, and Nines 
+* A Redundant Function  

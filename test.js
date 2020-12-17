@@ -1,34 +1,16 @@
-// Given an int, figure out how many ones, threes and nines you could fit into
-// the number.
-// You must create a class.
-// You will make variables (class.ones, class.threes, class.nines) to do this.
-// Use getters and setters
-class OnesThreesNines {
-  constructor(ones, threes, nines) {
-    this.ones = ones;
-    this.threes = threes;
-    this.nines = nines;
-    // Accessors  ➞  Getters and Setters
-    get one() {
-      if (condition) {
+// Write a function redundant that takes in a string str and returns a function
+// that returns str.
+// Your function should return a function, not a string.
+function redundant(str) {
 
-      }
-      return this.ones;
-    }
-    set one(n) {
-      this.ones = n;
-    }
-    get three() {
-      if (condition) {
-
-      }
-    }
-  }
 }
 
-let n1 = new OnesThreesNines(5)
-n1.nines // ➞ 0
+const f1 = redundant("apple")
+f1() ➞ "apple"
 
-n1.ones // ➞ 5
+const f2 = redundant("pear")
+f2() ➞ "pear"
 
-n1.threes // ➞ 1
+const f3 = redundant("")
+f3() ➞ ""
+Notes
