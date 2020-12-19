@@ -2,7 +2,9 @@
 // that returns str.
 // Your function should return a function, not a string.
 function redundant(str) {
-
+  return function redundant2() {
+    return str;
+  }
 }
 
 const f1 = redundant("apple")
