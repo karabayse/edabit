@@ -1,18 +1,14 @@
-// Write a function redundant that takes in a string str and returns a function
-// that returns str.
-// Your function should return a function, not a string.
-function redundant(str) {
-  console.log(function redundant2() {
-    console.log(str);
-  });
+// Create a function that takes numbers b and m as arguments and returns the
+// derivative of the function f(x)=x^b with respect to x evaluated at x=m,
+// where b and m are constants.
+// ^ in the context of this challenge means "to the power of", also known as the
+// "exponent" operator.
+function derivative(b, m) {
+
 }
 
-const f1 = redundant("apple")
-f1() // ➞ "apple"
+derivative(1, 4) // ➞ 1
 
-const f2 = redundant("pear")
-f2() // ➞ "pear"
+derivative(3, -2) // ➞ 12
 
-const f3 = redundant("")
-f3() // ➞ ""
-Notes
+derivative(4, -3) // ➞ -108
