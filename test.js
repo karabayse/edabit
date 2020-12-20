@@ -2,17 +2,17 @@
 // that returns str.
 // Your function should return a function, not a string.
 function redundant(str) {
-  return function redundant2() {
-    return str;
-  }
+  console.log(function redundant2() {
+    console.log(str);
+  });
 }
 
 const f1 = redundant("apple")
-f1() ➞ "apple"
+f1() // ➞ "apple"
 
 const f2 = redundant("pear")
-f2() ➞ "pear"
+f2() // ➞ "pear"
 
 const f3 = redundant("")
-f3() ➞ ""
+f3() // ➞ ""
 Notes
