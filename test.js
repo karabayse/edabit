@@ -4,7 +4,9 @@
 // ^ in the context of this challenge means "to the power of", also known as the
 // "exponent" operator.
 function derivative(b, m) {
-
+  let f;
+  let x = m;
+  console.log(f(x)=x^b);
 }
 
 derivative(1, 4) // ➞ 1
