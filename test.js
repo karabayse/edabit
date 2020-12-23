@@ -4,9 +4,11 @@
 // ^ in the context of this challenge means "to the power of", also known as the
 // "exponent" operator.
 function derivative(b, m) {
-  let f;
-  let x = m;
-  console.log(f(x)=x^b);
+  const x = m;
+
+  // sometimes f’(x) is also used for "the derivative of"
+  let fx = x^b;
+  console.log(fx);
 }
 
 derivative(1, 4) // ➞ 1
