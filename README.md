@@ -157,4 +157,5 @@
 * Time for Milk and Cookies
 * Bitwise Operations
 * Derivative of a Function  
-* Nearest Vowel 
+* Nearest Vowel
+* Return the Middle Character(s) of a String 
