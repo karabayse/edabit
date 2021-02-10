@@ -5,13 +5,16 @@ If the word's length is even, return the middle two characters.
 All test cases contain a single word (as a string).
 */
 function getMiddle(str) {
-  var len = str.length;
-
-  if (len % 2 == 0) {
-    // return middle two characters
+  var position;
+  var length;
+  if(str.length % 2 == 1) {
+    position = str.length / 2;
+    length = 1;
   } else {
-    // return middle character 
+    position = str.length / 2 - 1;
+    length = 2;
   }
+  return str.substring(position, position + length);
 }
 
 getMiddle("middle");
