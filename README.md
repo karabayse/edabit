@@ -158,4 +158,5 @@
 * Bitwise Operations
 * Derivative of a Function  
 * Nearest Vowel
-* Return the Middle Character(s) of a String 
+* Return the Middle Character(s) of a String
+* RegEx: Group Ranges x|y
