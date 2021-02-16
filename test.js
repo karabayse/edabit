@@ -15,4 +15,4 @@ Example:
 "red flag blue flag".match(REGEXP) ➞ ["red flag", "blue flag"]
 */
 
-const REGEXP = /blue|red/g
+const REGEXP = /red flag|blue flag/g
